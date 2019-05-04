@@ -19,9 +19,14 @@
 #ifndef _LIBS_UTILS_BYTE_ORDER_H
 #define _LIBS_UTILS_BYTE_ORDER_H
 
-// 电脑使用小端序
+// 默认使用小端序
+#ifndef LITTLE_ENDIAN
 #define LITTLE_ENDIAN 1
+#endif
+
+#ifndef BYTE_ORDER
 #define BYTE_ORDER LITTLE_ENDIAN
+#endif
 
 static inline uint16_t android_swap_short(uint16_t v)
 {

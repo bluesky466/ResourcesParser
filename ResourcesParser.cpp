@@ -1,6 +1,8 @@
 #include "ResourcesParser.h"
 
 #include <codecvt>
+#include <locale>
+#include <algorithm>
 
 using namespace std;
 
