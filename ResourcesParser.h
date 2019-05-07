@@ -4,72 +4,82 @@
 #include "ResourceTypes.h"
 
 #include <string>
+#include <list>
 #include <map>
 #include <vector>
 #include <fstream>
+#include <memory>
 
 class ResourcesParser {
 public:
-	struct StringInfoIndex {
-		StringInfoIndex(uint32_t keyIndex, uint32_t valueIndex) {
-			this->keyIndex = keyIndex;
-			this->valueIndex = valueIndex;
-		}
-		uint32_t keyIndex;
-		uint32_t valueIndex;
+	typedef unsigned char byte;
+
+	struct EntryPool {
+		std::shared_ptr<uint32_t> pOffsets;
+		std::shared_ptr<byte> pData;
+		uint32_t dataCount;
+		uint32_t offsetCount;
 	};
 
-	typedef std::vector<StringInfoIndex>
-		StringInfoIndexs;
+	struct ResStringPool {
+		ResStringPool_header header;
+		std::shared_ptr<uint32_t> pOffsets;
+		std::shared_ptr<byte> pStrings;
+	};
+	typedef std::shared_ptr<ResStringPool> ResStringPoolPtr;
 
-	typedef std::map<std::string, StringInfoIndexs>
-		StringInfoIndexInConfigs;
+	struct ResTableType {
+		ResTable_type header;
+		EntryPool entryPool;
+		std::vector<const ResTable_entry*> entries;
+		std::vector<const Res_value*> values;
+	};
+	typedef std::shared_ptr<ResTableType> ResTableTypePtr;
 
-	typedef std::map<std::string, StringInfoIndexInConfigs>
-		StringInfoIndexInPackage;
-
-	typedef std::map<std::string, std::vector<std::string> >
-		StringKeyInPackage;
+	struct PackageResource {
+		ResTable_package header;
+		ResStringPoolPtr pTypes;
+		ResStringPoolPtr pKeys;
+		std::map<int, std::list<ResTableTypePtr> > resTablePtrs;
+	};
+	typedef std::shared_ptr<PackageResource> PackageResourcePtr;
 
 public:
 	ResourcesParser(const std::string& filePath);
 
-	const std::vector<std::string>& getGlobalStringPool() {
-		return mGlobalStringPool;
+	std::string getStringFromGlobalStringPool(uint32_t index);
+
+	const std::map<std::string, PackageResourcePtr>& getResourceForPackageName() {
+		return mResourceForPackageName;
 	}
 
-	const StringInfoIndexInPackage& getStringInfoIndexInPackage() {
-		return mStringInfoIndexInPackage;
-	}
+	static std::string getStringFromResStringPool(
+			ResStringPoolPtr pPool,
+			uint32_t index);
 
-	const StringKeyInPackage& getStringKeyInPackage() {
-		return mStringKeyInPackage;
-	}
+	std::string stringOfValue(const Res_value* value);
 private:
 	ResTable_header mResourcesInfo;
+	ResStringPoolPtr mGlobalStringPool;
+
+	std::map<std::string, PackageResourcePtr> mResourceForPackageName;
+	std::map<uint32_t, PackageResourcePtr> mResourceForId;
 	std::vector<ResTable_package> mPackageTables;
-	std::vector<std::string> mGlobalStringPool;
-	StringKeyInPackage mStringKeyInPackage;
-	StringInfoIndexInPackage mStringInfoIndexInPackage;
 
-	bool parserStringPool(
+	ResStringPoolPtr parserResStringPool(std::ifstream& resources);
+
+	PackageResourcePtr parserPackageResource(std::ifstream& resources);
+
+	EntryPool parserEntryPool(
 			std::ifstream& resources,
-			std::vector<std::string>* pStringPool);
+			uint32_t dataCount,
+			uint32_t dataStart);
 
-	bool parserPackageInfo(std::ifstream& resources);
+	uint32_t getEntryPoolDataBuffSize(const uint32_t* pData, uint32_t entryCount);
 
-	bool parseStringFromPackage(
-			std::ifstream& resources,
-			const std::vector<std::string>& keys,
-			int stringId,
-			const std::string& packageName);
+	const ResTable_entry* getEntryFromEntryPool(EntryPool pool, uint32_t index);
 
-	bool parseStringFromResTable(
-			std::ifstream& resources,
-			const std::vector<std::string>& keys,
-			const ResTable_type& header,
-			StringInfoIndexInConfigs* pStringInfoIndexInConfigs);
-
+	const Res_value* getValueFromEntry(const ResTable_entry* pEntry);
 };
 
 #endif  /*RESOURCES_PARSER_H*/
