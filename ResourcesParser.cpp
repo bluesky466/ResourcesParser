@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <sstream>
 #include <iomanip>
+#include <iostream>
 
 using namespace std;
 
@@ -31,13 +32,13 @@ static string stringOfComplex(uint32_t complex, bool isFraction) {
             case Res_value::COMPLEX_UNIT_PT: ss<<"pt"; break;
             case Res_value::COMPLEX_UNIT_IN: ss<<"in"; break;
             case Res_value::COMPLEX_UNIT_MM: ss<<"mm"; break;
-            default: printf(" (unknown unit)"); break;
+            default: ss<<" (unknown unit)"; break;
         }
     } else {
         switch ((complex>>Res_value::COMPLEX_UNIT_SHIFT)&Res_value::COMPLEX_UNIT_MASK) {
             case Res_value::COMPLEX_UNIT_FRACTION: ss<<"%"; break;
             case Res_value::COMPLEX_UNIT_FRACTION_PARENT: ss<<"%p"; break;
-            default: printf(" (unknown unit)"); break;
+            default: ss<<" (unknown unit)"; break;
         }
     }
 	return ss.str();
@@ -60,12 +61,12 @@ string ResourcesParser::stringOfValue(const Res_value* value) {
     } else if (value->dataType == Res_value::TYPE_FRACTION) {
         ss<<"(fraction) "<<stringOfComplex(value->data, true);
     } else if (value->dataType >= Res_value::TYPE_FIRST_COLOR_INT
-            || value->dataType <= Res_value::TYPE_LAST_COLOR_INT) {
+            && value->dataType <= Res_value::TYPE_LAST_COLOR_INT) {
 		ss<<"(color) #"<<hex<<setw(8)<<setfill('0')<<value->data;
     } else if (value->dataType == Res_value::TYPE_INT_BOOLEAN) {
         ss<<"(boolean) "<<(value->data ? "true" : "false");
     } else if (value->dataType >= Res_value::TYPE_FIRST_INT
-            || value->dataType <= Res_value::TYPE_LAST_INT) {
+            && value->dataType <= Res_value::TYPE_LAST_INT) {
         ss<<"(int) "<<value->data<<" or 0x"<<hex<<setw(8)<<setfill('0')<<value->data;
     } else {
 		ss<<"(unknown type) "
@@ -109,7 +110,7 @@ ResourcesParser::ResStringPoolPtr ResourcesParser::parserResStringPool(
 	ResStringPoolPtr pPool = make_shared<ResStringPool>();
 	resources.read((char*)&pPool->header, sizeof(ResStringPool_header));
 	if(pPool->header.header.type != RES_STRING_POOL_TYPE) {
-		printf("parserResStringPool 需要定位到 RES_STRING_POOL_TYPE !\n");
+		cout<<"parserResStringPool 需要定位到 RES_STRING_POOL_TYPE !"<<endl;
 		return nullptr;
 	}
 
@@ -169,7 +170,7 @@ ResourcesParser::PackageResourcePtr ResourcesParser::parserPackageResource(
 	resources.read((char*)&pPool->header, sizeof(ResTable_package));
 
 	if(pPool->header.header.type != RES_TABLE_PACKAGE_TYPE) {
-		printf("parserPackageResource 需要定位到 RES_TABLE_PACKAGE_TYPE !\n");
+		cout<<"parserPackageResource 需要定位到 RES_TABLE_PACKAGE_TYPE !"<<endl;
 		return nullptr;
 	}
 

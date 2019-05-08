@@ -24,7 +24,8 @@ int main(int argc, char *argv[]) {
 						string config = pResTableType->header.config.toString();
 						cout<<"\t\t"<<type<<(config.length()>0?"-":"")<<config<<endl;
 					}
-					cout<<"\t\t\t"
+					cout<<"\t\t\t"<<(int)pResTableType->values[j]->dataType
+						<<"   "
 						<<ResourcesParser::getStringFromResStringPool(keys, pResTableType->entries[j]->key.index)
 						<<" = "
 						<<parser.stringOfValue(pResTableType->values[j])
