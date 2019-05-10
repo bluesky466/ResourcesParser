@@ -17,7 +17,7 @@ public:
 	struct EntryPool {
 		std::shared_ptr<uint32_t> pOffsets;
 		std::shared_ptr<byte> pData;
-		uint32_t dataCount;
+		uint32_t dataSize;
 		uint32_t offsetCount;
 	};
 
@@ -33,6 +33,7 @@ public:
 		EntryPool entryPool;
 		std::vector<const ResTable_entry*> entries;
 		std::vector<const Res_value*> values;
+		std::vector<std::vector<ResTable_map*> > maps;
 	};
 	typedef std::shared_ptr<ResTableType> ResTableTypePtr;
 
@@ -40,7 +41,7 @@ public:
 		ResTable_package header;
 		ResStringPoolPtr pTypes;
 		ResStringPoolPtr pKeys;
-		std::map<int, std::list<ResTableTypePtr> > resTablePtrs;
+		std::map<int, std::vector<ResTableTypePtr> > resTablePtrs;
 	};
 	typedef std::shared_ptr<PackageResource> PackageResourcePtr;
 
@@ -57,7 +58,16 @@ public:
 			ResStringPoolPtr pPool,
 			uint32_t index);
 
+	static bool isTableMapForAttrDesc(const ResTable_ref& ref);
+
+	std::string getNameForId(uint32_t id);
+
+	std::string getNameForResTableMap(const ResTable_ref& ref);
+
+	std::string getValueForResTableMap(const Res_value& value);
+
 	std::string stringOfValue(const Res_value* value);
+
 private:
 	ResTable_header mResourcesInfo;
 	ResStringPoolPtr mGlobalStringPool;
@@ -72,14 +82,15 @@ private:
 
 	EntryPool parserEntryPool(
 			std::ifstream& resources,
-			uint32_t dataCount,
-			uint32_t dataStart);
-
-	uint32_t getEntryPoolDataBuffSize(const uint32_t* pData, uint32_t entryCount);
+			uint32_t entryCount,
+			uint32_t dataStart,
+			uint32_t dataSize);
 
 	const ResTable_entry* getEntryFromEntryPool(EntryPool pool, uint32_t index);
 
 	const Res_value* getValueFromEntry(const ResTable_entry* pEntry);
+
+	const ResTable_map* getMapsFromEntry(const ResTable_entry* pEntry);
 };
 
 #endif  /*RESOURCES_PARSER_H*/

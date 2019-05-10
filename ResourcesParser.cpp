@@ -49,9 +49,11 @@ string ResourcesParser::stringOfValue(const Res_value* value) {
     if (value->dataType == Res_value::TYPE_NULL) {
         ss<<"(null)";
     } else if (value->dataType == Res_value::TYPE_REFERENCE) {
-		ss<<"(reference) 0x"<<hex<<setw(8)<<setfill('0')<<value->data;
+		//ss<<"(reference) 0x"<<hex<<setw(8)<<setfill('0')<<value->data;
+		ss<<"(reference) "<<getNameForId(value->data);
     } else if (value->dataType == Res_value::TYPE_ATTRIBUTE) {
-		ss<<"(attribute) 0x"<<hex<<setw(8)<<setfill('0')<<value->data;
+		//ss<<"(attribute) 0x"<<hex<<setw(8)<<setfill('0')<<value->data;
+		ss<<"(attribute) "<<getNameForId(value->data);
     } else if (value->dataType == Res_value::TYPE_STRING) {
 		ss<<"(string) "<<getStringFromGlobalStringPool(value->data);
     } else if (value->dataType == Res_value::TYPE_FLOAT) {
@@ -193,10 +195,8 @@ ResourcesParser::PackageResourcePtr ResourcesParser::parserPackageResource(
 			pResTableType->entryPool = parserEntryPool(
 					resources,
 					pResTableType->header.entryCount,
-					pResTableType->header.entriesStart - pResTableType->header.header.headerSize);
-			uint32_t seek = pResTableType->header.header.size
-				- pResTableType->header.entriesStart - pResTableType->entryPool.dataCount;
-			resources.seekg(seek, ios::cur);
+					pResTableType->header.entriesStart - pResTableType->header.header.headerSize,
+					pResTableType->header.header.size - pResTableType->header.entriesStart);
 			pPool->resTablePtrs[pResTableType->header.id].push_back(pResTableType);
 			for(int i = 0 ; i < pResTableType->header.entryCount ; i++) {
 				const ResTable_entry* pEntry = getEntryFromEntryPool(pResTableType->entryPool, i);
@@ -219,46 +219,29 @@ ResourcesParser::PackageResourcePtr ResourcesParser::parserPackageResource(
 
 ResourcesParser::EntryPool ResourcesParser::parserEntryPool(
 			ifstream& resources,
-			uint32_t dataCount,
-			uint32_t dataStart) {
+			uint32_t entryCount,
+			uint32_t dataStart,
+			uint32_t dataSize) {
 	EntryPool pool;
 	pool.pOffsets = shared_ptr<uint32_t>(
-			new uint32_t[dataCount],
+			new uint32_t[entryCount],
 			default_delete<uint32_t[]>()
 	);
 
-	const uint32_t offsetSize = sizeof(uint32_t) * dataCount;
+	const uint32_t offsetSize = sizeof(uint32_t) * entryCount;
 	resources.read((char*)pool.pOffsets.get(), offsetSize);
 
-	pool.offsetCount = dataCount;
-	pool.dataCount = getEntryPoolDataBuffSize(pool.pOffsets.get(), dataCount);
+	pool.offsetCount = entryCount;
+	pool.dataSize = dataSize;
 
 	resources.seekg(dataStart - offsetSize, ios::cur);
 
 	pool.pData = shared_ptr<byte>(
-			new byte[pool.dataCount],
+			new byte[pool.dataSize],
 			default_delete<byte[]>()
 	);
-	resources.read((char*)pool.pData.get(), pool.dataCount);
+	resources.read((char*)pool.pData.get(), pool.dataSize);
 	return pool;
-}
-
-uint32_t ResourcesParser::getEntryPoolDataBuffSize(
-		const uint32_t* pData,
-		uint32_t entryCount) {
-	uint32_t maximumOffset = ResTable_type::NO_ENTRY;
-	int offset;
-	for(int i = 0 ; i < entryCount ; i++) {
-		offset = pData[i];
-		if(offset != ResTable_type::NO_ENTRY
-				&& (maximumOffset == ResTable_type::NO_ENTRY || maximumOffset < offset)) {
-				maximumOffset = offset;
-		}
-	}
-
-	return maximumOffset != ResTable_type::NO_ENTRY
-			? maximumOffset + (sizeof(ResTable_entry) + sizeof(Res_value))
-			: 0;
 }
 
 const ResTable_entry* ResourcesParser::getEntryFromEntryPool(EntryPool pool, uint32_t index) {
@@ -274,4 +257,104 @@ const ResTable_entry* ResourcesParser::getEntryFromEntryPool(EntryPool pool, uin
 
 const Res_value* ResourcesParser::getValueFromEntry(const ResTable_entry* pEntry) {
 	return (Res_value*)(((byte*)pEntry) + pEntry->size);
+}
+
+const ResTable_map* ResourcesParser::getMapsFromEntry(const ResTable_entry* pEntry) {
+	return (ResTable_map*)(((byte*)pEntry) + pEntry->size);
+}
+
+string ResourcesParser::getNameForId(uint32_t id) {
+	uint32_t packageId = (id >> 24);
+	uint32_t typeId = (id & 0x00FF0000) >> 16;
+	auto it = mResourceForId.find(packageId);
+	if(it==mResourceForId.end()) {
+		return "???";
+	}
+	PackageResourcePtr pPackage = it->second;
+	if(pPackage->resTablePtrs.size()<=typeId){
+		return "";
+	}
+
+	if(pPackage->resTablePtrs[typeId][0]->header.entryCount<=(id & 0xFFFF)){
+		return "";
+	}
+	const ResTable_entry* pEntry = pPackage->resTablePtrs[typeId][0]->entries[id & 0xFFFF];
+	if(pEntry==nullptr) {
+		return "";
+	}
+	return getStringFromResStringPool(pPackage->pKeys, pEntry->key.index);
+}
+
+bool ResourcesParser::isTableMapForAttrDesc(const ResTable_ref& ref) {
+	switch(ref.ident) {
+		case ResTable_map::ATTR_TYPE:
+        case ResTable_map::ATTR_MIN:
+		case ResTable_map::ATTR_MAX:
+		case ResTable_map::ATTR_L10N:
+       	case ResTable_map::ATTR_OTHER:
+       	case ResTable_map::ATTR_ZERO:
+       	case ResTable_map::ATTR_ONE:
+       	case ResTable_map::ATTR_TWO:
+       	case ResTable_map::ATTR_FEW:
+       	case ResTable_map::ATTR_MANY:
+			return true;
+		default:
+			return false;
+	}
+}
+
+string ResourcesParser::getNameForResTableMap(const ResTable_ref& ref) {
+	switch(ref.ident) {
+		case ResTable_map::ATTR_TYPE:
+			return "ATTR_TYPE";
+        case ResTable_map::ATTR_MIN:
+			return "ATTR_MIN";
+		case ResTable_map::ATTR_MAX:
+			return "ATTR_MAX";
+		case ResTable_map::ATTR_L10N:
+			return "ATTR_L10N";
+       	case ResTable_map::ATTR_OTHER:
+			return "ATTR_OTHER";
+       	case ResTable_map::ATTR_ZERO:
+			return "ATTR_ZERO";
+       	case ResTable_map::ATTR_ONE:
+			return "ATTR_ONE";
+       	case ResTable_map::ATTR_TWO:
+			return "ATTR_TWO";
+       	case ResTable_map::ATTR_FEW:
+			return "ATTR_FEW";
+       	case ResTable_map::ATTR_MANY:
+			return "ATTR_MANY";
+		default:
+			return getNameForId(ref.ident);
+	}
+}
+
+string ResourcesParser::getValueForResTableMap(const Res_value& value) {
+	switch(value.data) {
+		case ResTable_map::TYPE_ANY:
+			return "any";
+		case ResTable_map::TYPE_REFERENCE:
+			return "reference";
+		case ResTable_map::TYPE_STRING:
+			return "string";
+		case ResTable_map::TYPE_INTEGER:
+			return "integer";
+		case ResTable_map::TYPE_BOOLEAN:
+			return "boolean";
+		case ResTable_map::TYPE_COLOR:
+			return "color";
+		case ResTable_map::TYPE_FLOAT:
+			return "float";
+		case ResTable_map::TYPE_DIMENSION:
+			return "dimension";
+		case ResTable_map::TYPE_FRACTION:
+			return "fraction";
+		case ResTable_map::TYPE_ENUM:
+			return "enum";
+		case ResTable_map::TYPE_FLAGS:
+			return "flags";
+		default:
+			return stringOfValue(&value);
+	}
 }
