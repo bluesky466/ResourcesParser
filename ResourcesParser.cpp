@@ -161,7 +161,10 @@ string ResourcesParser::getStringFromResStringPool(
 	}
 	uint32_t offset = *(pPool->pOffsets.get() + index);
 	//前两个字节是字符串长度
-	return ((char*) (pPool->pStrings.get() + offset + 2));
+	char* str = ((char*) (pPool->pStrings.get() + offset + 2));
+	return (pPool->header.flags & ResStringPool_header::UTF8_FLAG)
+		? str
+		: toUtf8((char16_t*) str);
 }
 
 ResourcesParser::PackageResourcePtr ResourcesParser::parserPackageResource(
