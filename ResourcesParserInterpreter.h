@@ -38,6 +38,7 @@ private:
 	ResourcesParser* mParser;
 
 	void parserEntry(
+		uint32_t resId,
 		ResourcesParser::ResStringPoolPtr pKeys,
 		ResTable_entry* pEntry,
 		Res_value* pValue,
@@ -46,7 +47,7 @@ private:
 
 	void parserResource(
 		ResourcesParser::PackageResourcePtr packageRes,
-		uint32_t id,
+		uint32_t typeId,
 		const std::string& type,
 		const std::string& tab);
 };

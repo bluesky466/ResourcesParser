@@ -3,6 +3,7 @@
 #include <sstream>
 
 #define ID(x) (x + 1)
+#define MAKE_RESOURCE_ID(PACKAGE,TYPE,INDEX) ((PACKAGE<<24) | (TYPE<<16) | INDEX)
 
 using namespace std;
 
@@ -36,10 +37,10 @@ void ResourcesParserInterpreter::parserResource(const string& type) {
 
 void ResourcesParserInterpreter::parserResource(
 		ResourcesParser::PackageResourcePtr packageRes,
-		uint32_t id,
+		uint32_t typeId,
 		const string& type,
 		const string& tab) {
-	for(ResourcesParser::ResTableTypePtr pResTableType : packageRes->resTablePtrs[id]) {
+	for(ResourcesParser::ResTableTypePtr pResTableType : packageRes->resTablePtrs[typeId]) {
 		for(int i = 0 ; i < pResTableType->entries.size() ; i++) {
 			if(pResTableType->entries[i] == nullptr){
 				continue;
@@ -51,6 +52,7 @@ void ResourcesParserInterpreter::parserResource(
 			auto pEntry = pResTableType->entries[i];
 			auto keys = packageRes->pKeys;
 			parserEntry(
+					MAKE_RESOURCE_ID(packageRes->header.id, typeId, i),
 					keys,
 					pEntry,
 					pResTableType->values[i],
@@ -61,6 +63,7 @@ void ResourcesParserInterpreter::parserResource(
 }
 
 void ResourcesParserInterpreter::parserEntry(
+		uint32_t resId,
 		ResourcesParser::ResStringPoolPtr pKeys,
 		ResTable_entry* pEntry,
 		Res_value* pValue,
@@ -76,24 +79,27 @@ void ResourcesParserInterpreter::parserEntry(
 			string name = mParser->getNameForResTableMap((pMap+i)->name);
 			string value = mParser->getValueForResTableMap((pMap+i)->value);
 
+			uint32_t ident = (pMap+i)->name.ident;
+
 			if(!ResourcesParser::isTableMapForAttrDesc((pMap+i)->name)){
 				cout
-					<<tab+"\t\t"
-					<<name
-					<<hex
-					<<"(0x" <<(pMap+i)->name.ident <<") = "
+					<<tab+"\t\t" <<name
+					<<"(" <<*dec <<ident <<" or 0x" <<hex <<ident <<") = "
 					<<value
 					<<endl;
 			} else {
-				cout <<tab+"\t" <<name <<hex <<"(0x" <<(pMap+i)->name.ident <<") " <<value <<endl;
+				cout <<tab+"\t" <<name
+					<<"(" <<*dec <<ident <<" or 0x" <<hex <<ident <<") "
+					<<value <<endl;
 			}
 		}
 	}else{
 		if(ID_TYPE == type) {
-			cout <<tab+"\t" <<key <<endl;
+			cout <<tab+"\t" <<key <<" (" <<*dec <<resId <<" or 0x" <<hex <<resId <<")"<<endl;
 		} else {
 			string value = mParser->stringOfValue(pValue);
-			cout <<tab+"\t" <<key <<" = " <<value <<endl;
+			cout <<tab+"\t" <<key <<" (" <<*dec <<resId <<" or 0x" <<hex <<resId <<")"
+				<<" = " <<value <<endl;
 		}
 	}
 }
@@ -118,7 +124,7 @@ void ResourcesParserInterpreter::parserId(const string& id) {
 			Res_value* pValue = pResTableType->values[entryId];
 			if(nullptr != pEntry) {
 				cout <<getConfigDirectory(pResTableType->header.config, type) << " : ";
-				parserEntry(pPackage->pKeys, pEntry, pValue, type, "");
+				parserEntry(uid, pPackage->pKeys, pEntry, pValue, type, "");
 				cout <<endl;
 			}
 		}
