@@ -1,10 +1,16 @@
-rp : main.cpp libResourcesParser.so
-	g++ main.cpp -L. -lResourcesParser -std=c++11 -o rp
-
-libResourcesParser.so : ResourcesParserInterpreter.h ResourcesParserInterpreter.cpp ResourcesParser.h ResourcesParser.cpp ResourceTypes.h ResourceTypes.cpp configuration.h ByteOrder.h
-	g++ ResourcesParserInterpreter.cpp ResourcesParser.cpp ResourceTypes.cpp -fPIC -shared -std=c++11 -o libResourcesParser.so
+rp : \
+	main.cpp \
+	ResourcesParserInterpreter.h \
+	ResourcesParserInterpreter.cpp \
+	ResourcesParser.h \
+	ResourcesParser.cpp \
+	ResourceTypes.h \
+	ResourceTypes.cpp \
+	configuration.h \
+	ByteOrder.h
+	g++ main.cpp ResourcesParserInterpreter.cpp ResourcesParser.cpp ResourceTypes.cpp -std=c++11 -o rp
 
 .PHONY : clean
 clean :
-	rm libResourcesParser.so rp
+	rm rp
 
