@@ -8,19 +8,19 @@ using namespace std;
 
 int findArgvIndex(const char* argv, char *argvs[], int count);
 const char* getArgv(const char* argv, char *argvs[], int count);
-void printHelp(const char* name);
+void printHelp();
 
 int main(int argc, char *argv[]) {
-	const char* path = getArgv("-r", argv, argc);
+	const char* path = getArgv("-p", argv, argc);
 	const char* type = getArgv("-t", argv, argc);
 	const char* id = getArgv("-i", argv, argc);
 	int all = findArgvIndex("-a", argv, argc);
 
 	if(nullptr == path) {
-		printHelp(argv[0]);
+		printHelp();
 		return -1;
 	} else if(getArgv("-h", argv, argc) != nullptr) {
-		printHelp(argv[0]);
+		printHelp();
 	}
 
 	ResourcesParser parser(path);
@@ -57,8 +57,8 @@ const char* getArgv(const char* argv, char *argvs[], int count) {
 	return nullptr;
 }
 
-void printHelp(const char* name) {
-	cout <<name <<" -p path [-a] [-t type] [-i id]" <<endl;
+void printHelp() {
+	cout <<"rp -p path [-a] [-t type] [-i id]" <<endl<<endl;
 	cout <<"-p : set path of resources.arsc" <<endl;
 	cout <<"-a : show all of resources.arsc" <<endl;
 	cout <<"-t : select the type in resources.arsc to show" <<endl;
