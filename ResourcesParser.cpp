@@ -7,6 +7,10 @@
 #include <iomanip>
 #include <iostream>
 
+#define RETURN_UNKNOWN_ID(ID) stringstream ss; \
+	ss <<"???\(0x" <<hex <<ID <<")"; \
+	return ss.str()
+
 using namespace std;
 
 static string stringOfComplex(uint32_t complex, bool isFraction) {
@@ -291,22 +295,29 @@ vector<ResourcesParser::ResTableTypePtr> ResourcesParser::getResTableTypesForId(
 string ResourcesParser::getNameForId(uint32_t id) const {
 	PackageResourcePtr pPackage = getPackageResouceForId(id);
 	if(pPackage == nullptr) {
-		return "???";
+		RETURN_UNKNOWN_ID(id);
 	}
 	uint32_t typeId = TYPE_ID(id);
 	if(pPackage->resTablePtrs.size()<=typeId){
-		return "???";
+		RETURN_UNKNOWN_ID(id);
 	}
 
 	uint32_t entryId = ENTRY_ID(id);
 
 	if(pPackage->resTablePtrs[typeId][0]->header.entryCount<=(entryId)){
-		return "???";
+		RETURN_UNKNOWN_ID(id);
 	}
-	const ResTable_entry* pEntry = pPackage->resTablePtrs[typeId][0]->entries[entryId];
+
+	const ResTable_entry* pEntry = nullptr;
+	for(ResTableTypePtr  pResTableType : pPackage->resTablePtrs[typeId]) {
+		pEntry = pResTableType->entries[entryId];
+		if(pEntry) {
+			break;
+		}
+	}
 
 	if(pEntry == nullptr) {
-		return "???";
+		RETURN_UNKNOWN_ID(id);
 	}
 	return getStringFromResStringPool(getPackageResouceForId(id)->pKeys, pEntry->key.index);
 }
