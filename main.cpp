@@ -8,6 +8,7 @@ using namespace std;
 
 int findArgvIndex(const char* argv, char *argvs[], int count);
 const char* getArgv(const char* argv, char *argvs[], int count);
+void printHelp(const char* name);
 
 int main(int argc, char *argv[]) {
 	const char* path = getArgv("-r", argv, argc);
@@ -16,12 +17,10 @@ int main(int argc, char *argv[]) {
 	int all = findArgvIndex("-a", argv, argc);
 
 	if(nullptr == path) {
-		cout <<string(argv[0]) <<" -p path [-a] [-t type] [-i id]" <<endl;
-		cout <<"-p : set path of resources.arsc" <<endl;
-		cout <<"-a : show all of resources.arsc" <<endl;
-		cout <<"-t : select the type in resources.arsc to show" <<endl;
-		cout <<"-i : select the id of resource to show" <<endl;
+		printHelp(argv[0]);
 		return -1;
+	} else if(getArgv("-h", argv, argc) != nullptr) {
+		printHelp(argv[0]);
 	}
 
 	ResourcesParser parser(path);
@@ -56,4 +55,12 @@ const char* getArgv(const char* argv, char *argvs[], int count) {
 		return argvs[index+1];
 	}
 	return nullptr;
+}
+
+void printHelp(const char* name) {
+	cout <<name <<" -p path [-a] [-t type] [-i id]" <<endl;
+	cout <<"-p : set path of resources.arsc" <<endl;
+	cout <<"-a : show all of resources.arsc" <<endl;
+	cout <<"-t : select the type in resources.arsc to show" <<endl;
+	cout <<"-i : select the id of resource to show" <<endl;
 }
