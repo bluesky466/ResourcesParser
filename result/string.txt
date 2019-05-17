@@ -1,4 +1,4 @@
-me.linjw.myapplication
+com.cvte.tv.myapplication
 
 	string
 			abc_action_bar_home_description (2131427328 or 0x7f0b0000) = (string) Navigate home

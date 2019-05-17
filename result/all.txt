@@ -1,4 +1,4 @@
-me.linjw.myapplication
+com.cvte.tv.myapplication
 
 	anim
 			abc_fade_in (2130771968 or 0x7f010000) = (string) res/anim/abc_fade_in.xml
@@ -841,9 +841,8 @@ me.linjw.myapplication
 	color
 			abc_background_cache_hint_selector_material_dark (2130968576 or 0x7f040000) = (string) res/color/abc_background_cache_hint_selector_material_dark.xml
 			abc_background_cache_hint_selector_material_light (2130968577 or 0x7f040001) = (string) res/color/abc_background_cache_hint_selector_material_light.xml
-			abc_btn_colored_borderless_text_material (2130968578 or 0x7f040002) = (string) res/color-v23/abc_btn_colored_borderless_text_material.xml
-			abc_btn_colored_text_material (2130968579 or 0x7f040003) = (string) res/color-v23/abc_btn_colored_text_material.xml
-			abc_color_highlight_material (2130968580 or 0x7f040004) = (string) res/color-v23/abc_color_highlight_material.xml
+			abc_btn_colored_borderless_text_material (2130968578 or 0x7f040002) = (string) res/color/abc_btn_colored_borderless_text_material.xml
+			abc_btn_colored_text_material (2130968579 or 0x7f040003) = (string) res/color/abc_btn_colored_text_material.xml
 			abc_hint_foreground_material_dark (2130968581 or 0x7f040005) = (string) res/color/abc_hint_foreground_material_dark.xml
 			abc_hint_foreground_material_light (2130968582 or 0x7f040006) = (string) res/color/abc_hint_foreground_material_light.xml
 			abc_input_method_navigation_guard (2130968583 or 0x7f040007) = (reference) ???(0x106000c)
@@ -857,12 +856,12 @@ me.linjw.myapplication
 			abc_search_url_text_selected (2130968591 or 0x7f04000f) = (reference) ???(0x106000c)
 			abc_secondary_text_material_dark (2130968592 or 0x7f040010) = (string) res/color/abc_secondary_text_material_dark.xml
 			abc_secondary_text_material_light (2130968593 or 0x7f040011) = (string) res/color/abc_secondary_text_material_light.xml
-			abc_tint_btn_checkable (2130968594 or 0x7f040012) = (string) res/color-v23/abc_tint_btn_checkable.xml
-			abc_tint_default (2130968595 or 0x7f040013) = (string) res/color-v23/abc_tint_default.xml
-			abc_tint_edittext (2130968596 or 0x7f040014) = (string) res/color-v23/abc_tint_edittext.xml
-			abc_tint_seek_thumb (2130968597 or 0x7f040015) = (string) res/color-v23/abc_tint_seek_thumb.xml
-			abc_tint_spinner (2130968598 or 0x7f040016) = (string) res/color-v23/abc_tint_spinner.xml
-			abc_tint_switch_track (2130968599 or 0x7f040017) = (string) res/color-v23/abc_tint_switch_track.xml
+			abc_tint_btn_checkable (2130968594 or 0x7f040012) = (string) res/color/abc_tint_btn_checkable.xml
+			abc_tint_default (2130968595 or 0x7f040013) = (string) res/color/abc_tint_default.xml
+			abc_tint_edittext (2130968596 or 0x7f040014) = (string) res/color/abc_tint_edittext.xml
+			abc_tint_seek_thumb (2130968597 or 0x7f040015) = (string) res/color/abc_tint_seek_thumb.xml
+			abc_tint_spinner (2130968598 or 0x7f040016) = (string) res/color/abc_tint_spinner.xml
+			abc_tint_switch_track (2130968599 or 0x7f040017) = (string) res/color/abc_tint_switch_track.xml
 			accent_material_dark (2130968600 or 0x7f040018) = (reference) material_deep_teal_200
 			accent_material_light (2130968601 or 0x7f040019) = (reference) material_deep_teal_500
 			background_floating_material_dark (2130968602 or 0x7f04001a) = (reference) material_grey_800
@@ -877,9 +876,9 @@ me.linjw.myapplication
 			bright_foreground_material_light (2130968611 or 0x7f040023) = (reference) ???(0x106000c)
 			button_material_dark (2130968612 or 0x7f040024) = (color) #ff5a595b
 			button_material_light (2130968613 or 0x7f040025) = (color) #ffd6d7d7
-			colorAccent (2130968614 or 0x7f040026) = (color) #ffd81b60
-			colorPrimary (2130968615 or 0x7f040027) = (color) #ff008577
-			colorPrimaryDark (2130968616 or 0x7f040028) = (color) #ff00574b
+			colorAccent (2130968614 or 0x7f040026) = (color) #ffff4081
+			colorPrimary (2130968615 or 0x7f040027) = (color) #ff3f51b5
+			colorPrimaryDark (2130968616 or 0x7f040028) = (color) #ff303f9f
 			dim_foreground_disabled_material_dark (2130968617 or 0x7f040029) = (color) #80bebebe
 			dim_foreground_disabled_material_light (2130968618 or 0x7f04002a) = (color) #80323232
 			dim_foreground_material_dark (2130968619 or 0x7f04002b) = (color) #ffbebebe
@@ -902,7 +901,7 @@ me.linjw.myapplication
 			material_grey_800 (2130968636 or 0x7f04003c) = (color) #ff424242
 			material_grey_850 (2130968637 or 0x7f04003d) = (color) #ff303030
 			material_grey_900 (2130968638 or 0x7f04003e) = (color) #ff212121
-			notification_action_color_filter (2130968639 or 0x7f04003f) = (reference) secondary_text_default_material_light
+			notification_action_color_filter (2130968639 or 0x7f04003f) = (color) #ffffffff
 			notification_icon_bg_color (2130968640 or 0x7f040040) = (color) #ff9e9e9e
 			primary_dark_material_dark (2130968641 or 0x7f040041) = (reference) ???(0x106000c)
 			primary_dark_material_light (2130968642 or 0x7f040042) = (reference) material_grey_600
@@ -926,6 +925,21 @@ me.linjw.myapplication
 			switch_thumb_normal_material_light (2130968660 or 0x7f040054) = (color) #fff1f1f1
 			tooltip_background_dark (2130968661 or 0x7f040055) = (color) #e6616161
 			tooltip_background_light (2130968662 or 0x7f040056) = (color) #e6ffffff
+
+	color-v21
+			abc_btn_colored_borderless_text_material (2130968578 or 0x7f040002) = (string) res/color-v21/abc_btn_colored_borderless_text_material.xml
+			notification_action_color_filter (2130968639 or 0x7f04003f) = (reference) secondary_text_default_material_light
+
+	color-v23
+			abc_btn_colored_borderless_text_material (2130968578 or 0x7f040002) = (string) res/color-v23/abc_btn_colored_borderless_text_material.xml
+			abc_btn_colored_text_material (2130968579 or 0x7f040003) = (string) res/color-v23/abc_btn_colored_text_material.xml
+			abc_color_highlight_material (2130968580 or 0x7f040004) = (string) res/color-v23/abc_color_highlight_material.xml
+			abc_tint_btn_checkable (2130968594 or 0x7f040012) = (string) res/color-v23/abc_tint_btn_checkable.xml
+			abc_tint_default (2130968595 or 0x7f040013) = (string) res/color-v23/abc_tint_default.xml
+			abc_tint_edittext (2130968596 or 0x7f040014) = (string) res/color-v23/abc_tint_edittext.xml
+			abc_tint_seek_thumb (2130968597 or 0x7f040015) = (string) res/color-v23/abc_tint_seek_thumb.xml
+			abc_tint_spinner (2130968598 or 0x7f040016) = (string) res/color-v23/abc_tint_spinner.xml
+			abc_tint_switch_track (2130968599 or 0x7f040017) = (string) res/color-v23/abc_tint_switch_track.xml
 
 	dimen
 			abc_action_bar_content_inset_material (2131034112 or 0x7f050000) = (dimension) 16dp
@@ -1022,11 +1036,11 @@ me.linjw.myapplication
 			notification_action_icon_size (2131034203 or 0x7f05005b) = (dimension) 32dp
 			notification_action_text_size (2131034204 or 0x7f05005c) = (dimension) 13sp
 			notification_big_circle_margin (2131034205 or 0x7f05005d) = (dimension) 12dp
-			notification_content_margin_start (2131034206 or 0x7f05005e) = (dimension) 0dp
+			notification_content_margin_start (2131034206 or 0x7f05005e) = (dimension) 8dp
 			notification_large_icon_height (2131034207 or 0x7f05005f) = (dimension) 64dp
 			notification_large_icon_width (2131034208 or 0x7f050060) = (dimension) 64dp
-			notification_main_column_padding_top (2131034209 or 0x7f050061) = (dimension) 0dp
-			notification_media_narrow_margin (2131034210 or 0x7f050062) = (dimension) 12dp
+			notification_main_column_padding_top (2131034209 or 0x7f050061) = (dimension) 10dp
+			notification_media_narrow_margin (2131034210 or 0x7f050062) = (reference) notification_content_margin_start
 			notification_right_icon_size (2131034211 or 0x7f050063) = (dimension) 16dp
 			notification_right_side_padding_top (2131034212 or 0x7f050064) = (dimension) 4dp
 			notification_small_icon_background_padding (2131034213 or 0x7f050065) = (dimension) 3dp
@@ -1034,16 +1048,16 @@ me.linjw.myapplication
 			notification_subtext_size (2131034215 or 0x7f050067) = (dimension) 13sp
 			notification_top_pad (2131034216 or 0x7f050068) = (dimension) 10dp
 			notification_top_pad_large_text (2131034217 or 0x7f050069) = (dimension) 5dp
-			testdemen (2131034218 or 0x7f05006a) = (dimension) 1.67771e+07px
-			testdemen2 (2131034219 or 0x7f05006b) = (dimension) 100px
-			tooltip_corner_radius (2131034220 or 0x7f05006c) = (dimension) 2dp
-			tooltip_horizontal_padding (2131034221 or 0x7f05006d) = (dimension) 16dp
-			tooltip_margin (2131034222 or 0x7f05006e) = (dimension) 8dp
-			tooltip_precise_anchor_extra_offset (2131034223 or 0x7f05006f) = (dimension) 8dp
-			tooltip_precise_anchor_threshold (2131034224 or 0x7f050070) = (dimension) 96dp
-			tooltip_vertical_padding (2131034225 or 0x7f050071) = (dimension) 6.5dp
-			tooltip_y_offset_non_touch (2131034226 or 0x7f050072) = (dimension) 0dp
-			tooltip_y_offset_touch (2131034227 or 0x7f050073) = (dimension) 16dp
+			tooltip_corner_radius (2131034218 or 0x7f05006a) = (dimension) 2dp
+			tooltip_horizontal_padding (2131034219 or 0x7f05006b) = (dimension) 16dp
+			tooltip_margin (2131034220 or 0x7f05006c) = (dimension) 8dp
+			tooltip_precise_anchor_extra_offset (2131034221 or 0x7f05006d) = (dimension) 8dp
+			tooltip_precise_anchor_threshold (2131034222 or 0x7f05006e) = (dimension) 96dp
+			tooltip_vertical_padding (2131034223 or 0x7f05006f) = (dimension) 6.5dp
+			tooltip_y_offset_non_touch (2131034224 or 0x7f050070) = (dimension) 0dp
+			tooltip_y_offset_touch (2131034225 or 0x7f050071) = (dimension) 16dp
+
+	dimen-h720dp
 			abc_alert_dialog_button_bar_height (2131034128 or 0x7f050010) = (dimension) 54dp
 
 	dimen-sw600dp
@@ -1055,6 +1069,8 @@ me.linjw.myapplication
 			abc_config_prefDialogWidth (2131034135 or 0x7f050017) = (dimension) 580dp
 			abc_text_size_subtitle_material_toolbar (2131034184 or 0x7f050048) = (dimension) 16dp
 			abc_text_size_title_material_toolbar (2131034186 or 0x7f05004a) = (dimension) 20dp
+
+	dimen-large
 			abc_config_prefDialogWidth (2131034135 or 0x7f050017) = (dimension) 440dp
 			abc_dialog_fixed_height_major (2131034140 or 0x7f05001c) = (fraction) 0.6%
 			abc_dialog_fixed_height_minor (2131034141 or 0x7f05001d) = (fraction) 0.9%
@@ -1062,27 +1078,36 @@ me.linjw.myapplication
 			abc_dialog_fixed_width_minor (2131034143 or 0x7f05001f) = (fraction) 0.9%
 			abc_dialog_min_width_major (2131034146 or 0x7f050022) = (fraction) 0.55%
 			abc_dialog_min_width_minor (2131034147 or 0x7f050023) = (fraction) 0.8%
+
+	dimen-xlarge
 			abc_dialog_fixed_width_major (2131034142 or 0x7f05001e) = (fraction) 0.5%
 			abc_dialog_fixed_width_minor (2131034143 or 0x7f05001f) = (fraction) 0.7%
 			abc_dialog_min_width_major (2131034146 or 0x7f050022) = (fraction) 0.45%
 			abc_dialog_min_width_minor (2131034147 or 0x7f050023) = (fraction) 0.72%
+
+	dimen-v21
+			notification_content_margin_start (2131034206 or 0x7f05005e) = (dimension) 0dp
+			notification_main_column_padding_top (2131034209 or 0x7f050061) = (dimension) 0dp
+			notification_media_narrow_margin (2131034210 or 0x7f050062) = (dimension) 12dp
+
+	dimen-land
 			abc_action_bar_default_height_material (2131034114 or 0x7f050002) = (dimension) 48dp
 			abc_text_size_subtitle_material_toolbar (2131034184 or 0x7f050048) = (dimension) 12dp
 			abc_text_size_title_material_toolbar (2131034186 or 0x7f05004a) = (dimension) 14dp
 
+	drawable-65534dpi-v21
+			ic_launcher_background (2131099733 or 0x7f060055) = (string) res/drawable-anydpi-v21/ic_launcher_background.xml
+
 	drawable
-			$ic_launcher_foreground__0 (2131099648 or 0x7f060000) = (string) res/drawable-v24/$ic_launcher_foreground__0.xml
-			abc_action_bar_item_background_material (2131099650 or 0x7f060002) = (string) res/drawable-v21/abc_action_bar_item_background_material.xml
 			abc_btn_borderless_material (2131099651 or 0x7f060003) = (string) res/drawable/abc_btn_borderless_material.xml
 			abc_btn_check_material (2131099652 or 0x7f060004) = (string) res/drawable/abc_btn_check_material.xml
-			abc_btn_colored_material (2131099655 or 0x7f060007) = (string) res/drawable-v21/abc_btn_colored_material.xml
+			abc_btn_colored_material (2131099655 or 0x7f060007) = (string) res/drawable/abc_btn_colored_material.xml
 			abc_btn_default_mtrl_shape (2131099656 or 0x7f060008) = (string) res/drawable/abc_btn_default_mtrl_shape.xml
 			abc_btn_radio_material (2131099657 or 0x7f060009) = (string) res/drawable/abc_btn_radio_material.xml
 			abc_cab_background_internal_bg (2131099662 or 0x7f06000e) = (string) res/drawable/abc_cab_background_internal_bg.xml
 			abc_cab_background_top_material (2131099663 or 0x7f06000f) = (string) res/drawable/abc_cab_background_top_material.xml
-			abc_control_background_material (2131099665 or 0x7f060011) = (string) res/drawable-v23/abc_control_background_material.xml
-			abc_dialog_material_background (2131099666 or 0x7f060012) = (string) res/drawable-v21/abc_dialog_material_background.xml
-			abc_edit_text_material (2131099667 or 0x7f060013) = (string) res/drawable-v21/abc_edit_text_material.xml
+			abc_dialog_material_background (2131099666 or 0x7f060012) = (string) res/drawable/abc_dialog_material_background.xml
+			abc_edit_text_material (2131099667 or 0x7f060013) = (string) res/drawable/abc_edit_text_material.xml
 			abc_ic_ab_back_material (2131099668 or 0x7f060014) = (string) res/drawable/abc_ic_ab_back_material.xml
 			abc_ic_arrow_drop_right_black_24dp (2131099669 or 0x7f060015) = (string) res/drawable/abc_ic_arrow_drop_right_black_24dp.xml
 			abc_ic_clear_material (2131099670 or 0x7f060016) = (string) res/drawable/abc_ic_clear_material.xml
@@ -1092,7 +1117,7 @@ me.linjw.myapplication
 			abc_ic_voice_search_api_material (2131099686 or 0x7f060026) = (string) res/drawable/abc_ic_voice_search_api_material.xml
 			abc_item_background_holo_dark (2131099687 or 0x7f060027) = (string) res/drawable/abc_item_background_holo_dark.xml
 			abc_item_background_holo_light (2131099688 or 0x7f060028) = (string) res/drawable/abc_item_background_holo_light.xml
-			abc_list_divider_material (2131099689 or 0x7f060029) = (string) res/drawable-v21/abc_list_divider_material.xml
+			abc_list_divider_material (2131099689 or 0x7f060029) = (string) res/drawable/abc_list_divider_material.xml
 			abc_list_selector_background_transition_holo_dark (2131099695 or 0x7f06002f) = (string) res/drawable/abc_list_selector_background_transition_holo_dark.xml
 			abc_list_selector_background_transition_holo_light (2131099696 or 0x7f060030) = (string) res/drawable/abc_list_selector_background_transition_holo_light.xml
 			abc_list_selector_holo_dark (2131099699 or 0x7f060033) = (string) res/drawable/abc_list_selector_holo_dark.xml
@@ -1109,9 +1134,6 @@ me.linjw.myapplication
 			abc_text_cursor_material (2131099720 or 0x7f060048) = (string) res/drawable/abc_text_cursor_material.xml
 			abc_textfield_search_material (2131099731 or 0x7f060053) = (string) res/drawable/abc_textfield_search_material.xml
 			abc_vector_test (2131099732 or 0x7f060054) = (string) res/drawable/abc_vector_test.xml
-			ic_launcher_background (2131099733 or 0x7f060055) = (string) res/drawable/ic_launcher_background.xml
-			ic_launcher_foreground (2131099734 or 0x7f060056) = (string) res/drawable-v24/ic_launcher_foreground.xml
-			notification_action_background (2131099735 or 0x7f060057) = (string) res/drawable-v21/notification_action_background.xml
 			notification_bg (2131099736 or 0x7f060058) = (string) res/drawable/notification_bg.xml
 			notification_bg_low (2131099737 or 0x7f060059) = (string) res/drawable/notification_bg_low.xml
 			notification_icon_background (2131099742 or 0x7f06005e) = (string) res/drawable/notification_icon_background.xml
@@ -1120,117 +1142,29 @@ me.linjw.myapplication
 			notification_tile_bg (2131099745 or 0x7f060061) = (string) res/drawable/notification_tile_bg.xml
 			tooltip_frame_dark (2131099747 or 0x7f060063) = (string) res/drawable/tooltip_frame_dark.xml
 			tooltip_frame_light (2131099748 or 0x7f060064) = (string) res/drawable/tooltip_frame_light.xml
+
+	drawable-uiModeType=0-v20
 			abc_dialog_material_background (2131099666 or 0x7f060012) = (string) res/drawable-watch-v20/abc_dialog_material_background.xml
-			abc_ab_share_pack_mtrl_alpha (2131099649 or 0x7f060001) = (string) res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
-			abc_btn_check_to_on_mtrl_000 (2131099653 or 0x7f060005) = (string) res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
-			abc_btn_check_to_on_mtrl_015 (2131099654 or 0x7f060006) = (string) res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
-			abc_btn_radio_to_on_mtrl_000 (2131099658 or 0x7f06000a) = (string) res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
-			abc_btn_radio_to_on_mtrl_015 (2131099659 or 0x7f06000b) = (string) res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
-			abc_btn_switch_to_on_mtrl_00001 (2131099660 or 0x7f06000c) = (string) res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
-			abc_btn_switch_to_on_mtrl_00012 (2131099661 or 0x7f06000d) = (string) res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
-			abc_cab_background_top_mtrl_alpha (2131099664 or 0x7f060010) = (string) res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
-			abc_ic_commit_search_api_mtrl_alpha (2131099671 or 0x7f060017) = (string) res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
-			abc_ic_menu_copy_mtrl_am_alpha (2131099673 or 0x7f060019) = (string) res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
-			abc_ic_menu_cut_mtrl_alpha (2131099674 or 0x7f06001a) = (string) res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
-			abc_ic_menu_paste_mtrl_am_alpha (2131099676 or 0x7f06001c) = (string) res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
-			abc_ic_menu_selectall_mtrl_alpha (2131099677 or 0x7f06001d) = (string) res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
-			abc_ic_menu_share_mtrl_alpha (2131099678 or 0x7f06001e) = (string) res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
-			abc_ic_star_black_16dp (2131099680 or 0x7f060020) = (string) res/drawable-mdpi-v4/abc_ic_star_black_16dp.png
-			abc_ic_star_black_36dp (2131099681 or 0x7f060021) = (string) res/drawable-mdpi-v4/abc_ic_star_black_36dp.png
-			abc_ic_star_black_48dp (2131099682 or 0x7f060022) = (string) res/drawable-mdpi-v4/abc_ic_star_black_48dp.png
-			abc_ic_star_half_black_16dp (2131099683 or 0x7f060023) = (string) res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png
-			abc_ic_star_half_black_36dp (2131099684 or 0x7f060024) = (string) res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png
-			abc_ic_star_half_black_48dp (2131099685 or 0x7f060025) = (string) res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png
-			abc_list_divider_mtrl_alpha (2131099690 or 0x7f06002a) = (string) res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
-			abc_list_focused_holo (2131099691 or 0x7f06002b) = (string) res/drawable-mdpi-v4/abc_list_focused_holo.9.png
-			abc_list_longpressed_holo (2131099692 or 0x7f06002c) = (string) res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
-			abc_list_pressed_holo_dark (2131099693 or 0x7f06002d) = (string) res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
-			abc_list_pressed_holo_light (2131099694 or 0x7f06002e) = (string) res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
-			abc_list_selector_disabled_holo_dark (2131099697 or 0x7f060031) = (string) res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
-			abc_list_selector_disabled_holo_light (2131099698 or 0x7f060032) = (string) res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
-			abc_menu_hardkey_panel_mtrl_mult (2131099701 or 0x7f060035) = (string) res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
-			abc_popup_background_mtrl_mult (2131099702 or 0x7f060036) = (string) res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
-			abc_scrubber_control_off_mtrl_alpha (2131099706 or 0x7f06003a) = (string) res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
-			abc_scrubber_control_to_pressed_mtrl_000 (2131099707 or 0x7f06003b) = (string) res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
-			abc_scrubber_control_to_pressed_mtrl_005 (2131099708 or 0x7f06003c) = (string) res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
-			abc_scrubber_primary_mtrl_alpha (2131099709 or 0x7f06003d) = (string) res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
-			abc_scrubber_track_mtrl_alpha (2131099710 or 0x7f06003e) = (string) res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
-			abc_spinner_mtrl_am_alpha (2131099714 or 0x7f060042) = (string) res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
-			abc_switch_track_mtrl_alpha (2131099717 or 0x7f060045) = (string) res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
-			abc_tab_indicator_mtrl_alpha (2131099719 or 0x7f060047) = (string) res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
-			abc_text_select_handle_left_mtrl_dark (2131099721 or 0x7f060049) = (string) res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png
-			abc_text_select_handle_left_mtrl_light (2131099722 or 0x7f06004a) = (string) res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_light.png
-			abc_text_select_handle_middle_mtrl_dark (2131099723 or 0x7f06004b) = (string) res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
-			abc_text_select_handle_middle_mtrl_light (2131099724 or 0x7f06004c) = (string) res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_light.png
-			abc_text_select_handle_right_mtrl_dark (2131099725 or 0x7f06004d) = (string) res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png
-			abc_text_select_handle_right_mtrl_light (2131099726 or 0x7f06004e) = (string) res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_light.png
-			abc_textfield_activated_mtrl_alpha (2131099727 or 0x7f06004f) = (string) res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
-			abc_textfield_default_mtrl_alpha (2131099728 or 0x7f060050) = (string) res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
-			abc_textfield_search_activated_mtrl_alpha (2131099729 or 0x7f060051) = (string) res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
-			abc_textfield_search_default_mtrl_alpha (2131099730 or 0x7f060052) = (string) res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
-			notification_bg_low_normal (2131099738 or 0x7f06005a) = (string) res/drawable-mdpi-v4/notification_bg_low_normal.9.png
-			notification_bg_low_pressed (2131099739 or 0x7f06005b) = (string) res/drawable-mdpi-v4/notification_bg_low_pressed.9.png
-			notification_bg_normal (2131099740 or 0x7f06005c) = (string) res/drawable-mdpi-v4/notification_bg_normal.9.png
-			notification_bg_normal_pressed (2131099741 or 0x7f06005d) = (string) res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png
-			notify_panel_notification_icon_bg (2131099746 or 0x7f060062) = (string) res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png
-			abc_ic_menu_copy_mtrl_am_alpha (2131099673 or 0x7f060019) = (string) res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
-			abc_ic_menu_cut_mtrl_alpha (2131099674 or 0x7f06001a) = (string) res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
-			abc_spinner_mtrl_am_alpha (2131099714 or 0x7f060042) = (string) res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
-			abc_ab_share_pack_mtrl_alpha (2131099649 or 0x7f060001) = (string) res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
-			abc_btn_check_to_on_mtrl_000 (2131099653 or 0x7f060005) = (string) res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
-			abc_btn_check_to_on_mtrl_015 (2131099654 or 0x7f060006) = (string) res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
-			abc_btn_radio_to_on_mtrl_000 (2131099658 or 0x7f06000a) = (string) res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
-			abc_btn_radio_to_on_mtrl_015 (2131099659 or 0x7f06000b) = (string) res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
-			abc_btn_switch_to_on_mtrl_00001 (2131099660 or 0x7f06000c) = (string) res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
-			abc_btn_switch_to_on_mtrl_00012 (2131099661 or 0x7f06000d) = (string) res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
-			abc_cab_background_top_mtrl_alpha (2131099664 or 0x7f060010) = (string) res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
-			abc_ic_commit_search_api_mtrl_alpha (2131099671 or 0x7f060017) = (string) res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
-			abc_ic_menu_copy_mtrl_am_alpha (2131099673 or 0x7f060019) = (string) res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
-			abc_ic_menu_cut_mtrl_alpha (2131099674 or 0x7f06001a) = (string) res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
-			abc_ic_menu_paste_mtrl_am_alpha (2131099676 or 0x7f06001c) = (string) res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
-			abc_ic_menu_selectall_mtrl_alpha (2131099677 or 0x7f06001d) = (string) res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
-			abc_ic_menu_share_mtrl_alpha (2131099678 or 0x7f06001e) = (string) res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
-			abc_ic_star_black_16dp (2131099680 or 0x7f060020) = (string) res/drawable-hdpi-v4/abc_ic_star_black_16dp.png
-			abc_ic_star_black_36dp (2131099681 or 0x7f060021) = (string) res/drawable-hdpi-v4/abc_ic_star_black_36dp.png
-			abc_ic_star_black_48dp (2131099682 or 0x7f060022) = (string) res/drawable-hdpi-v4/abc_ic_star_black_48dp.png
-			abc_ic_star_half_black_16dp (2131099683 or 0x7f060023) = (string) res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png
-			abc_ic_star_half_black_36dp (2131099684 or 0x7f060024) = (string) res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png
-			abc_ic_star_half_black_48dp (2131099685 or 0x7f060025) = (string) res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png
-			abc_list_divider_mtrl_alpha (2131099690 or 0x7f06002a) = (string) res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
-			abc_list_focused_holo (2131099691 or 0x7f06002b) = (string) res/drawable-hdpi-v4/abc_list_focused_holo.9.png
-			abc_list_longpressed_holo (2131099692 or 0x7f06002c) = (string) res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
-			abc_list_pressed_holo_dark (2131099693 or 0x7f06002d) = (string) res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
-			abc_list_pressed_holo_light (2131099694 or 0x7f06002e) = (string) res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
-			abc_list_selector_disabled_holo_dark (2131099697 or 0x7f060031) = (string) res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
-			abc_list_selector_disabled_holo_light (2131099698 or 0x7f060032) = (string) res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
-			abc_menu_hardkey_panel_mtrl_mult (2131099701 or 0x7f060035) = (string) res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
-			abc_popup_background_mtrl_mult (2131099702 or 0x7f060036) = (string) res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
-			abc_scrubber_control_off_mtrl_alpha (2131099706 or 0x7f06003a) = (string) res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
-			abc_scrubber_control_to_pressed_mtrl_000 (2131099707 or 0x7f06003b) = (string) res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
-			abc_scrubber_control_to_pressed_mtrl_005 (2131099708 or 0x7f06003c) = (string) res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
-			abc_scrubber_primary_mtrl_alpha (2131099709 or 0x7f06003d) = (string) res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
-			abc_scrubber_track_mtrl_alpha (2131099710 or 0x7f06003e) = (string) res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
-			abc_spinner_mtrl_am_alpha (2131099714 or 0x7f060042) = (string) res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
-			abc_switch_track_mtrl_alpha (2131099717 or 0x7f060045) = (string) res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
-			abc_tab_indicator_mtrl_alpha (2131099719 or 0x7f060047) = (string) res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
-			abc_text_select_handle_left_mtrl_dark (2131099721 or 0x7f060049) = (string) res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_dark.png
-			abc_text_select_handle_left_mtrl_light (2131099722 or 0x7f06004a) = (string) res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png
-			abc_text_select_handle_middle_mtrl_dark (2131099723 or 0x7f06004b) = (string) res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
-			abc_text_select_handle_middle_mtrl_light (2131099724 or 0x7f06004c) = (string) res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_light.png
-			abc_text_select_handle_right_mtrl_dark (2131099725 or 0x7f06004d) = (string) res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_dark.png
-			abc_text_select_handle_right_mtrl_light (2131099726 or 0x7f06004e) = (string) res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png
-			abc_textfield_activated_mtrl_alpha (2131099727 or 0x7f06004f) = (string) res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
-			abc_textfield_default_mtrl_alpha (2131099728 or 0x7f060050) = (string) res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
-			abc_textfield_search_activated_mtrl_alpha (2131099729 or 0x7f060051) = (string) res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
-			abc_textfield_search_default_mtrl_alpha (2131099730 or 0x7f060052) = (string) res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
-			notification_bg_low_normal (2131099738 or 0x7f06005a) = (string) res/drawable-hdpi-v4/notification_bg_low_normal.9.png
-			notification_bg_low_pressed (2131099739 or 0x7f06005b) = (string) res/drawable-hdpi-v4/notification_bg_low_pressed.9.png
-			notification_bg_normal (2131099740 or 0x7f06005c) = (string) res/drawable-hdpi-v4/notification_bg_normal.9.png
-			notification_bg_normal_pressed (2131099741 or 0x7f06005d) = (string) res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png
-			notify_panel_notification_icon_bg (2131099746 or 0x7f060062) = (string) res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png
-			abc_ic_menu_copy_mtrl_am_alpha (2131099673 or 0x7f060019) = (string) res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
-			abc_ic_menu_cut_mtrl_alpha (2131099674 or 0x7f06001a) = (string) res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
-			abc_spinner_mtrl_am_alpha (2131099714 or 0x7f060042) = (string) res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+
+	drawable-v21
+			abc_action_bar_item_background_material (2131099650 or 0x7f060002) = (string) res/drawable-v21/abc_action_bar_item_background_material.xml
+			abc_btn_colored_material (2131099655 or 0x7f060007) = (string) res/drawable-v21/abc_btn_colored_material.xml
+			abc_dialog_material_background (2131099666 or 0x7f060012) = (string) res/drawable-v21/abc_dialog_material_background.xml
+			abc_edit_text_material (2131099667 or 0x7f060013) = (string) res/drawable-v21/abc_edit_text_material.xml
+			abc_list_divider_material (2131099689 or 0x7f060029) = (string) res/drawable-v21/abc_list_divider_material.xml
+			abc_ratingbar_indicator_material (2131099703 or 0x7f060037) = (string) res/drawable-v21/abc_ratingbar_indicator_material.xml
+			abc_ratingbar_material (2131099704 or 0x7f060038) = (string) res/drawable-v21/abc_ratingbar_material.xml
+			abc_ratingbar_small_material (2131099705 or 0x7f060039) = (string) res/drawable-v21/abc_ratingbar_small_material.xml
+			notification_action_background (2131099735 or 0x7f060057) = (string) res/drawable-v21/notification_action_background.xml
+
+	drawable-v23
+			abc_control_background_material (2131099665 or 0x7f060011) = (string) res/drawable-v23/abc_control_background_material.xml
+
+	drawable-v24
+			$ic_launcher_foreground__0 (2131099648 or 0x7f060000) = (string) res/drawable-v24/$ic_launcher_foreground__0.xml
+			ic_launcher_foreground (2131099734 or 0x7f060056) = (string) res/drawable-v24/ic_launcher_foreground.xml
+
+	drawable-xhdpi
 			abc_ab_share_pack_mtrl_alpha (2131099649 or 0x7f060001) = (string) res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
 			abc_btn_check_to_on_mtrl_000 (2131099653 or 0x7f060005) = (string) res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
 			abc_btn_check_to_on_mtrl_015 (2131099654 or 0x7f060006) = (string) res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
@@ -1278,93 +1212,17 @@ me.linjw.myapplication
 			abc_textfield_default_mtrl_alpha (2131099728 or 0x7f060050) = (string) res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
 			abc_textfield_search_activated_mtrl_alpha (2131099729 or 0x7f060051) = (string) res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
 			abc_textfield_search_default_mtrl_alpha (2131099730 or 0x7f060052) = (string) res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+			ic_launcher_background (2131099733 or 0x7f060055) = (string) res/drawable-xhdpi-v4/ic_launcher_background.png
 			notification_bg_low_normal (2131099738 or 0x7f06005a) = (string) res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
 			notification_bg_low_pressed (2131099739 or 0x7f06005b) = (string) res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
 			notification_bg_normal (2131099740 or 0x7f06005c) = (string) res/drawable-xhdpi-v4/notification_bg_normal.9.png
 			notification_bg_normal_pressed (2131099741 or 0x7f06005d) = (string) res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
 			notify_panel_notification_icon_bg (2131099746 or 0x7f060062) = (string) res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png
+
+	drawable-ldrtl-xhdpi
 			abc_ic_menu_copy_mtrl_am_alpha (2131099673 or 0x7f060019) = (string) res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
 			abc_ic_menu_cut_mtrl_alpha (2131099674 or 0x7f06001a) = (string) res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
 			abc_spinner_mtrl_am_alpha (2131099714 or 0x7f060042) = (string) res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
-			abc_ab_share_pack_mtrl_alpha (2131099649 or 0x7f060001) = (string) res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
-			abc_btn_check_to_on_mtrl_000 (2131099653 or 0x7f060005) = (string) res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
-			abc_btn_check_to_on_mtrl_015 (2131099654 or 0x7f060006) = (string) res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
-			abc_btn_radio_to_on_mtrl_000 (2131099658 or 0x7f06000a) = (string) res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
-			abc_btn_radio_to_on_mtrl_015 (2131099659 or 0x7f06000b) = (string) res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
-			abc_btn_switch_to_on_mtrl_00001 (2131099660 or 0x7f06000c) = (string) res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
-			abc_btn_switch_to_on_mtrl_00012 (2131099661 or 0x7f06000d) = (string) res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
-			abc_cab_background_top_mtrl_alpha (2131099664 or 0x7f060010) = (string) res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
-			abc_ic_commit_search_api_mtrl_alpha (2131099671 or 0x7f060017) = (string) res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
-			abc_ic_menu_copy_mtrl_am_alpha (2131099673 or 0x7f060019) = (string) res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
-			abc_ic_menu_cut_mtrl_alpha (2131099674 or 0x7f06001a) = (string) res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
-			abc_ic_menu_paste_mtrl_am_alpha (2131099676 or 0x7f06001c) = (string) res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
-			abc_ic_menu_selectall_mtrl_alpha (2131099677 or 0x7f06001d) = (string) res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
-			abc_ic_menu_share_mtrl_alpha (2131099678 or 0x7f06001e) = (string) res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
-			abc_ic_star_black_16dp (2131099680 or 0x7f060020) = (string) res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
-			abc_ic_star_black_36dp (2131099681 or 0x7f060021) = (string) res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
-			abc_ic_star_black_48dp (2131099682 or 0x7f060022) = (string) res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png
-			abc_ic_star_half_black_16dp (2131099683 or 0x7f060023) = (string) res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
-			abc_ic_star_half_black_36dp (2131099684 or 0x7f060024) = (string) res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png
-			abc_ic_star_half_black_48dp (2131099685 or 0x7f060025) = (string) res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png
-			abc_list_divider_mtrl_alpha (2131099690 or 0x7f06002a) = (string) res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
-			abc_list_focused_holo (2131099691 or 0x7f06002b) = (string) res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
-			abc_list_longpressed_holo (2131099692 or 0x7f06002c) = (string) res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
-			abc_list_pressed_holo_dark (2131099693 or 0x7f06002d) = (string) res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
-			abc_list_pressed_holo_light (2131099694 or 0x7f06002e) = (string) res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
-			abc_list_selector_disabled_holo_dark (2131099697 or 0x7f060031) = (string) res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
-			abc_list_selector_disabled_holo_light (2131099698 or 0x7f060032) = (string) res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
-			abc_menu_hardkey_panel_mtrl_mult (2131099701 or 0x7f060035) = (string) res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
-			abc_popup_background_mtrl_mult (2131099702 or 0x7f060036) = (string) res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
-			abc_scrubber_control_off_mtrl_alpha (2131099706 or 0x7f06003a) = (string) res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
-			abc_scrubber_control_to_pressed_mtrl_000 (2131099707 or 0x7f06003b) = (string) res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
-			abc_scrubber_control_to_pressed_mtrl_005 (2131099708 or 0x7f06003c) = (string) res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
-			abc_scrubber_primary_mtrl_alpha (2131099709 or 0x7f06003d) = (string) res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
-			abc_scrubber_track_mtrl_alpha (2131099710 or 0x7f06003e) = (string) res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
-			abc_spinner_mtrl_am_alpha (2131099714 or 0x7f060042) = (string) res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
-			abc_switch_track_mtrl_alpha (2131099717 or 0x7f060045) = (string) res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
-			abc_tab_indicator_mtrl_alpha (2131099719 or 0x7f060047) = (string) res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
-			abc_text_select_handle_left_mtrl_dark (2131099721 or 0x7f060049) = (string) res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
-			abc_text_select_handle_left_mtrl_light (2131099722 or 0x7f06004a) = (string) res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png
-			abc_text_select_handle_middle_mtrl_dark (2131099723 or 0x7f06004b) = (string) res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
-			abc_text_select_handle_middle_mtrl_light (2131099724 or 0x7f06004c) = (string) res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png
-			abc_text_select_handle_right_mtrl_dark (2131099725 or 0x7f06004d) = (string) res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png
-			abc_text_select_handle_right_mtrl_light (2131099726 or 0x7f06004e) = (string) res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png
-			abc_textfield_activated_mtrl_alpha (2131099727 or 0x7f06004f) = (string) res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
-			abc_textfield_default_mtrl_alpha (2131099728 or 0x7f060050) = (string) res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
-			abc_textfield_search_activated_mtrl_alpha (2131099729 or 0x7f060051) = (string) res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
-			abc_textfield_search_default_mtrl_alpha (2131099730 or 0x7f060052) = (string) res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
-			abc_ic_menu_copy_mtrl_am_alpha (2131099673 or 0x7f060019) = (string) res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
-			abc_ic_menu_cut_mtrl_alpha (2131099674 or 0x7f06001a) = (string) res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
-			abc_spinner_mtrl_am_alpha (2131099714 or 0x7f060042) = (string) res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
-			abc_btn_check_to_on_mtrl_000 (2131099653 or 0x7f060005) = (string) res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
-			abc_btn_check_to_on_mtrl_015 (2131099654 or 0x7f060006) = (string) res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
-			abc_btn_radio_to_on_mtrl_000 (2131099658 or 0x7f06000a) = (string) res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
-			abc_btn_radio_to_on_mtrl_015 (2131099659 or 0x7f06000b) = (string) res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
-			abc_btn_switch_to_on_mtrl_00001 (2131099660 or 0x7f06000c) = (string) res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
-			abc_btn_switch_to_on_mtrl_00012 (2131099661 or 0x7f06000d) = (string) res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
-			abc_ic_menu_copy_mtrl_am_alpha (2131099673 or 0x7f060019) = (string) res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
-			abc_ic_menu_cut_mtrl_alpha (2131099674 or 0x7f06001a) = (string) res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
-			abc_ic_menu_paste_mtrl_am_alpha (2131099676 or 0x7f06001c) = (string) res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
-			abc_ic_menu_selectall_mtrl_alpha (2131099677 or 0x7f06001d) = (string) res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
-			abc_ic_menu_share_mtrl_alpha (2131099678 or 0x7f06001e) = (string) res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
-			abc_ic_star_black_16dp (2131099680 or 0x7f060020) = (string) res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png
-			abc_ic_star_black_36dp (2131099681 or 0x7f060021) = (string) res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png
-			abc_ic_star_black_48dp (2131099682 or 0x7f060022) = (string) res/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png
-			abc_ic_star_half_black_16dp (2131099683 or 0x7f060023) = (string) res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png
-			abc_ic_star_half_black_36dp (2131099684 or 0x7f060024) = (string) res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png
-			abc_ic_star_half_black_48dp (2131099685 or 0x7f060025) = (string) res/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png
-			abc_scrubber_control_to_pressed_mtrl_000 (2131099707 or 0x7f06003b) = (string) res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
-			abc_scrubber_control_to_pressed_mtrl_005 (2131099708 or 0x7f06003c) = (string) res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
-			abc_spinner_mtrl_am_alpha (2131099714 or 0x7f060042) = (string) res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
-			abc_switch_track_mtrl_alpha (2131099717 or 0x7f060045) = (string) res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
-			abc_tab_indicator_mtrl_alpha (2131099719 or 0x7f060047) = (string) res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
-			abc_text_select_handle_left_mtrl_dark (2131099721 or 0x7f060049) = (string) res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
-			abc_text_select_handle_left_mtrl_light (2131099722 or 0x7f06004a) = (string) res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_light.png
-			abc_text_select_handle_right_mtrl_dark (2131099725 or 0x7f06004d) = (string) res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png
-			abc_text_select_handle_right_mtrl_light (2131099726 or 0x7f06004e) = (string) res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_light.png
-			abc_ic_menu_copy_mtrl_am_alpha (2131099673 or 0x7f060019) = (string) res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
-			abc_ic_menu_cut_mtrl_alpha (2131099674 or 0x7f06001a) = (string) res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
-			abc_spinner_mtrl_am_alpha (2131099714 or 0x7f060042) = (string) res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
 
 	id
 			ALT (2131165184 or 0x7f070000)
@@ -1552,19 +1410,37 @@ me.linjw.myapplication
 			abc_select_dialog_material (2131296282 or 0x7f09001a) = (string) res/layout/abc_select_dialog_material.xml
 			abc_tooltip (2131296283 or 0x7f09001b) = (string) res/layout/abc_tooltip.xml
 			activity_main (2131296284 or 0x7f09001c) = (string) res/layout/activity_main.xml
-			notification_action (2131296285 or 0x7f09001d) = (string) res/layout-v21/notification_action.xml
-			notification_action_tombstone (2131296286 or 0x7f09001e) = (string) res/layout-v21/notification_action_tombstone.xml
-			notification_template_custom_big (2131296287 or 0x7f09001f) = (string) res/layout-v21/notification_template_custom_big.xml
-			notification_template_icon_group (2131296288 or 0x7f090020) = (string) res/layout-v21/notification_template_icon_group.xml
+			notification_action (2131296285 or 0x7f09001d) = (string) res/layout/notification_action.xml
+			notification_action_tombstone (2131296286 or 0x7f09001e) = (string) res/layout/notification_action_tombstone.xml
+			notification_template_custom_big (2131296287 or 0x7f09001f) = (string) res/layout-v16/notification_template_custom_big.xml
+			notification_template_icon_group (2131296288 or 0x7f090020) = (string) res/layout/notification_template_icon_group.xml
 			notification_template_part_chronometer (2131296289 or 0x7f090021) = (string) res/layout/notification_template_part_chronometer.xml
 			notification_template_part_time (2131296290 or 0x7f090022) = (string) res/layout/notification_template_part_time.xml
 			select_dialog_item_material (2131296291 or 0x7f090023) = (string) res/layout/select_dialog_item_material.xml
 			select_dialog_multichoice_material (2131296292 or 0x7f090024) = (string) res/layout/select_dialog_multichoice_material.xml
 			select_dialog_singlechoice_material (2131296293 or 0x7f090025) = (string) res/layout/select_dialog_singlechoice_material.xml
 			support_simple_spinner_dropdown_item (2131296294 or 0x7f090026) = (string) res/layout/support_simple_spinner_dropdown_item.xml
+
+	layout-uiModeType=0-v20
 			abc_alert_dialog_button_bar_material (2131296264 or 0x7f090008) = (string) res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml
 			abc_alert_dialog_title_material (2131296266 or 0x7f09000a) = (string) res/layout-watch-v20/abc_alert_dialog_title_material.xml
+
+	layout-v21
+			abc_screen_toolbar (2131296279 or 0x7f090017) = (string) res/layout-v21/abc_screen_toolbar.xml
+			notification_action (2131296285 or 0x7f09001d) = (string) res/layout-v21/notification_action.xml
+			notification_action_tombstone (2131296286 or 0x7f09001e) = (string) res/layout-v21/notification_action_tombstone.xml
+			notification_template_custom_big (2131296287 or 0x7f09001f) = (string) res/layout-v21/notification_template_custom_big.xml
+			notification_template_icon_group (2131296288 or 0x7f090020) = (string) res/layout-v21/notification_template_icon_group.xml
+
+	layout-v22
+			abc_alert_dialog_button_bar_material (2131296264 or 0x7f090008) = (string) res/layout-v22/abc_alert_dialog_button_bar_material.xml
+
+	layout-v26
 			abc_screen_toolbar (2131296279 or 0x7f090017) = (string) res/layout-v26/abc_screen_toolbar.xml
+
+	mipmap-65534dpi-v26
+			ic_launcher (2131361792 or 0x7f0a0000) = (string) res/mipmap-anydpi-v26/ic_launcher.xml
+			ic_launcher_round (2131361793 or 0x7f0a0001) = (string) res/mipmap-anydpi-v26/ic_launcher_round.xml
 
 	mipmap-mdpi
 			ic_launcher (2131361792 or 0x7f0a0000) = (string) res/mipmap-mdpi-v4/ic_launcher.png
@@ -1585,10 +1461,6 @@ me.linjw.myapplication
 	mipmap-640dpi
 			ic_launcher (2131361792 or 0x7f0a0000) = (string) res/mipmap-xxxhdpi-v4/ic_launcher.png
 			ic_launcher_round (2131361793 or 0x7f0a0001) = (string) res/mipmap-xxxhdpi-v4/ic_launcher_round.png
-
-	mipmap-65534dpi-v26
-			ic_launcher (2131361792 or 0x7f0a0000) = (string) res/mipmap-anydpi-v26/ic_launcher.xml
-			ic_launcher_round (2131361793 or 0x7f0a0001) = (string) res/mipmap-anydpi-v26/ic_launcher_round.xml
 
 	string
 			abc_action_bar_home_description (2131427328 or 0x7f0b0000) = (string) Navigate home
@@ -4306,38 +4178,91 @@ me.linjw.myapplication
 				???(0x10100d7)(16842967 or 0x10100d7) = (reference) abc_dialog_padding_top_material
 				???(0x10100d8)(16842968 or 0x10100d8) = (attribute) dialogPreferredPadding
 		Base.TextAppearance.AppCompat
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_body_1_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
+				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x1010099)
+				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101009a)
+				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x101009b)
 		Base.TextAppearance.AppCompat.Body1
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_body_1_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Body2
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_body_2_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Button
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_button_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
+				???(0x101038c)(16843660 or 0x101038c) = (boolean) true
 		Base.TextAppearance.AppCompat.Caption
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_caption_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Display1
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_display_1_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Display2
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_display_2_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Display3
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_display_3_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Display4
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_display_4_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Headline
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_headline_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Inverse
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010039)
+				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x101034f)
+				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101003f)
+				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010350)
 		Base.TextAppearance.AppCompat.Large
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_large_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Large.Inverse
-		Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large
-		Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010039)
+				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x101034f)
+				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101003f)
+				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010350)
 		Base.TextAppearance.AppCompat.Medium
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_medium_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Medium.Inverse
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x101003a)
+				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x101034f)
+				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101003f)
+				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010350)
 		Base.TextAppearance.AppCompat.Menu
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_menu_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.SearchResult
 				???(0x1010097)(16842903 or 0x1010097) = (int) 0 or 0x00000000
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101009a)
 		Base.TextAppearance.AppCompat.SearchResult.Subtitle
+				???(0x1010095)(16842901 or 0x1010095) = (dimension) 14sp
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.SearchResult.Title
+				???(0x1010095)(16842901 or 0x1010095) = (dimension) 18sp
 		Base.TextAppearance.AppCompat.Small
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_small_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010212)
 		Base.TextAppearance.AppCompat.Small.Inverse
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010213)
+				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x101034f)
+				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101003f)
+				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010350)
 		Base.TextAppearance.AppCompat.Subhead
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_subhead_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Subhead.Inverse
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010039)
 				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x101034f)
 				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101003f)
 				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010350)
 		Base.TextAppearance.AppCompat.Title
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_title_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Title.Inverse
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010039)
 				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x101034f)
@@ -4346,22 +4271,34 @@ me.linjw.myapplication
 		Base.TextAppearance.AppCompat.Tooltip
 				???(0x1010095)(16842901 or 0x1010095) = (dimension) 14sp
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Menu
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) actionMenuTextColor
+				textAllCaps(2130837781 or 0x7f020115) = (reference) abc_config_actionMenuItemAllCaps
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_subtitle_material_toolbar
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_subtitle_material_toolbar
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x101003a)
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Title
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_title_material_toolbar
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_title_material_toolbar
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010039)
 		Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle
 		Base.TextAppearance.AppCompat.Widget.ActionMode.Title
 		Base.TextAppearance.AppCompat.Widget.Button
 		Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored
+				???(0x1010098)(16842904 or 0x1010098) = (reference) abc_btn_colored_borderless_text_material
 		Base.TextAppearance.AppCompat.Widget.Button.Colored
+				???(0x1010098)(16842904 or 0x1010098) = (reference) abc_btn_colored_text_material
 		Base.TextAppearance.AppCompat.Widget.Button.Inverse
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010039)
 		Base.TextAppearance.AppCompat.Widget.DropDownItem
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010037)
 		Base.TextAppearance.AppCompat.Widget.PopupMenu.Header
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_menu_header_material
-				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
-				???(0x10103ac)(16843692 or 0x10103ac) = (reference) abc_font_family_title_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) colorAccent
 		Base.TextAppearance.AppCompat.Widget.PopupMenu.Large
 		Base.TextAppearance.AppCompat.Widget.PopupMenu.Small
 		Base.TextAppearance.AppCompat.Widget.Switch
@@ -4465,100 +4402,6 @@ me.linjw.myapplication
 				colorControlNormal(2130837587 or 0x7f020053) = (attribute) ???(0x1010038)
 				colorSwitchThumbNormal(2130837591 or 0x7f020057) = (reference) switch_thumb_material_light
 				isLightTheme(2130837650 or 0x7f020092) = (boolean) true
-		Base.V21.Theme.AppCompat
-				???(0x1010429)(16843817 or 0x1010429) = (attribute) colorControlNormal
-				???(0x101042a)(16843818 or 0x101042a) = (attribute) colorControlActivated
-				???(0x101042b)(16843819 or 0x101042b) = (attribute) colorButtonNormal
-				???(0x101042c)(16843820 or 0x101042c) = (attribute) colorControlHighlight
-				???(0x1010433)(16843827 or 0x1010433) = (attribute) colorPrimary
-				???(0x1010434)(16843828 or 0x1010434) = (attribute) colorPrimaryDark
-				???(0x1010435)(16843829 or 0x1010435) = (attribute) colorAccent
-				actionBarDivider(2130837504 or 0x7f020000) = (attribute) ???(0x101039b)
-				actionBarItemBackground(2130837505 or 0x7f020001) = (reference) abc_action_bar_item_background_material
-				actionBarSize(2130837507 or 0x7f020003) = (attribute) ???(0x10102eb)
-				actionButtonStyle(2130837515 or 0x7f02000b) = (attribute) ???(0x10102d8)
-				actionModeBackground(2130837520 or 0x7f020010) = (attribute) ???(0x10102db)
-				actionModeCloseDrawable(2130837522 or 0x7f020012) = (attribute) ???(0x10102dc)
-				actionOverflowButtonStyle(2130837533 or 0x7f02001d) = (attribute) ???(0x10102f6)
-				borderlessButtonStyle(2130837561 or 0x7f020039) = (attribute) ???(0x101032b)
-				buttonStyle(2130837570 or 0x7f020042) = (attribute) ???(0x1010048)
-				buttonStyleSmall(2130837571 or 0x7f020043) = (attribute) ???(0x1010049)
-				checkboxStyle(2130837575 or 0x7f020047) = (attribute) ???(0x101006c)
-				checkedTextViewStyle(2130837576 or 0x7f020048) = (attribute) ???(0x10103c8)
-				dividerHorizontal(2130837612 or 0x7f02006c) = (attribute) ???(0x101032c)
-				dividerVertical(2130837614 or 0x7f02006e) = (attribute) ???(0x101030a)
-				editTextBackground(2130837619 or 0x7f020073) = (reference) abc_edit_text_material
-				editTextColor(2130837620 or 0x7f020074) = (attribute) ???(0x1010351)
-				homeAsUpIndicator(2130837641 or 0x7f020089) = (attribute) ???(0x101030b)
-				listChoiceBackgroundIndicator(2130837712 or 0x7f0200d0) = (attribute) ???(0x10102f0)
-				listPreferredItemHeightSmall(2130837720 or 0x7f0200d8) = (attribute) ???(0x1010387)
-				radioButtonStyle(2130837748 or 0x7f0200f4) = (attribute) ???(0x101007e)
-				ratingBarStyle(2130837749 or 0x7f0200f5) = (attribute) ???(0x101007c)
-				selectableItemBackground(2130837756 or 0x7f0200fc) = (attribute) ???(0x101030e)
-				selectableItemBackgroundBorderless(2130837757 or 0x7f0200fd) = (attribute) ???(0x101045c)
-				spinnerStyle(2130837765 or 0x7f020105) = (attribute) ???(0x1010081)
-				textAppearanceLargePopupMenu(2130837782 or 0x7f020116) = (attribute) ???(0x1010301)
-				textAppearanceSmallPopupMenu(2130837789 or 0x7f02011d) = (attribute) ???(0x1010302)
-		Base.V21.Theme.AppCompat.Dialog
-				???(0x1010490)(16843920 or 0x1010490) = (reference) abc_floating_window_z
-		Base.V21.Theme.AppCompat.Light
-				???(0x1010429)(16843817 or 0x1010429) = (attribute) colorControlNormal
-				???(0x101042a)(16843818 or 0x101042a) = (attribute) colorControlActivated
-				???(0x101042b)(16843819 or 0x101042b) = (attribute) colorButtonNormal
-				???(0x101042c)(16843820 or 0x101042c) = (attribute) colorControlHighlight
-				???(0x1010433)(16843827 or 0x1010433) = (attribute) colorPrimary
-				???(0x1010434)(16843828 or 0x1010434) = (attribute) colorPrimaryDark
-				???(0x1010435)(16843829 or 0x1010435) = (attribute) colorAccent
-				actionBarDivider(2130837504 or 0x7f020000) = (attribute) ???(0x101039b)
-				actionBarItemBackground(2130837505 or 0x7f020001) = (reference) abc_action_bar_item_background_material
-				actionBarSize(2130837507 or 0x7f020003) = (attribute) ???(0x10102eb)
-				actionButtonStyle(2130837515 or 0x7f02000b) = (attribute) ???(0x10102d8)
-				actionModeBackground(2130837520 or 0x7f020010) = (attribute) ???(0x10102db)
-				actionModeCloseDrawable(2130837522 or 0x7f020012) = (attribute) ???(0x10102dc)
-				actionOverflowButtonStyle(2130837533 or 0x7f02001d) = (attribute) ???(0x10102f6)
-				borderlessButtonStyle(2130837561 or 0x7f020039) = (attribute) ???(0x101032b)
-				buttonStyle(2130837570 or 0x7f020042) = (attribute) ???(0x1010048)
-				buttonStyleSmall(2130837571 or 0x7f020043) = (attribute) ???(0x1010049)
-				checkboxStyle(2130837575 or 0x7f020047) = (attribute) ???(0x101006c)
-				checkedTextViewStyle(2130837576 or 0x7f020048) = (attribute) ???(0x10103c8)
-				dividerHorizontal(2130837612 or 0x7f02006c) = (attribute) ???(0x101032c)
-				dividerVertical(2130837614 or 0x7f02006e) = (attribute) ???(0x101030a)
-				editTextBackground(2130837619 or 0x7f020073) = (reference) abc_edit_text_material
-				editTextColor(2130837620 or 0x7f020074) = (attribute) ???(0x1010351)
-				homeAsUpIndicator(2130837641 or 0x7f020089) = (attribute) ???(0x101030b)
-				listChoiceBackgroundIndicator(2130837712 or 0x7f0200d0) = (attribute) ???(0x10102f0)
-				listPreferredItemHeightSmall(2130837720 or 0x7f0200d8) = (attribute) ???(0x1010387)
-				radioButtonStyle(2130837748 or 0x7f0200f4) = (attribute) ???(0x101007e)
-				ratingBarStyle(2130837749 or 0x7f0200f5) = (attribute) ???(0x101007c)
-				selectableItemBackground(2130837756 or 0x7f0200fc) = (attribute) ???(0x101030e)
-				selectableItemBackgroundBorderless(2130837757 or 0x7f0200fd) = (attribute) ???(0x101045c)
-				spinnerStyle(2130837765 or 0x7f020105) = (attribute) ???(0x1010081)
-				textAppearanceLargePopupMenu(2130837782 or 0x7f020116) = (attribute) ???(0x1010301)
-				textAppearanceSmallPopupMenu(2130837789 or 0x7f02011d) = (attribute) ???(0x1010302)
-		Base.V21.Theme.AppCompat.Light.Dialog
-				???(0x1010490)(16843920 or 0x1010490) = (reference) abc_floating_window_z
-		Base.V21.ThemeOverlay.AppCompat.Dialog
-				???(0x1010490)(16843920 or 0x1010490) = (reference) abc_floating_window_z
-		Base.V22.Theme.AppCompat
-				actionModeShareDrawable(2130837529 or 0x7f020019) = (attribute) ???(0x1010479)
-				editTextBackground(2130837619 or 0x7f020073) = (attribute) ???(0x1010352)
-		Base.V22.Theme.AppCompat.Light
-				actionModeShareDrawable(2130837529 or 0x7f020019) = (attribute) ???(0x1010479)
-				editTextBackground(2130837619 or 0x7f020073) = (attribute) ???(0x1010352)
-		Base.V23.Theme.AppCompat
-				actionBarItemBackground(2130837505 or 0x7f020001) = (attribute) ???(0x101039c)
-				actionMenuTextAppearance(2130837518 or 0x7f02000e) = (attribute) ???(0x1010360)
-				actionMenuTextColor(2130837519 or 0x7f02000f) = (attribute) ???(0x1010361)
-				controlBackground(2130837603 or 0x7f020063) = (reference) abc_control_background_material
-				ratingBarStyleIndicator(2130837750 or 0x7f0200f6) = (attribute) ???(0x1010210)
-				ratingBarStyleSmall(2130837751 or 0x7f0200f7) = (attribute) ???(0x101007d)
-		Base.V23.Theme.AppCompat.Light
-				actionBarItemBackground(2130837505 or 0x7f020001) = (attribute) ???(0x101039c)
-				actionMenuTextAppearance(2130837518 or 0x7f02000e) = (attribute) ???(0x1010360)
-				actionMenuTextColor(2130837519 or 0x7f02000f) = (attribute) ???(0x1010361)
-				controlBackground(2130837603 or 0x7f020063) = (reference) abc_control_background_material
-				ratingBarStyleIndicator(2130837750 or 0x7f0200f6) = (attribute) ???(0x1010210)
-				ratingBarStyleSmall(2130837751 or 0x7f0200f7) = (attribute) ???(0x101007d)
 		Base.V7.Theme.AppCompat
 				???(0x101005e)(16842846 or 0x101005e) = (reference) ???(0x106000d)
 				???(0x101006d)(16842861 or 0x101006d) = (reference) ???(0x7f0c0143)
@@ -4912,11 +4755,39 @@ me.linjw.myapplication
 				dividerPadding(2130837613 or 0x7f02006d) = (dimension) 8dp
 				showDividers(2130837759 or 0x7f0200ff) = string
 		Base.Widget.AppCompat.ActionBar.TabText
+				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00cd)
+				???(0x1010095)(16842901 or 0x1010095) = (dimension) 12sp
+				???(0x1010097)(16842903 or 0x1010097) = reference
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
+				???(0x10100ab)(16842923 or 0x10100ab) = integer
+				???(0x101011f)(16843039 or 0x101011f) = (dimension) 180dp
+				???(0x1010153)(16843091 or 0x1010153) = string
+				textAllCaps(2130837781 or 0x7f020115) = (boolean) true
 		Base.Widget.AppCompat.ActionBar.TabView
+				???(0x10100af)(16842927 or 0x10100af) = reference
+				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_tab_indicator_material
+				???(0x10100d6)(16842966 or 0x10100d6) = (dimension) 16dp
+				???(0x10100d8)(16842968 or 0x10100d8) = (dimension) 16dp
+				???(0x10100f4)(16842996 or 0x10100f4) = reference
+				???(0x101013f)(16843071 or 0x101013f) = (dimension) 80dp
+				???(0x1010181)(16843137 or 0x1010181) = (float) 1
 		Base.Widget.AppCompat.ActionButton
+				???(0x10100af)(16842927 or 0x10100af) = (int) 17 or 0x00000011
+				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) actionBarItemBackground
+				???(0x101011d)(16843037 or 0x101011d) = (int) 5 or 0x00000005
+				???(0x101013f)(16843071 or 0x101013f) = (reference) abc_action_button_min_width_material
+				???(0x1010140)(16843072 or 0x1010140) = (reference) abc_action_button_min_height_material
+				???(0x1010153)(16843091 or 0x1010153) = string
+				textAllCaps(2130837781 or 0x7f020115) = (reference) abc_config_actionMenuItemAllCaps
 		Base.Widget.AppCompat.ActionButton.CloseMode
+				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) controlBackground
 				???(0x101013f)(16843071 or 0x101013f) = (dimension) 56dp
 		Base.Widget.AppCompat.ActionButton.Overflow
+				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) actionBarItemBackground
+				???(0x101013f)(16843071 or 0x101013f) = (reference) abc_action_button_min_width_overflow_material
+				???(0x1010140)(16843072 or 0x1010140) = (reference) abc_action_button_min_height_material
+				???(0x1010273)(16843379 or 0x1010273) = (reference) abc_action_menu_overflow_description
+				srcCompat(2130837767 or 0x7f020107) = (reference) abc_ic_menu_overflow_material
 		Base.Widget.AppCompat.ActionMode
 				background(2130837553 or 0x7f020031) = (attribute) actionModeBackground
 				backgroundSplit(2130837554 or 0x7f020032) = (attribute) actionModeSplitBackground
@@ -4931,19 +4802,36 @@ me.linjw.myapplication
 				dividerPadding(2130837613 or 0x7f02006d) = (dimension) 6dp
 				showDividers(2130837759 or 0x7f0200ff) = string
 		Base.Widget.AppCompat.AutoCompleteTextView
-				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) editTextBackground
 		Base.Widget.AppCompat.Button
+				???(0x1010034)(16842804 or 0x1010034) = (attribute) ???(0x1010207)
+				???(0x10100af)(16842927 or 0x10100af) = (int) 17 or 0x00000011
+				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_btn_default_mtrl_shape
+				???(0x10100da)(16842970 or 0x10100da) = (boolean) true
+				???(0x10100e5)(16842981 or 0x10100e5) = (boolean) true
+				???(0x101013f)(16843071 or 0x101013f) = (dimension) 88dp
+				???(0x1010140)(16843072 or 0x1010140) = (dimension) 48dp
 		Base.Widget.AppCompat.Button.Borderless
+				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_btn_borderless_material
 		Base.Widget.AppCompat.Button.Borderless.Colored
+				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00e3)
 		Base.Widget.AppCompat.Button.ButtonBar.AlertDialog
 				???(0x101013f)(16843071 or 0x101013f) = (dimension) 64dp
 				???(0x1010140)(16843072 or 0x1010140) = (reference) abc_alert_dialog_button_bar_height
 		Base.Widget.AppCompat.Button.Colored
+				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00e4)
+				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_btn_colored_material
 		Base.Widget.AppCompat.Button.Small
+				???(0x101013f)(16843071 or 0x101013f) = (dimension) 48dp
+				???(0x1010140)(16843072 or 0x1010140) = (dimension) 48dp
 		Base.Widget.AppCompat.ButtonBar
+				???(0x10100d4)(16842964 or 0x10100d4) = (reference) ???(0x0)
 		Base.Widget.AppCompat.ButtonBar.AlertDialog
 		Base.Widget.AppCompat.CompoundButton.CheckBox
+				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) controlBackground
+				???(0x1010107)(16843015 or 0x1010107) = (attribute) ???(0x101021a)
 		Base.Widget.AppCompat.CompoundButton.RadioButton
+				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) controlBackground
+				???(0x1010107)(16843015 or 0x1010107) = (attribute) ???(0x1010219)
 		Base.Widget.AppCompat.CompoundButton.Switch
 				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) controlBackground
 				???(0x1010124)(16843044 or 0x1010124) = (reference) abc_capital_on
@@ -4964,9 +4852,13 @@ me.linjw.myapplication
 				spinBars(2130837763 or 0x7f020103) = (boolean) true
 				thickness(2130837793 or 0x7f020121) = (dimension) 2dp
 		Base.Widget.AppCompat.DropDownItem.Spinner
+				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00e6)
+				???(0x10100af)(16842927 or 0x10100af) = color
+				???(0x10100d6)(16842966 or 0x10100d6) = (dimension) 8dp
+				???(0x10100d8)(16842968 or 0x10100d8) = (dimension) 8dp
 		Base.Widget.AppCompat.EditText
-				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) editTextBackground
 		Base.Widget.AppCompat.ImageButton
+				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_btn_default_mtrl_shape
 		Base.Widget.AppCompat.Light.ActionBar
 				actionButtonStyle(2130837515 or 0x7f02000b) = (reference) ???(0x7f0c0133)
 				actionOverflowButtonStyle(2130837533 or 0x7f02001d) = (reference) ???(0x7f0c0135)
@@ -4977,27 +4869,52 @@ me.linjw.myapplication
 		Base.Widget.AppCompat.Light.ActionBar.TabBar
 		Base.Widget.AppCompat.Light.ActionBar.TabText
 		Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse
+				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00ce)
 		Base.Widget.AppCompat.Light.ActionBar.TabView
+				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_tab_indicator_material
 		Base.Widget.AppCompat.Light.PopupMenu
 		Base.Widget.AppCompat.Light.PopupMenu.Overflow
 				???(0x10102ac)(16843436 or 0x10102ac) = (dimension) 1.67772e+07dp
-				???(0x1010462)(16843874 or 0x1010462) = (boolean) true
+				overlapAnchor(2130837732 or 0x7f0200e4) = (boolean) true
 		Base.Widget.AppCompat.ListMenuView
 				subMenuArrow(2130837770 or 0x7f02010a) = (reference) abc_ic_arrow_drop_right_black_24dp
 		Base.Widget.AppCompat.ListPopupWindow
+				???(0x1010175)(16843125 or 0x1010175) = (attribute) listChoiceBackgroundIndicator
+				???(0x1010176)(16843126 or 0x1010176) = (reference) abc_popup_background_mtrl_mult
+				???(0x1010262)(16843362 or 0x1010262) = (int) 4294967294 or 0xfffffffe
+				???(0x10102ac)(16843436 or 0x10102ac) = reference
+				???(0x10102ad)(16843437 or 0x10102ad) = reference
 		Base.Widget.AppCompat.ListView
+				???(0x10100fb)(16843003 or 0x10100fb) = (attribute) listChoiceBackgroundIndicator
 		Base.Widget.AppCompat.ListView.DropDown
+				???(0x1010129)(16843049 or 0x1010129) = (reference) ???(0x0)
 		Base.Widget.AppCompat.ListView.Menu
+				???(0x10100fb)(16843003 or 0x10100fb) = (attribute) listChoiceBackgroundIndicator
+				???(0x1010129)(16843049 or 0x1010129) = (attribute) dividerHorizontal
 		Base.Widget.AppCompat.PopupMenu
 		Base.Widget.AppCompat.PopupMenu.Overflow
 				???(0x10102ac)(16843436 or 0x10102ac) = (dimension) 1.67772e+07dp
-				???(0x1010462)(16843874 or 0x1010462) = (boolean) true
+				overlapAnchor(2130837732 or 0x7f0200e4) = (boolean) true
 		Base.Widget.AppCompat.PopupWindow
 		Base.Widget.AppCompat.ProgressBar
 		Base.Widget.AppCompat.ProgressBar.Horizontal
 		Base.Widget.AppCompat.RatingBar
+				???(0x101013b)(16843067 or 0x101013b) = (reference) abc_ratingbar_material
+				???(0x101013c)(16843068 or 0x101013c) = (reference) abc_ratingbar_material
 		Base.Widget.AppCompat.RatingBar.Indicator
+				???(0x1010120)(16843040 or 0x1010120) = (dimension) 36dp
+				???(0x101013b)(16843067 or 0x101013b) = (reference) abc_ratingbar_indicator_material
+				???(0x101013c)(16843068 or 0x101013c) = (reference) abc_ratingbar_indicator_material
+				???(0x1010140)(16843072 or 0x1010140) = (dimension) 36dp
+				???(0x1010142)(16843074 or 0x1010142) = (reference) ???(0x0)
+				???(0x1010147)(16843079 or 0x1010147) = (boolean) true
 		Base.Widget.AppCompat.RatingBar.Small
+				???(0x1010120)(16843040 or 0x1010120) = (dimension) 16dp
+				???(0x101013b)(16843067 or 0x101013b) = (reference) abc_ratingbar_small_material
+				???(0x101013c)(16843068 or 0x101013c) = (reference) abc_ratingbar_small_material
+				???(0x1010140)(16843072 or 0x1010140) = (dimension) 16dp
+				???(0x1010142)(16843074 or 0x1010142) = (reference) ???(0x0)
+				???(0x1010147)(16843079 or 0x1010147) = (boolean) true
 		Base.Widget.AppCompat.SearchView
 				closeIcon(2130837577 or 0x7f020049) = (reference) abc_ic_clear_material
 				commitIcon(2130837592 or 0x7f020058) = (reference) abc_ic_commit_search_api_mtrl_alpha
@@ -5015,39 +4932,142 @@ me.linjw.myapplication
 				searchHintIcon(2130837752 or 0x7f0200f8) = (reference) ???(0x0)
 				submitBackground(2130837771 or 0x7f02010b) = (reference) ???(0x0)
 		Base.Widget.AppCompat.SeekBar
+				???(0x10100d6)(16842966 or 0x10100d6) = (dimension) 16dp
+				???(0x10100d8)(16842968 or 0x10100d8) = (dimension) 16dp
+				???(0x10100da)(16842970 or 0x10100da) = (boolean) true
+				???(0x101013a)(16843066 or 0x101013a) = (boolean) false
+				???(0x101013b)(16843067 or 0x101013b) = (reference) abc_seekbar_track_material
+				???(0x101013c)(16843068 or 0x101013c) = (reference) abc_seekbar_track_material
+				???(0x1010142)(16843074 or 0x1010142) = (reference) abc_seekbar_thumb_material
 		Base.Widget.AppCompat.SeekBar.Discrete
 				tickMark(2130837797 or 0x7f020125) = (reference) abc_seekbar_tick_mark_material
 		Base.Widget.AppCompat.Spinner
+				???(0x10100af)(16842927 or 0x10100af) = (int) 8388627 or 0x00800013
+				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_spinner_mtrl_am_alpha
+				???(0x10100e5)(16842981 or 0x10100e5) = (boolean) true
+				???(0x1010175)(16843125 or 0x1010175) = (attribute) listChoiceBackgroundIndicator
+				???(0x1010176)(16843126 or 0x1010176) = (reference) abc_popup_background_mtrl_mult
+				???(0x1010262)(16843362 or 0x1010262) = (int) 4294967294 or 0xfffffffe
+				???(0x10102ac)(16843436 or 0x10102ac) = reference
+				???(0x10102ad)(16843437 or 0x10102ad) = reference
+				overlapAnchor(2130837732 or 0x7f0200e4) = (boolean) true
 		Base.Widget.AppCompat.Spinner.Underlined
+				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_spinner_textfield_background_material
 		Base.Widget.AppCompat.TextView.SpinnerItem
+				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00eb)
+				???(0x10100d6)(16842966 or 0x10100d6) = (dimension) 8dp
+				???(0x10100d8)(16842968 or 0x10100d8) = (dimension) 8dp
 		Base.Widget.AppCompat.Toolbar
 		Base.Widget.AppCompat.Toolbar.Button.Navigation
+				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) controlBackground
+				???(0x101011d)(16843037 or 0x101011d) = (int) 5 or 0x00000005
+				???(0x101013f)(16843071 or 0x101013f) = (dimension) 56dp
 		Platform.AppCompat
-		Platform.AppCompat.Light
-		Platform.ThemeOverlay.AppCompat
-				???(0x1010429)(16843817 or 0x1010429) = (attribute) colorControlNormal
-				???(0x101042a)(16843818 or 0x101042a) = (attribute) colorControlActivated
-				???(0x101042b)(16843819 or 0x101042b) = (attribute) colorButtonNormal
-				???(0x101042c)(16843820 or 0x101042c) = (attribute) colorControlHighlight
-				???(0x1010433)(16843827 or 0x1010433) = (attribute) colorPrimary
-				???(0x1010434)(16843828 or 0x1010434) = (attribute) colorPrimaryDark
-				???(0x1010435)(16843829 or 0x1010435) = (attribute) colorAccent
-		Platform.ThemeOverlay.AppCompat.Dark
-		Platform.ThemeOverlay.AppCompat.Light
-		Platform.V21.AppCompat
+				???(0x1010030)(16842800 or 0x1010030) = (reference) foreground_material_dark
+				???(0x1010031)(16842801 or 0x1010031) = (reference) background_material_dark
+				???(0x1010032)(16842802 or 0x1010032) = (float) 0.6
+				???(0x1010033)(16842803 or 0x1010033) = (reference) abc_disabled_alpha_material_dark
+				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00bc)
+				???(0x1010035)(16842805 or 0x1010035) = (reference) ???(0x7f0c00c6)
+				???(0x1010036)(16842806 or 0x1010036) = (reference) abc_primary_text_material_dark
+				???(0x1010037)(16842807 or 0x1010037) = (reference) abc_primary_text_disable_only_material_dark
+				???(0x1010038)(16842808 or 0x1010038) = (reference) abc_secondary_text_material_dark
+				???(0x1010039)(16842809 or 0x1010039) = (reference) abc_primary_text_material_light
+				???(0x101003a)(16842810 or 0x101003a) = (reference) abc_secondary_text_material_light
 				???(0x101003f)(16842815 or 0x101003f) = (reference) abc_hint_foreground_material_light
+				???(0x1010040)(16842816 or 0x1010040) = (reference) ???(0x7f0c00c7)
+				???(0x1010041)(16842817 or 0x1010041) = (reference) ???(0x7f0c00cd)
+				???(0x1010042)(16842818 or 0x1010042) = (reference) ???(0x7f0c00d2)
+				???(0x1010043)(16842819 or 0x1010043) = (reference) ???(0x7f0c00c8)
+				???(0x1010044)(16842820 or 0x1010044) = (reference) ???(0x7f0c00ce)
+				???(0x1010045)(16842821 or 0x1010045) = (reference) ???(0x7f0c00d3)
+				???(0x1010054)(16842836 or 0x1010054) = (reference) background_material_dark
+				???(0x1010056)(16842838 or 0x1010056) = (boolean) true
+				???(0x1010099)(16842905 or 0x1010099) = (reference) highlighted_text_material_dark
 				???(0x101009a)(16842906 or 0x101009a) = (reference) abc_hint_foreground_material_dark
-				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010435)
+				???(0x101009b)(16842907 or 0x101009b) = (attribute) colorAccent
+				???(0x1010206)(16843270 or 0x1010206) = (reference) foreground_material_light
+				???(0x1010212)(16843282 or 0x1010212) = (reference) abc_secondary_text_material_dark
+				???(0x1010213)(16843283 or 0x1010213) = (reference) abc_secondary_text_material_light
+				???(0x1010219)(16843289 or 0x1010219) = (reference) abc_btn_radio_material
+				???(0x101021a)(16843290 or 0x101021a) = (reference) abc_btn_check_material
+				???(0x10102ab)(16843435 or 0x10102ab) = (reference) abc_background_cache_hint_selector_material_dark
+				???(0x10102c5)(16843461 or 0x10102c5) = (reference) abc_text_select_handle_left_mtrl_dark
+				???(0x10102c6)(16843462 or 0x10102c6) = (reference) abc_text_select_handle_right_mtrl_dark
+				???(0x10102c7)(16843463 or 0x10102c7) = (reference) abc_text_select_handle_middle_mtrl_dark
+				???(0x10102cd)(16843469 or 0x10102cd) = (boolean) false
+				???(0x1010306)(16843526 or 0x1010306) = (reference) abc_primary_text_material_dark
+				???(0x1010311)(16843537 or 0x1010311) = (attribute) actionModeCutDrawable
+				???(0x1010312)(16843538 or 0x1010312) = (attribute) actionModeCopyDrawable
+				???(0x1010313)(16843539 or 0x1010313) = (attribute) actionModePasteDrawable
+				???(0x101032b)(16843563 or 0x101032b) = (attribute) borderlessButtonStyle
 				???(0x101032e)(16843566 or 0x101032e) = (attribute) buttonBarStyle
 				???(0x101032f)(16843567 or 0x101032f) = (attribute) buttonBarButtonStyle
-				???(0x1010350)(16843600 or 0x1010350) = (attribute) ???(0x1010435)
-		Platform.V21.AppCompat.Light
+				???(0x101034f)(16843599 or 0x101034f) = (reference) highlighted_text_material_light
+				???(0x1010350)(16843600 or 0x1010350) = (attribute) colorAccent
+				???(0x101037e)(16843646 or 0x101037e) = (attribute) actionModeSelectAllDrawable
+				???(0x10103a3)(16843683 or 0x10103a3) = (reference) abc_list_item_padding_horizontal_material
+				???(0x10103a4)(16843684 or 0x10103a4) = (reference) abc_list_item_padding_horizontal_material
+		Platform.AppCompat.Light
+				???(0x1010030)(16842800 or 0x1010030) = (reference) foreground_material_light
+				???(0x1010031)(16842801 or 0x1010031) = (reference) background_material_light
+				???(0x1010032)(16842802 or 0x1010032) = (float) 0.6
+				???(0x1010033)(16842803 or 0x1010033) = (reference) abc_disabled_alpha_material_light
+				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00bc)
+				???(0x1010035)(16842805 or 0x1010035) = (reference) ???(0x7f0c00c6)
+				???(0x1010036)(16842806 or 0x1010036) = (reference) abc_primary_text_material_light
+				???(0x1010037)(16842807 or 0x1010037) = (reference) abc_primary_text_disable_only_material_light
+				???(0x1010038)(16842808 or 0x1010038) = (reference) abc_secondary_text_material_light
+				???(0x1010039)(16842809 or 0x1010039) = (reference) abc_primary_text_material_dark
+				???(0x101003a)(16842810 or 0x101003a) = (reference) abc_secondary_text_material_dark
 				???(0x101003f)(16842815 or 0x101003f) = (reference) abc_hint_foreground_material_dark
+				???(0x1010040)(16842816 or 0x1010040) = (reference) ???(0x7f0c00c7)
+				???(0x1010041)(16842817 or 0x1010041) = (reference) ???(0x7f0c00cd)
+				???(0x1010042)(16842818 or 0x1010042) = (reference) ???(0x7f0c00d2)
+				???(0x1010043)(16842819 or 0x1010043) = (reference) ???(0x7f0c00c8)
+				???(0x1010044)(16842820 or 0x1010044) = (reference) ???(0x7f0c00ce)
+				???(0x1010045)(16842821 or 0x1010045) = (reference) ???(0x7f0c00d3)
+				???(0x1010054)(16842836 or 0x1010054) = (reference) background_material_light
+				???(0x1010056)(16842838 or 0x1010056) = (boolean) true
+				???(0x1010099)(16842905 or 0x1010099) = (reference) highlighted_text_material_light
 				???(0x101009a)(16842906 or 0x101009a) = (reference) abc_hint_foreground_material_light
-				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010435)
+				???(0x101009b)(16842907 or 0x101009b) = (attribute) colorAccent
+				???(0x1010206)(16843270 or 0x1010206) = (reference) foreground_material_dark
+				???(0x1010212)(16843282 or 0x1010212) = (reference) abc_secondary_text_material_light
+				???(0x1010213)(16843283 or 0x1010213) = (reference) abc_secondary_text_material_dark
+				???(0x1010219)(16843289 or 0x1010219) = (reference) abc_btn_radio_material
+				???(0x101021a)(16843290 or 0x101021a) = (reference) abc_btn_check_material
+				???(0x101028b)(16843403 or 0x101028b) = (reference) abc_primary_text_disable_only_material_dark
+				???(0x10102ab)(16843435 or 0x10102ab) = (reference) abc_background_cache_hint_selector_material_light
+				???(0x10102c5)(16843461 or 0x10102c5) = (reference) abc_text_select_handle_left_mtrl_light
+				???(0x10102c6)(16843462 or 0x10102c6) = (reference) abc_text_select_handle_right_mtrl_light
+				???(0x10102c7)(16843463 or 0x10102c7) = (reference) abc_text_select_handle_middle_mtrl_light
+				???(0x10102cd)(16843469 or 0x10102cd) = (boolean) false
+				???(0x1010306)(16843526 or 0x1010306) = (reference) abc_primary_text_material_light
+				???(0x1010311)(16843537 or 0x1010311) = (attribute) actionModeCutDrawable
+				???(0x1010312)(16843538 or 0x1010312) = (attribute) actionModeCopyDrawable
+				???(0x1010313)(16843539 or 0x1010313) = (attribute) actionModePasteDrawable
+				???(0x101032b)(16843563 or 0x101032b) = (attribute) borderlessButtonStyle
 				???(0x101032e)(16843566 or 0x101032e) = (attribute) buttonBarStyle
 				???(0x101032f)(16843567 or 0x101032f) = (attribute) buttonBarButtonStyle
-				???(0x1010350)(16843600 or 0x1010350) = (attribute) ???(0x1010435)
+				???(0x101034f)(16843599 or 0x101034f) = (reference) highlighted_text_material_dark
+				???(0x1010350)(16843600 or 0x1010350) = (attribute) colorAccent
+				???(0x101037e)(16843646 or 0x101037e) = (attribute) actionModeSelectAllDrawable
+				???(0x10103a3)(16843683 or 0x10103a3) = (reference) abc_list_item_padding_horizontal_material
+				???(0x10103a4)(16843684 or 0x10103a4) = (reference) abc_list_item_padding_horizontal_material
+		Platform.ThemeOverlay.AppCompat
+		Platform.ThemeOverlay.AppCompat.Dark
+				???(0x101006b)(16842859 or 0x101006b) = (reference) ???(0x7f0c011a)
+				???(0x1010086)(16842886 or 0x1010086) = (reference) ???(0x7f0c0127)
+				actionBarItemBackground(2130837505 or 0x7f020001) = (reference) abc_item_background_holo_dark
+				actionDropDownStyle(2130837516 or 0x7f02000c) = (reference) ???(0x7f0c0153)
+				selectableItemBackground(2130837756 or 0x7f0200fc) = (reference) abc_item_background_holo_dark
+		Platform.ThemeOverlay.AppCompat.Light
+				???(0x101006b)(16842859 or 0x101006b) = (reference) ???(0x7f0c0138)
+				???(0x1010086)(16842886 or 0x1010086) = (reference) ???(0x7f0c0127)
+				actionBarItemBackground(2130837505 or 0x7f020001) = (reference) abc_item_background_holo_light
+				actionDropDownStyle(2130837516 or 0x7f02000c) = (reference) ???(0x7f0c013f)
+				selectableItemBackground(2130837756 or 0x7f0200fc) = (reference) abc_item_background_holo_light
 		Platform.Widget.AppCompat.Spinner
 		RtlOverlay.DialogWindowTitle.AppCompat
 				???(0x10103b1)(16843697 or 0x10103b1) = (int) 5 or 0x00000005
@@ -5143,8 +5163,12 @@ me.linjw.myapplication
 		TextAppearance.AppCompat.Widget.TextView.SpinnerItem
 		TextAppearance.Compat.Notification
 		TextAppearance.Compat.Notification.Info
+				???(0x1010095)(16842901 or 0x1010095) = (dimension) 12sp
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		TextAppearance.Compat.Notification.Line2
 		TextAppearance.Compat.Notification.Time
+				???(0x1010095)(16842901 or 0x1010095) = (dimension) 12sp
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		TextAppearance.Compat.Notification.Title
 		TextAppearance.Widget.AppCompat.ExpandedMenu.Item
 		TextAppearance.Widget.AppCompat.Toolbar.Subtitle
@@ -5255,13 +5279,232 @@ me.linjw.myapplication
 		Widget.AppCompat.Toolbar
 		Widget.AppCompat.Toolbar.Button.Navigation
 		Widget.Compat.NotificationActionContainer
+		Widget.Compat.NotificationActionText
+		Widget.Support.CoordinatorLayout
+				statusBarBackground(2130837769 or 0x7f020109) = (color) #ff000000
+
+	style-night
+		Theme.AppCompat.DayNight
+		Theme.AppCompat.DayNight.DarkActionBar
+		Theme.AppCompat.DayNight.Dialog
+		Theme.AppCompat.DayNight.Dialog.Alert
+		Theme.AppCompat.DayNight.Dialog.MinWidth
+		Theme.AppCompat.DayNight.DialogWhenLarge
+		Theme.AppCompat.DayNight.NoActionBar
+
+	style-large
+		Base.Theme.AppCompat.DialogWhenLarge
+		Base.Theme.AppCompat.Light.DialogWhenLarge
+
+	style-uiModeType=0-v20
+		Base.Theme.AppCompat.Dialog
+				???(0x1010057)(16842839 or 0x1010057) = (boolean) false
+		Base.Theme.AppCompat.Light.Dialog
+				???(0x1010057)(16842839 or 0x1010057) = (boolean) false
+		Base.ThemeOverlay.AppCompat.Dialog
+				???(0x1010057)(16842839 or 0x1010057) = (boolean) false
+
+	style-v21
+		Base.TextAppearance.AppCompat
+		Base.TextAppearance.AppCompat.Body1
+		Base.TextAppearance.AppCompat.Body2
+		Base.TextAppearance.AppCompat.Button
+		Base.TextAppearance.AppCompat.Caption
+		Base.TextAppearance.AppCompat.Display1
+		Base.TextAppearance.AppCompat.Display2
+		Base.TextAppearance.AppCompat.Display3
+		Base.TextAppearance.AppCompat.Display4
+		Base.TextAppearance.AppCompat.Headline
+		Base.TextAppearance.AppCompat.Inverse
+		Base.TextAppearance.AppCompat.Large
+		Base.TextAppearance.AppCompat.Large.Inverse
+		Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large
+		Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small
+		Base.TextAppearance.AppCompat.Medium
+		Base.TextAppearance.AppCompat.Medium.Inverse
+		Base.TextAppearance.AppCompat.Menu
+		Base.TextAppearance.AppCompat.SearchResult.Subtitle
+		Base.TextAppearance.AppCompat.SearchResult.Title
+		Base.TextAppearance.AppCompat.Small
+		Base.TextAppearance.AppCompat.Small.Inverse
+		Base.TextAppearance.AppCompat.Subhead
+		Base.TextAppearance.AppCompat.Title
+		Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle
+		Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse
+		Base.TextAppearance.AppCompat.Widget.ActionBar.Title
+		Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse
+		Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle
+		Base.TextAppearance.AppCompat.Widget.ActionMode.Title
+		Base.TextAppearance.AppCompat.Widget.Button
+		Base.TextAppearance.AppCompat.Widget.PopupMenu.Header
+				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_menu_header_material
+				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
+				???(0x10103ac)(16843692 or 0x10103ac) = (reference) abc_font_family_title_material
+		Base.TextAppearance.AppCompat.Widget.PopupMenu.Large
+		Base.TextAppearance.AppCompat.Widget.PopupMenu.Small
+		Base.TextAppearance.AppCompat.Widget.Switch
+		Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem
+		Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle
+		Base.TextAppearance.Widget.AppCompat.Toolbar.Title
+		Base.Theme.AppCompat
+		Base.Theme.AppCompat.Dialog
+		Base.Theme.AppCompat.Light
+		Base.Theme.AppCompat.Light.Dialog
+		Base.ThemeOverlay.AppCompat.Dialog
+		Base.V21.Theme.AppCompat
+				???(0x1010429)(16843817 or 0x1010429) = (attribute) colorControlNormal
+				???(0x101042a)(16843818 or 0x101042a) = (attribute) colorControlActivated
+				???(0x101042b)(16843819 or 0x101042b) = (attribute) colorButtonNormal
+				???(0x101042c)(16843820 or 0x101042c) = (attribute) colorControlHighlight
+				???(0x1010433)(16843827 or 0x1010433) = (attribute) colorPrimary
+				???(0x1010434)(16843828 or 0x1010434) = (attribute) colorPrimaryDark
+				???(0x1010435)(16843829 or 0x1010435) = (attribute) colorAccent
+				actionBarDivider(2130837504 or 0x7f020000) = (attribute) ???(0x101039b)
+				actionBarItemBackground(2130837505 or 0x7f020001) = (reference) abc_action_bar_item_background_material
+				actionBarSize(2130837507 or 0x7f020003) = (attribute) ???(0x10102eb)
+				actionButtonStyle(2130837515 or 0x7f02000b) = (attribute) ???(0x10102d8)
+				actionModeBackground(2130837520 or 0x7f020010) = (attribute) ???(0x10102db)
+				actionModeCloseDrawable(2130837522 or 0x7f020012) = (attribute) ???(0x10102dc)
+				actionOverflowButtonStyle(2130837533 or 0x7f02001d) = (attribute) ???(0x10102f6)
+				borderlessButtonStyle(2130837561 or 0x7f020039) = (attribute) ???(0x101032b)
+				buttonStyle(2130837570 or 0x7f020042) = (attribute) ???(0x1010048)
+				buttonStyleSmall(2130837571 or 0x7f020043) = (attribute) ???(0x1010049)
+				checkboxStyle(2130837575 or 0x7f020047) = (attribute) ???(0x101006c)
+				checkedTextViewStyle(2130837576 or 0x7f020048) = (attribute) ???(0x10103c8)
+				dividerHorizontal(2130837612 or 0x7f02006c) = (attribute) ???(0x101032c)
+				dividerVertical(2130837614 or 0x7f02006e) = (attribute) ???(0x101030a)
+				editTextBackground(2130837619 or 0x7f020073) = (reference) abc_edit_text_material
+				editTextColor(2130837620 or 0x7f020074) = (attribute) ???(0x1010351)
+				homeAsUpIndicator(2130837641 or 0x7f020089) = (attribute) ???(0x101030b)
+				listChoiceBackgroundIndicator(2130837712 or 0x7f0200d0) = (attribute) ???(0x10102f0)
+				listPreferredItemHeightSmall(2130837720 or 0x7f0200d8) = (attribute) ???(0x1010387)
+				radioButtonStyle(2130837748 or 0x7f0200f4) = (attribute) ???(0x101007e)
+				ratingBarStyle(2130837749 or 0x7f0200f5) = (attribute) ???(0x101007c)
+				selectableItemBackground(2130837756 or 0x7f0200fc) = (attribute) ???(0x101030e)
+				selectableItemBackgroundBorderless(2130837757 or 0x7f0200fd) = (attribute) ???(0x101045c)
+				spinnerStyle(2130837765 or 0x7f020105) = (attribute) ???(0x1010081)
+				textAppearanceLargePopupMenu(2130837782 or 0x7f020116) = (attribute) ???(0x1010301)
+				textAppearanceSmallPopupMenu(2130837789 or 0x7f02011d) = (attribute) ???(0x1010302)
+		Base.V21.Theme.AppCompat.Dialog
+				???(0x1010490)(16843920 or 0x1010490) = (reference) abc_floating_window_z
+		Base.V21.Theme.AppCompat.Light
+				???(0x1010429)(16843817 or 0x1010429) = (attribute) colorControlNormal
+				???(0x101042a)(16843818 or 0x101042a) = (attribute) colorControlActivated
+				???(0x101042b)(16843819 or 0x101042b) = (attribute) colorButtonNormal
+				???(0x101042c)(16843820 or 0x101042c) = (attribute) colorControlHighlight
+				???(0x1010433)(16843827 or 0x1010433) = (attribute) colorPrimary
+				???(0x1010434)(16843828 or 0x1010434) = (attribute) colorPrimaryDark
+				???(0x1010435)(16843829 or 0x1010435) = (attribute) colorAccent
+				actionBarDivider(2130837504 or 0x7f020000) = (attribute) ???(0x101039b)
+				actionBarItemBackground(2130837505 or 0x7f020001) = (reference) abc_action_bar_item_background_material
+				actionBarSize(2130837507 or 0x7f020003) = (attribute) ???(0x10102eb)
+				actionButtonStyle(2130837515 or 0x7f02000b) = (attribute) ???(0x10102d8)
+				actionModeBackground(2130837520 or 0x7f020010) = (attribute) ???(0x10102db)
+				actionModeCloseDrawable(2130837522 or 0x7f020012) = (attribute) ???(0x10102dc)
+				actionOverflowButtonStyle(2130837533 or 0x7f02001d) = (attribute) ???(0x10102f6)
+				borderlessButtonStyle(2130837561 or 0x7f020039) = (attribute) ???(0x101032b)
+				buttonStyle(2130837570 or 0x7f020042) = (attribute) ???(0x1010048)
+				buttonStyleSmall(2130837571 or 0x7f020043) = (attribute) ???(0x1010049)
+				checkboxStyle(2130837575 or 0x7f020047) = (attribute) ???(0x101006c)
+				checkedTextViewStyle(2130837576 or 0x7f020048) = (attribute) ???(0x10103c8)
+				dividerHorizontal(2130837612 or 0x7f02006c) = (attribute) ???(0x101032c)
+				dividerVertical(2130837614 or 0x7f02006e) = (attribute) ???(0x101030a)
+				editTextBackground(2130837619 or 0x7f020073) = (reference) abc_edit_text_material
+				editTextColor(2130837620 or 0x7f020074) = (attribute) ???(0x1010351)
+				homeAsUpIndicator(2130837641 or 0x7f020089) = (attribute) ???(0x101030b)
+				listChoiceBackgroundIndicator(2130837712 or 0x7f0200d0) = (attribute) ???(0x10102f0)
+				listPreferredItemHeightSmall(2130837720 or 0x7f0200d8) = (attribute) ???(0x1010387)
+				radioButtonStyle(2130837748 or 0x7f0200f4) = (attribute) ???(0x101007e)
+				ratingBarStyle(2130837749 or 0x7f0200f5) = (attribute) ???(0x101007c)
+				selectableItemBackground(2130837756 or 0x7f0200fc) = (attribute) ???(0x101030e)
+				selectableItemBackgroundBorderless(2130837757 or 0x7f0200fd) = (attribute) ???(0x101045c)
+				spinnerStyle(2130837765 or 0x7f020105) = (attribute) ???(0x1010081)
+				textAppearanceLargePopupMenu(2130837782 or 0x7f020116) = (attribute) ???(0x1010301)
+				textAppearanceSmallPopupMenu(2130837789 or 0x7f02011d) = (attribute) ???(0x1010302)
+		Base.V21.Theme.AppCompat.Light.Dialog
+				???(0x1010490)(16843920 or 0x1010490) = (reference) abc_floating_window_z
+		Base.V21.ThemeOverlay.AppCompat.Dialog
+				???(0x1010490)(16843920 or 0x1010490) = (reference) abc_floating_window_z
+		Base.Widget.AppCompat.ActionBar.TabText
+		Base.Widget.AppCompat.ActionBar.TabView
+		Base.Widget.AppCompat.ActionButton
+		Base.Widget.AppCompat.ActionButton.CloseMode
+				???(0x101013f)(16843071 or 0x101013f) = (dimension) 56dp
+		Base.Widget.AppCompat.ActionButton.Overflow
+		Base.Widget.AppCompat.AutoCompleteTextView
+				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) editTextBackground
+		Base.Widget.AppCompat.Button
+		Base.Widget.AppCompat.Button.Borderless
+		Base.Widget.AppCompat.Button.Borderless.Colored
+				???(0x1010098)(16842904 or 0x1010098) = (reference) abc_btn_colored_borderless_text_material
+		Base.Widget.AppCompat.Button.Small
+		Base.Widget.AppCompat.ButtonBar
+		Base.Widget.AppCompat.CompoundButton.CheckBox
+		Base.Widget.AppCompat.CompoundButton.RadioButton
+		Base.Widget.AppCompat.DropDownItem.Spinner
+		Base.Widget.AppCompat.EditText
+				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) editTextBackground
+		Base.Widget.AppCompat.ImageButton
+		Base.Widget.AppCompat.Light.ActionBar.TabText
+		Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse
+		Base.Widget.AppCompat.Light.ActionBar.TabView
+		Base.Widget.AppCompat.Light.PopupMenu
+		Base.Widget.AppCompat.Light.PopupMenu.Overflow
+				???(0x10102ac)(16843436 or 0x10102ac) = (dimension) 1.67772e+07dp
+				???(0x1010462)(16843874 or 0x1010462) = (boolean) true
+		Base.Widget.AppCompat.ListPopupWindow
+		Base.Widget.AppCompat.ListView
+		Base.Widget.AppCompat.ListView.DropDown
+		Base.Widget.AppCompat.ListView.Menu
+		Base.Widget.AppCompat.PopupMenu
+		Base.Widget.AppCompat.PopupMenu.Overflow
+				???(0x10102ac)(16843436 or 0x10102ac) = (dimension) 1.67772e+07dp
+				???(0x1010462)(16843874 or 0x1010462) = (boolean) true
+		Base.Widget.AppCompat.ProgressBar
+		Base.Widget.AppCompat.ProgressBar.Horizontal
+		Base.Widget.AppCompat.RatingBar
+		Base.Widget.AppCompat.SeekBar
+		Base.Widget.AppCompat.Spinner
+		Base.Widget.AppCompat.TextView.SpinnerItem
+		Base.Widget.AppCompat.Toolbar.Button.Navigation
+		Platform.AppCompat
+		Platform.AppCompat.Light
+		Platform.ThemeOverlay.AppCompat
+				???(0x1010429)(16843817 or 0x1010429) = (attribute) colorControlNormal
+				???(0x101042a)(16843818 or 0x101042a) = (attribute) colorControlActivated
+				???(0x101042b)(16843819 or 0x101042b) = (attribute) colorButtonNormal
+				???(0x101042c)(16843820 or 0x101042c) = (attribute) colorControlHighlight
+				???(0x1010433)(16843827 or 0x1010433) = (attribute) colorPrimary
+				???(0x1010434)(16843828 or 0x1010434) = (attribute) colorPrimaryDark
+				???(0x1010435)(16843829 or 0x1010435) = (attribute) colorAccent
+		Platform.ThemeOverlay.AppCompat.Dark
+		Platform.ThemeOverlay.AppCompat.Light
+		Platform.V21.AppCompat
+				???(0x101003f)(16842815 or 0x101003f) = (reference) abc_hint_foreground_material_light
+				???(0x101009a)(16842906 or 0x101009a) = (reference) abc_hint_foreground_material_dark
+				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010435)
+				???(0x101032e)(16843566 or 0x101032e) = (attribute) buttonBarStyle
+				???(0x101032f)(16843567 or 0x101032f) = (attribute) buttonBarButtonStyle
+				???(0x1010350)(16843600 or 0x1010350) = (attribute) ???(0x1010435)
+		Platform.V21.AppCompat.Light
+				???(0x101003f)(16842815 or 0x101003f) = (reference) abc_hint_foreground_material_dark
+				???(0x101009a)(16842906 or 0x101009a) = (reference) abc_hint_foreground_material_light
+				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010435)
+				???(0x101032e)(16843566 or 0x101032e) = (attribute) buttonBarStyle
+				???(0x101032f)(16843567 or 0x101032f) = (attribute) buttonBarButtonStyle
+				???(0x1010350)(16843600 or 0x1010350) = (attribute) ???(0x1010435)
+		TextAppearance.Compat.Notification
+		TextAppearance.Compat.Notification.Info
+		TextAppearance.Compat.Notification.Time
+		TextAppearance.Compat.Notification.Title
+		Widget.Compat.NotificationActionContainer
 				???(0x10100d4)(16842964 or 0x10100d4) = (reference) notification_action_background
 		Widget.Compat.NotificationActionText
 				???(0x1010034)(16842804 or 0x1010034) = (attribute) ???(0x1010207)
 				???(0x1010095)(16842901 or 0x1010095) = (reference) notification_action_text_size
 				???(0x1010098)(16842904 or 0x1010098) = (reference) secondary_text_default_material_light
-		Widget.Support.CoordinatorLayout
-				statusBarBackground(2130837769 or 0x7f020109) = (color) #ff000000
+
+	style-uiModeType=0-v21
 		Base.Theme.AppCompat.Dialog
 				???(0x1010057)(16842839 or 0x1010057) = (boolean) false
 				???(0x1010490)(16843920 or 0x1010490) = reference
@@ -5271,19 +5514,56 @@ me.linjw.myapplication
 		Base.ThemeOverlay.AppCompat.Dialog
 				???(0x1010057)(16842839 or 0x1010057) = (boolean) false
 				???(0x1010490)(16843920 or 0x1010490) = reference
-		Theme.AppCompat.DayNight
-		Theme.AppCompat.DayNight.DarkActionBar
-		Theme.AppCompat.DayNight.Dialog
-		Theme.AppCompat.DayNight.Dialog.Alert
-		Theme.AppCompat.DayNight.Dialog.MinWidth
-		Theme.AppCompat.DayNight.DialogWhenLarge
-		Theme.AppCompat.DayNight.NoActionBar
-		Base.Theme.AppCompat.DialogWhenLarge
-		Base.Theme.AppCompat.Light.DialogWhenLarge
+
+	style-ldltr-v21
+		Base.Widget.AppCompat.Spinner.Underlined
+
+	style-v22
+		Base.Theme.AppCompat
+		Base.Theme.AppCompat.Light
+		Base.V22.Theme.AppCompat
+				actionModeShareDrawable(2130837529 or 0x7f020019) = (attribute) ???(0x1010479)
+				editTextBackground(2130837619 or 0x7f020073) = (attribute) ???(0x1010352)
+		Base.V22.Theme.AppCompat.Light
+				actionModeShareDrawable(2130837529 or 0x7f020019) = (attribute) ???(0x1010479)
+				editTextBackground(2130837619 or 0x7f020073) = (attribute) ???(0x1010352)
+
+	style-v23
+		Base.TextAppearance.AppCompat.Widget.ActionBar.Menu
+		Base.TextAppearance.AppCompat.Widget.Button.Inverse
+		Base.Theme.AppCompat
+		Base.Theme.AppCompat.Light
+		Base.V23.Theme.AppCompat
+				actionBarItemBackground(2130837505 or 0x7f020001) = (attribute) ???(0x101039c)
+				actionMenuTextAppearance(2130837518 or 0x7f02000e) = (attribute) ???(0x1010360)
+				actionMenuTextColor(2130837519 or 0x7f02000f) = (attribute) ???(0x1010361)
+				controlBackground(2130837603 or 0x7f020063) = (reference) abc_control_background_material
+				ratingBarStyleIndicator(2130837750 or 0x7f0200f6) = (attribute) ???(0x1010210)
+				ratingBarStyleSmall(2130837751 or 0x7f0200f7) = (attribute) ???(0x101007d)
+		Base.V23.Theme.AppCompat.Light
+				actionBarItemBackground(2130837505 or 0x7f020001) = (attribute) ???(0x101039c)
+				actionMenuTextAppearance(2130837518 or 0x7f02000e) = (attribute) ???(0x1010360)
+				actionMenuTextColor(2130837519 or 0x7f02000f) = (attribute) ???(0x1010361)
+				controlBackground(2130837603 or 0x7f020063) = (reference) abc_control_background_material
+				ratingBarStyleIndicator(2130837750 or 0x7f0200f6) = (attribute) ???(0x1010210)
+				ratingBarStyleSmall(2130837751 or 0x7f0200f7) = (attribute) ???(0x101007d)
+		Base.Widget.AppCompat.Button.Borderless.Colored
+		Base.Widget.AppCompat.Button.Colored
+		Base.Widget.AppCompat.RatingBar.Indicator
+		Base.Widget.AppCompat.RatingBar.Small
+		Base.Widget.AppCompat.Spinner.Underlined
+
+	style-v24
+		Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored
+		Base.TextAppearance.AppCompat.Widget.Button.Colored
+
+	style-v25
 		Platform.AppCompat
 		Platform.AppCompat.Light
 		Platform.V25.AppCompat
 		Platform.V25.AppCompat.Light
+
+	style-v26
 		Base.Theme.AppCompat
 		Base.Theme.AppCompat.Light
 		Base.V26.Theme.AppCompat
@@ -5294,12 +5574,16 @@ me.linjw.myapplication
 				???(0x101048f)(16843919 or 0x101048f) = (boolean) true
 				???(0x1010540)(16844096 or 0x1010540) = (boolean) true
 		Base.Widget.AppCompat.Toolbar
+
+	style-v28
 		Base.Theme.AppCompat
 		Base.Theme.AppCompat.Light
 		Base.V28.Theme.AppCompat
 				dialogCornerRadius(2130837607 or 0x7f020067) = (attribute) ???(0x1010571)
 		Base.V28.Theme.AppCompat.Light
 				dialogCornerRadius(2130837607 or 0x7f020067) = (attribute) ???(0x1010571)
+
+	style-hdpi
 		Base.Widget.AppCompat.DrawerArrowToggle
 				barLength(2130837558 or 0x7f020036) = (dimension) 18.66dp
 				drawableSize(2130837615 or 0x7f02006f) = (dimension) 24dp

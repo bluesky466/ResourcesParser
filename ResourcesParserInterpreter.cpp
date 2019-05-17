@@ -41,13 +41,16 @@ void ResourcesParserInterpreter::parserResource(
 		const string& type,
 		const string& tab) {
 	for(ResourcesParser::ResTableTypePtr pResTableType : packageRes->resTablePtrs[typeId]) {
+		bool showConfigDirectory = true;
+
 		for(int i = 0 ; i < pResTableType->entries.size() ; i++) {
 			if(pResTableType->entries[i] == nullptr){
 				continue;
 			}
-			if(i==0) {
+			if(showConfigDirectory) {
 				string config = getConfigDirectory(pResTableType->header.config, type);
 				cout<<endl<<tab<<config<<endl;
+				showConfigDirectory = false;
 			}
 			auto pEntry = pResTableType->entries[i];
 			auto keys = packageRes->pKeys;
