@@ -80,7 +80,6 @@ void ResourcesParserInterpreter::parserEntry(
 
 		for(int i = 0 ; i < pMapEntry->count ; i++) {
 			string name = mParser->getNameForResTableMap((pMap+i)->name);
-			string value = mParser->getValueForResTableMap((pMap+i)->value);
 
 			uint32_t ident = (pMap+i)->name.ident;
 
@@ -88,12 +87,13 @@ void ResourcesParserInterpreter::parserEntry(
 				cout
 					<<tab+"\t\t" <<name
 					<<"(" <<*dec <<ident <<" or 0x" <<hex <<ident <<") = "
-					<<value
+					<<mParser->stringOfValue(&(pMap+i)->value)
 					<<endl;
 			} else {
 				cout <<tab+"\t" <<name
 					<<"(" <<*dec <<ident <<" or 0x" <<hex <<ident <<") "
-					<<value <<endl;
+					<<mParser->getValueTypeForResTableMap((pMap+i)->value)
+					<<endl;
 			}
 		}
 	}else{

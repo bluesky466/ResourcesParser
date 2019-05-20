@@ -68,7 +68,7 @@ public:
 
 	std::string getNameForResTableMap(const ResTable_ref& ref) const;
 
-	std::string getValueForResTableMap(const Res_value& value) const;
+	std::string getValueTypeForResTableMap(const Res_value& value) const;
 
 	std::string stringOfValue(const Res_value* value) const;
 

@@ -367,7 +367,7 @@ bool ResourcesParser::isTableMapForAttrDesc(const ResTable_ref& ref) {
 	}
 }
 
-string ResourcesParser::getValueForResTableMap(const Res_value& value) const {
+string ResourcesParser::getValueTypeForResTableMap(const Res_value& value) const {
 	switch(value.data) {
 		case ResTable_map::TYPE_ANY:
 			return "any";
@@ -392,6 +392,6 @@ string ResourcesParser::getValueForResTableMap(const Res_value& value) const {
 		case ResTable_map::TYPE_FLAGS:
 			return "flags";
 		default:
-			return stringOfValue(&value);
+			return "unknown";
 	}
 }
