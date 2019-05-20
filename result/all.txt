@@ -22,7 +22,7 @@ com.cvte.tv.myapplication
 		actionBarPopupTheme
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		actionBarSize
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65600 or 0x00010040
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				wrap_content(2131165330 or 0x7f070092) = (int) 0 or 0x00000000
 		actionBarSplitStyle
 			ATTR_TYPE(16777216 or 0x1000000) reference
@@ -47,7 +47,7 @@ com.cvte.tv.myapplication
 		actionMenuTextAppearance
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		actionMenuTextColor
-			ATTR_TYPE(16777216 or 0x1000000) (int) 17 or 0x00000011
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		actionModeBackground
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		actionModeCloseButtonStyle
@@ -98,12 +98,12 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) float
 		alphabeticModifiers
 			ATTR_TYPE(16777216 or 0x1000000) flags
-				ALT(2131165184 or 0x7f070000) = string
+				ALT(2131165184 or 0x7f070000) = (int) 2 or 0x00000002
 				CTRL(2131165185 or 0x7f070001) = (int) 4096 or 0x00001000
-				FUNCTION(2131165186 or 0x7f070002) = boolean
-				META(2131165187 or 0x7f070003) = enum
-				SHIFT(2131165188 or 0x7f070004) = reference
-				SYM(2131165189 or 0x7f070005) = integer
+				FUNCTION(2131165186 or 0x7f070002) = (int) 8 or 0x00000008
+				META(2131165187 or 0x7f070003) = (int) 65536 or 0x00010000
+				SHIFT(2131165188 or 0x7f070004) = (int) 1 or 0x00000001
+				SYM(2131165189 or 0x7f070005) = (int) 4 or 0x00000004
 		arrowHeadLength
 			ATTR_TYPE(16777216 or 0x1000000) dimension
 		arrowShaftLength
@@ -121,18 +121,18 @@ com.cvte.tv.myapplication
 		autoSizeTextType
 			ATTR_TYPE(16777216 or 0x1000000) enum
 				none(2131165266 or 0x7f070052) = (int) 0 or 0x00000000
-				uniform(2131165325 or 0x7f07008d) = reference
+				uniform(2131165325 or 0x7f07008d) = (int) 1 or 0x00000001
 		background
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		backgroundSplit
-			ATTR_TYPE(16777216 or 0x1000000) (int) 17 or 0x00000011
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		backgroundStacked
-			ATTR_TYPE(16777216 or 0x1000000) (int) 17 or 0x00000011
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		backgroundTint
 			ATTR_TYPE(16777216 or 0x1000000) color
 		backgroundTintMode
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				add(2131165209 or 0x7f070019) = color
+				add(2131165209 or 0x7f070019) = (int) 16 or 0x00000010
 				multiply(2131165264 or 0x7f070050) = (int) 14 or 0x0000000e
 				screen(2131165281 or 0x7f070061) = (int) 15 or 0x0000000f
 				src_atop(2131165304 or 0x7f070078) = (int) 9 or 0x00000009
@@ -147,9 +147,9 @@ com.cvte.tv.myapplication
 				bottom(2131165217 or 0x7f070021) = (int) 3 or 0x00000003
 				end(2131165238 or 0x7f070036) = (int) 6 or 0x00000006
 				left(2131165257 or 0x7f070049) = (int) 0 or 0x00000000
-				right(2131165278 or 0x7f07005e) = reference
+				right(2131165278 or 0x7f07005e) = (int) 1 or 0x00000001
 				start(2131165308 or 0x7f07007c) = (int) 5 or 0x00000005
-				top(2131165323 or 0x7f07008b) = string
+				top(2131165323 or 0x7f07008b) = (int) 2 or 0x00000002
 		borderlessButtonStyle
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		buttonBarButtonStyle
@@ -178,7 +178,7 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) color
 		buttonTintMode
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				add(2131165209 or 0x7f070019) = color
+				add(2131165209 or 0x7f070019) = (int) 16 or 0x00000010
 				multiply(2131165264 or 0x7f070050) = (int) 14 or 0x0000000e
 				screen(2131165281 or 0x7f070061) = (int) 15 or 0x0000000f
 				src_atop(2131165304 or 0x7f070078) = (int) 9 or 0x00000009
@@ -213,7 +213,7 @@ com.cvte.tv.myapplication
 		colorControlNormal
 			ATTR_TYPE(16777216 or 0x1000000) color
 		colorError
-			ATTR_TYPE(16777216 or 0x1000000) (int) 17 or 0x00000011
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		colorPrimary
 			ATTR_TYPE(16777216 or 0x1000000) color
 		colorPrimaryDark
@@ -258,13 +258,13 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		displayOptions
 			ATTR_TYPE(16777216 or 0x1000000) flags
-				disableHome(2131165236 or 0x7f070034) = float
-				homeAsUp(2131165249 or 0x7f070041) = integer
+				disableHome(2131165236 or 0x7f070034) = (int) 32 or 0x00000020
+				homeAsUp(2131165249 or 0x7f070041) = (int) 4 or 0x00000004
 				none(2131165266 or 0x7f070052) = (int) 0 or 0x00000000
-				showCustom(2131165297 or 0x7f070071) = color
-				showHome(2131165298 or 0x7f070072) = string
-				showTitle(2131165299 or 0x7f070073) = boolean
-				useLogo(2131165327 or 0x7f07008f) = reference
+				showCustom(2131165297 or 0x7f070071) = (int) 16 or 0x00000010
+				showHome(2131165298 or 0x7f070072) = (int) 2 or 0x00000002
+				showTitle(2131165299 or 0x7f070073) = (int) 8 or 0x00000008
+				useLogo(2131165327 or 0x7f07008f) = (int) 1 or 0x00000001
 		divider
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		dividerHorizontal
@@ -284,7 +284,7 @@ com.cvte.tv.myapplication
 		editTextBackground
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		editTextColor
-			ATTR_TYPE(16777216 or 0x1000000) (int) 17 or 0x00000011
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		editTextStyle
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		elevation
@@ -292,7 +292,7 @@ com.cvte.tv.myapplication
 		emptyVisibility
 			ATTR_TYPE(16777216 or 0x1000000) enum
 				gone(2131165245 or 0x7f07003d) = (int) 0 or 0x00000000
-				invisible(2131165255 or 0x7f070047) = reference
+				invisible(2131165255 or 0x7f070047) = (int) 1 or 0x00000001
 		expandActivityOverflowButtonDrawable
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		firstBaselineToTopHeight
@@ -307,10 +307,10 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		fontProviderFetchStrategy
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				async(2131165213 or 0x7f07001d) = reference
+				async(2131165213 or 0x7f07001d) = (int) 1 or 0x00000001
 				blocking(2131165216 or 0x7f070020) = (int) 0 or 0x00000000
 		fontProviderFetchTimeout
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65540 or 0x00010004
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				forever(2131165244 or 0x7f07003c) = (int) 4294967295 or 0xffffffff
 		fontProviderPackage
 			ATTR_TYPE(16777216 or 0x1000000) string
@@ -318,7 +318,7 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) string
 		fontStyle
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				italic(2131165256 or 0x7f070048) = reference
+				italic(2131165256 or 0x7f070048) = (int) 1 or 0x00000001
 				normal(2131165267 or 0x7f070053) = (int) 0 or 0x00000000
 		fontVariationSettings
 			ATTR_TYPE(16777216 or 0x1000000) string
@@ -342,7 +342,7 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) color
 		iconTintMode
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				add(2131165209 or 0x7f070019) = color
+				add(2131165209 or 0x7f070019) = (int) 16 or 0x00000010
 				multiply(2131165264 or 0x7f070050) = (int) 14 or 0x0000000e
 				screen(2131165281 or 0x7f070061) = (int) 15 or 0x0000000f
 				src_atop(2131165304 or 0x7f070078) = (int) 9 or 0x00000009
@@ -372,10 +372,10 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) flags
 				bottom(2131165217 or 0x7f070021) = (int) 80 or 0x00000050
 				center(2131165219 or 0x7f070023) = (int) 17 or 0x00000011
-				center_horizontal(2131165220 or 0x7f070024) = reference
-				center_vertical(2131165221 or 0x7f070025) = color
-				clip_horizontal(2131165225 or 0x7f070029) = boolean
-				clip_vertical(2131165226 or 0x7f07002a) = fraction
+				center_horizontal(2131165220 or 0x7f070024) = (int) 1 or 0x00000001
+				center_vertical(2131165221 or 0x7f070025) = (int) 16 or 0x00000010
+				clip_horizontal(2131165225 or 0x7f070029) = (int) 8 or 0x00000008
+				clip_vertical(2131165226 or 0x7f07002a) = (int) 128 or 0x00000080
 				end(2131165238 or 0x7f070036) = (int) 8388613 or 0x00800005
 				fill(2131165241 or 0x7f070039) = (int) 119 or 0x00000077
 				fill_horizontal(2131165242 or 0x7f07003a) = (int) 7 or 0x00000007
@@ -393,15 +393,15 @@ com.cvte.tv.myapplication
 		layout_constraintBaseline_creator
 			ATTR_TYPE(16777216 or 0x1000000) integer
 		layout_constraintBaseline_toBaselineOf
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65537 or 0x00010001
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				parent(2131165272 or 0x7f070058) = (int) 0 or 0x00000000
 		layout_constraintBottom_creator
 			ATTR_TYPE(16777216 or 0x1000000) integer
 		layout_constraintBottom_toBottomOf
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65537 or 0x00010001
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				parent(2131165272 or 0x7f070058) = (int) 0 or 0x00000000
 		layout_constraintBottom_toTopOf
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65537 or 0x00010001
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				parent(2131165272 or 0x7f070058) = (int) 0 or 0x00000000
 		layout_constraintCircle
 			ATTR_TYPE(16777216 or 0x1000000) reference
@@ -412,10 +412,10 @@ com.cvte.tv.myapplication
 		layout_constraintDimensionRatio
 			ATTR_TYPE(16777216 or 0x1000000) string
 		layout_constraintEnd_toEndOf
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65537 or 0x00010001
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				parent(2131165272 or 0x7f070058) = (int) 0 or 0x00000000
 		layout_constraintEnd_toStartOf
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65537 or 0x00010001
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				parent(2131165272 or 0x7f070058) = (int) 0 or 0x00000000
 		layout_constraintGuide_begin
 			ATTR_TYPE(16777216 or 0x1000000) dimension
@@ -425,14 +425,14 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) float
 		layout_constraintHeight_default
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				percent(2131165274 or 0x7f07005a) = string
+				percent(2131165274 or 0x7f07005a) = (int) 2 or 0x00000002
 				spread(2131165302 or 0x7f070076) = (int) 0 or 0x00000000
-				wrap(2131165329 or 0x7f070091) = reference
+				wrap(2131165329 or 0x7f070091) = (int) 1 or 0x00000001
 		layout_constraintHeight_max
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65600 or 0x00010040
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				wrap(2131165329 or 0x7f070091) = (int) 4294967294 or 0xfffffffe
 		layout_constraintHeight_min
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65600 or 0x00010040
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				wrap(2131165329 or 0x7f070091) = (int) 4294967294 or 0xfffffffe
 		layout_constraintHeight_percent
 			ATTR_TYPE(16777216 or 0x1000000) float
@@ -440,60 +440,60 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) float
 		layout_constraintHorizontal_chainStyle
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				packed(2131165271 or 0x7f070057) = string
+				packed(2131165271 or 0x7f070057) = (int) 2 or 0x00000002
 				spread(2131165302 or 0x7f070076) = (int) 0 or 0x00000000
-				spread_inside(2131165303 or 0x7f070077) = reference
+				spread_inside(2131165303 or 0x7f070077) = (int) 1 or 0x00000001
 		layout_constraintHorizontal_weight
 			ATTR_TYPE(16777216 or 0x1000000) float
 		layout_constraintLeft_creator
 			ATTR_TYPE(16777216 or 0x1000000) integer
 		layout_constraintLeft_toLeftOf
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65537 or 0x00010001
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				parent(2131165272 or 0x7f070058) = (int) 0 or 0x00000000
 		layout_constraintLeft_toRightOf
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65537 or 0x00010001
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				parent(2131165272 or 0x7f070058) = (int) 0 or 0x00000000
 		layout_constraintRight_creator
 			ATTR_TYPE(16777216 or 0x1000000) integer
 		layout_constraintRight_toLeftOf
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65537 or 0x00010001
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				parent(2131165272 or 0x7f070058) = (int) 0 or 0x00000000
 		layout_constraintRight_toRightOf
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65537 or 0x00010001
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				parent(2131165272 or 0x7f070058) = (int) 0 or 0x00000000
 		layout_constraintStart_toEndOf
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65537 or 0x00010001
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				parent(2131165272 or 0x7f070058) = (int) 0 or 0x00000000
 		layout_constraintStart_toStartOf
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65537 or 0x00010001
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				parent(2131165272 or 0x7f070058) = (int) 0 or 0x00000000
 		layout_constraintTop_creator
 			ATTR_TYPE(16777216 or 0x1000000) integer
 		layout_constraintTop_toBottomOf
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65537 or 0x00010001
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				parent(2131165272 or 0x7f070058) = (int) 0 or 0x00000000
 		layout_constraintTop_toTopOf
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65537 or 0x00010001
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				parent(2131165272 or 0x7f070058) = (int) 0 or 0x00000000
 		layout_constraintVertical_bias
 			ATTR_TYPE(16777216 or 0x1000000) float
 		layout_constraintVertical_chainStyle
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				packed(2131165271 or 0x7f070057) = string
+				packed(2131165271 or 0x7f070057) = (int) 2 or 0x00000002
 				spread(2131165302 or 0x7f070076) = (int) 0 or 0x00000000
-				spread_inside(2131165303 or 0x7f070077) = reference
+				spread_inside(2131165303 or 0x7f070077) = (int) 1 or 0x00000001
 		layout_constraintVertical_weight
 			ATTR_TYPE(16777216 or 0x1000000) float
 		layout_constraintWidth_default
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				percent(2131165274 or 0x7f07005a) = string
+				percent(2131165274 or 0x7f07005a) = (int) 2 or 0x00000002
 				spread(2131165302 or 0x7f070076) = (int) 0 or 0x00000000
-				wrap(2131165329 or 0x7f070091) = reference
+				wrap(2131165329 or 0x7f070091) = (int) 1 or 0x00000001
 		layout_constraintWidth_max
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65600 or 0x00010040
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				wrap(2131165329 or 0x7f070091) = (int) 4294967294 or 0xfffffffe
 		layout_constraintWidth_min
-			ATTR_TYPE(16777216 or 0x1000000) (int) 65600 or 0x00010040
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 				wrap(2131165329 or 0x7f070091) = (int) 4294967294 or 0xfffffffe
 		layout_constraintWidth_percent
 			ATTR_TYPE(16777216 or 0x1000000) float
@@ -536,11 +536,11 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) integer
 		layout_optimizationLevel
 			ATTR_TYPE(16777216 or 0x1000000) flags
-				barrier(2131165214 or 0x7f07001e) = string
-				chains(2131165222 or 0x7f070026) = integer
-				dimensions(2131165234 or 0x7f070032) = boolean
-				direct(2131165235 or 0x7f070033) = reference
-				groups(2131165247 or 0x7f07003f) = float
+				barrier(2131165214 or 0x7f07001e) = (int) 2 or 0x00000002
+				chains(2131165222 or 0x7f070026) = (int) 4 or 0x00000004
+				dimensions(2131165234 or 0x7f070032) = (int) 8 or 0x00000008
+				direct(2131165235 or 0x7f070033) = (int) 1 or 0x00000001
+				groups(2131165247 or 0x7f07003f) = (int) 32 or 0x00000020
 				none(2131165266 or 0x7f070052) = (int) 0 or 0x00000000
 				standard(2131165307 or 0x7f07007b) = (int) 7 or 0x00000007
 		lineHeight
@@ -583,17 +583,17 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		navigationMode
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				listMode(2131165260 or 0x7f07004c) = reference
+				listMode(2131165260 or 0x7f07004c) = (int) 1 or 0x00000001
 				normal(2131165267 or 0x7f070053) = (int) 0 or 0x00000000
-				tabMode(2131165311 or 0x7f07007f) = string
+				tabMode(2131165311 or 0x7f07007f) = (int) 2 or 0x00000002
 		numericModifiers
 			ATTR_TYPE(16777216 or 0x1000000) flags
-				ALT(2131165184 or 0x7f070000) = string
+				ALT(2131165184 or 0x7f070000) = (int) 2 or 0x00000002
 				CTRL(2131165185 or 0x7f070001) = (int) 4096 or 0x00001000
-				FUNCTION(2131165186 or 0x7f070002) = boolean
-				META(2131165187 or 0x7f070003) = enum
-				SHIFT(2131165188 or 0x7f070004) = reference
-				SYM(2131165189 or 0x7f070005) = integer
+				FUNCTION(2131165186 or 0x7f070002) = (int) 8 or 0x00000008
+				META(2131165187 or 0x7f070003) = (int) 65536 or 0x00010000
+				SHIFT(2131165188 or 0x7f070004) = (int) 1 or 0x00000001
+				SYM(2131165189 or 0x7f070005) = (int) 4 or 0x00000004
 		overlapAnchor
 			ATTR_TYPE(16777216 or 0x1000000) boolean
 		paddingBottomNoButtons
@@ -648,16 +648,16 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		showAsAction
 			ATTR_TYPE(16777216 or 0x1000000) flags
-				always(2131165212 or 0x7f07001c) = string
-				collapseActionView(2131165227 or 0x7f07002b) = boolean
-				ifRoom(2131165252 or 0x7f070044) = reference
+				always(2131165212 or 0x7f07001c) = (int) 2 or 0x00000002
+				collapseActionView(2131165227 or 0x7f07002b) = (int) 8 or 0x00000008
+				ifRoom(2131165252 or 0x7f070044) = (int) 1 or 0x00000001
 				never(2131165265 or 0x7f070051) = (int) 0 or 0x00000000
-				withText(2131165328 or 0x7f070090) = integer
+				withText(2131165328 or 0x7f070090) = (int) 4 or 0x00000004
 		showDividers
 			ATTR_TYPE(16777216 or 0x1000000) flags
-				beginning(2131165215 or 0x7f07001f) = reference
-				end(2131165238 or 0x7f070036) = integer
-				middle(2131165263 or 0x7f07004f) = string
+				beginning(2131165215 or 0x7f07001f) = (int) 1 or 0x00000001
+				end(2131165238 or 0x7f070036) = (int) 4 or 0x00000004
+				middle(2131165263 or 0x7f07004f) = (int) 2 or 0x00000002
 				none(2131165266 or 0x7f070052) = (int) 0 or 0x00000000
 		showText
 			ATTR_TYPE(16777216 or 0x1000000) boolean
@@ -678,7 +678,7 @@ com.cvte.tv.myapplication
 		state_above_anchor
 			ATTR_TYPE(16777216 or 0x1000000) boolean
 		statusBarBackground
-			ATTR_TYPE(16777216 or 0x1000000) (int) 17 or 0x00000011
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		subMenuArrow
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		submitBackground
@@ -702,7 +702,7 @@ com.cvte.tv.myapplication
 		switchTextAppearance
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		textAllCaps
-			ATTR_TYPE(16777216 or 0x1000000) (int) 9 or 0x00000009
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		textAppearanceLargePopupMenu
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		textAppearanceListItem
@@ -720,9 +720,9 @@ com.cvte.tv.myapplication
 		textAppearanceSmallPopupMenu
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		textColorAlertDialogListItem
-			ATTR_TYPE(16777216 or 0x1000000) (int) 17 or 0x00000011
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		textColorSearchUrl
-			ATTR_TYPE(16777216 or 0x1000000) (int) 17 or 0x00000011
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		theme
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		thickness
@@ -733,7 +733,7 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) color
 		thumbTintMode
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				add(2131165209 or 0x7f070019) = color
+				add(2131165209 or 0x7f070019) = (int) 16 or 0x00000010
 				multiply(2131165264 or 0x7f070050) = (int) 14 or 0x0000000e
 				screen(2131165281 or 0x7f070061) = (int) 15 or 0x0000000f
 				src_atop(2131165304 or 0x7f070078) = (int) 9 or 0x00000009
@@ -745,7 +745,7 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) color
 		tickMarkTintMode
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				add(2131165209 or 0x7f070019) = color
+				add(2131165209 or 0x7f070019) = (int) 16 or 0x00000010
 				multiply(2131165264 or 0x7f070050) = (int) 14 or 0x0000000e
 				screen(2131165281 or 0x7f070061) = (int) 15 or 0x0000000f
 				src_atop(2131165304 or 0x7f070078) = (int) 9 or 0x00000009
@@ -755,7 +755,7 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) color
 		tintMode
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				add(2131165209 or 0x7f070019) = color
+				add(2131165209 or 0x7f070019) = (int) 16 or 0x00000010
 				multiply(2131165264 or 0x7f070050) = (int) 14 or 0x0000000e
 				screen(2131165281 or 0x7f070061) = (int) 15 or 0x0000000f
 				src_atop(2131165304 or 0x7f070078) = (int) 9 or 0x00000009
@@ -786,7 +786,7 @@ com.cvte.tv.myapplication
 		toolbarStyle
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		tooltipForegroundColor
-			ATTR_TYPE(16777216 or 0x1000000) (int) 17 or 0x00000011
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		tooltipFrameBackground
 			ATTR_TYPE(16777216 or 0x1000000) reference
 		tooltipText
@@ -797,7 +797,7 @@ com.cvte.tv.myapplication
 			ATTR_TYPE(16777216 or 0x1000000) color
 		trackTintMode
 			ATTR_TYPE(16777216 or 0x1000000) enum
-				add(2131165209 or 0x7f070019) = color
+				add(2131165209 or 0x7f070019) = (int) 16 or 0x00000010
 				multiply(2131165264 or 0x7f070050) = (int) 14 or 0x0000000e
 				screen(2131165281 or 0x7f070061) = (int) 15 or 0x0000000f
 				src_atop(2131165304 or 0x7f070078) = (int) 9 or 0x00000009
@@ -816,17 +816,17 @@ com.cvte.tv.myapplication
 		windowActionModeOverlay
 			ATTR_TYPE(16777216 or 0x1000000) boolean
 		windowFixedHeightMajor
-			ATTR_TYPE(16777216 or 0x1000000) (int) 192 or 0x000000c0
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		windowFixedHeightMinor
-			ATTR_TYPE(16777216 or 0x1000000) (int) 192 or 0x000000c0
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		windowFixedWidthMajor
-			ATTR_TYPE(16777216 or 0x1000000) (int) 192 or 0x000000c0
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		windowFixedWidthMinor
-			ATTR_TYPE(16777216 or 0x1000000) (int) 192 or 0x000000c0
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		windowMinWidthMajor
-			ATTR_TYPE(16777216 or 0x1000000) (int) 192 or 0x000000c0
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		windowMinWidthMinor
-			ATTR_TYPE(16777216 or 0x1000000) (int) 192 or 0x000000c0
+			ATTR_TYPE(16777216 or 0x1000000) unknown
 		windowNoTitle
 			ATTR_TYPE(16777216 or 0x1000000) boolean
 
@@ -4143,15 +4143,22 @@ com.cvte.tv.myapplication
 
 	style
 		AlertDialog.AppCompat
+			parent: Base.AlertDialog.AppCompat
 		AlertDialog.AppCompat.Light
+			parent: Base.AlertDialog.AppCompat.Light
 		Animation.AppCompat.Dialog
+			parent: Base.Animation.AppCompat.Dialog
 		Animation.AppCompat.DropDownUp
+			parent: Base.Animation.AppCompat.DropDownUp
 		Animation.AppCompat.Tooltip
+			parent: Base.Animation.AppCompat.Tooltip
 		AppTheme
+			parent: Theme.AppCompat.Light.DarkActionBar
 				colorAccent(2130837582 or 0x7f02004e) = (reference) colorAccent
 				colorPrimary(2130837589 or 0x7f020055) = (reference) colorPrimary
 				colorPrimaryDark(2130837590 or 0x7f020056) = (reference) colorPrimaryDark
 		Base.AlertDialog.AppCompat
+			parent: ???(0x1030012)
 				???(0x10100f2)(16842994 or 0x10100f2) = (reference) abc_alert_dialog_material
 				buttonIconDimen(2130837568 or 0x7f020040) = (reference) abc_alert_dialog_button_dimen
 				listItemLayout(2130837714 or 0x7f0200d2) = (reference) select_dialog_item_material
@@ -4159,80 +4166,102 @@ com.cvte.tv.myapplication
 				multiChoiceItemLayout(2130837727 or 0x7f0200df) = (reference) select_dialog_multichoice_material
 				singleChoiceItemLayout(2130837762 or 0x7f020102) = (reference) select_dialog_singlechoice_material
 		Base.AlertDialog.AppCompat.Light
+			parent: Base.AlertDialog.AppCompat
 		Base.Animation.AppCompat.Dialog
+			parent: ???(0x1030000)
 				???(0x10100b4)(16842932 or 0x10100b4) = (reference) abc_popup_enter
 				???(0x10100b5)(16842933 or 0x10100b5) = (reference) abc_popup_exit
 		Base.Animation.AppCompat.DropDownUp
+			parent: ???(0x1030000)
 				???(0x10100b4)(16842932 or 0x10100b4) = (reference) abc_grow_fade_in_from_bottom
 				???(0x10100b5)(16842933 or 0x10100b5) = (reference) abc_shrink_fade_out_from_bottom
 		Base.Animation.AppCompat.Tooltip
+			parent: ???(0x1030000)
 				???(0x10100b4)(16842932 or 0x10100b4) = (reference) abc_tooltip_enter
 				???(0x10100b5)(16842933 or 0x10100b5) = (reference) abc_tooltip_exit
 		Base.DialogWindowTitle.AppCompat
-				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00d6)
-				???(0x1010153)(16843091 or 0x1010153) = reference
+			parent: ???(0x1030012)
+				???(0x1010034)(16842804 or 0x1010034) = (reference) TextAppearance.AppCompat.Title
+				???(0x1010153)(16843091 or 0x1010153) = (int) 1 or 0x00000001
 				???(0x101015b)(16843099 or 0x101015b) = (boolean) true
 		Base.DialogWindowTitleBackground.AppCompat
+			parent: ???(0x1030012)
 				???(0x10100d4)(16842964 or 0x10100d4) = (reference) ???(0x0)
 				???(0x10100d6)(16842966 or 0x10100d6) = (attribute) dialogPreferredPadding
 				???(0x10100d7)(16842967 or 0x10100d7) = (reference) abc_dialog_padding_top_material
 				???(0x10100d8)(16842968 or 0x10100d8) = (attribute) dialogPreferredPadding
 		Base.TextAppearance.AppCompat
+			parent: ???(0x103003e)
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_body_1_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x1010099)
 				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101009a)
 				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x101009b)
 		Base.TextAppearance.AppCompat.Body1
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_body_1_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Body2
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_body_2_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Button
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_button_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 				???(0x101038c)(16843660 or 0x101038c) = (boolean) true
 		Base.TextAppearance.AppCompat.Caption
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_caption_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Display1
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_display_1_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Display2
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_display_2_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Display3
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_display_3_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Display4
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_display_4_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Headline
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_headline_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Inverse
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010039)
 				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x101034f)
 				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101003f)
 				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010350)
 		Base.TextAppearance.AppCompat.Large
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_large_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Large.Inverse
+			parent: Base.TextAppearance.AppCompat.Large
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010039)
 				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x101034f)
 				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101003f)
 				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010350)
 		Base.TextAppearance.AppCompat.Medium
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_medium_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Medium.Inverse
+			parent: Base.TextAppearance.AppCompat.Medium
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x101003a)
 				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x101034f)
 				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101003f)
 				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010350)
 		Base.TextAppearance.AppCompat.Menu
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_menu_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.SearchResult
@@ -4240,117 +4269,162 @@ com.cvte.tv.myapplication
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101009a)
 		Base.TextAppearance.AppCompat.SearchResult.Subtitle
+			parent: Base.TextAppearance.AppCompat.SearchResult
 				???(0x1010095)(16842901 or 0x1010095) = (dimension) 14sp
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.SearchResult.Title
+			parent: Base.TextAppearance.AppCompat.SearchResult
 				???(0x1010095)(16842901 or 0x1010095) = (dimension) 18sp
 		Base.TextAppearance.AppCompat.Small
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_small_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010212)
 		Base.TextAppearance.AppCompat.Small.Inverse
+			parent: Base.TextAppearance.AppCompat.Small
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010213)
 				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x101034f)
 				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101003f)
 				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010350)
 		Base.TextAppearance.AppCompat.Subhead
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_subhead_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Subhead.Inverse
+			parent: Base.TextAppearance.AppCompat.Subhead
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010039)
 				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x101034f)
 				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101003f)
 				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010350)
 		Base.TextAppearance.AppCompat.Title
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_title_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Title.Inverse
+			parent: Base.TextAppearance.AppCompat.Title
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010039)
 				???(0x1010099)(16842905 or 0x1010099) = (attribute) ???(0x101034f)
 				???(0x101009a)(16842906 or 0x101009a) = (attribute) ???(0x101003f)
 				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010350)
 		Base.TextAppearance.AppCompat.Tooltip
+			parent: Base.TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (dimension) 14sp
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Menu
+			parent: TextAppearance.AppCompat.Button
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) actionMenuTextColor
 				textAllCaps(2130837781 or 0x7f020115) = (reference) abc_config_actionMenuItemAllCaps
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle
+			parent: TextAppearance.AppCompat.Subhead
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_subtitle_material_toolbar
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse
+			parent: TextAppearance.AppCompat.Subhead.Inverse
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_subtitle_material_toolbar
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x101003a)
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Title
+			parent: TextAppearance.AppCompat.Title
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_title_material_toolbar
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse
+			parent: TextAppearance.AppCompat.Title.Inverse
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_title_material_toolbar
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010039)
 		Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle
+			parent: TextAppearance.AppCompat.Widget.ActionBar.Subtitle
 		Base.TextAppearance.AppCompat.Widget.ActionMode.Title
+			parent: TextAppearance.AppCompat.Widget.ActionBar.Title
 		Base.TextAppearance.AppCompat.Widget.Button
+			parent: TextAppearance.AppCompat.Button
 		Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored
+			parent: Base.TextAppearance.AppCompat.Widget.Button
 				???(0x1010098)(16842904 or 0x1010098) = (reference) abc_btn_colored_borderless_text_material
 		Base.TextAppearance.AppCompat.Widget.Button.Colored
+			parent: Base.TextAppearance.AppCompat.Widget.Button
 				???(0x1010098)(16842904 or 0x1010098) = (reference) abc_btn_colored_text_material
 		Base.TextAppearance.AppCompat.Widget.Button.Inverse
+			parent: TextAppearance.AppCompat.Button
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010039)
 		Base.TextAppearance.AppCompat.Widget.DropDownItem
+			parent: ???(0x1030046)
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010037)
 		Base.TextAppearance.AppCompat.Widget.PopupMenu.Header
+			parent: TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_menu_header_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) colorAccent
 		Base.TextAppearance.AppCompat.Widget.PopupMenu.Large
+			parent: TextAppearance.AppCompat.Menu
 		Base.TextAppearance.AppCompat.Widget.PopupMenu.Small
+			parent: TextAppearance.AppCompat.Menu
 		Base.TextAppearance.AppCompat.Widget.Switch
+			parent: TextAppearance.AppCompat.Button
 		Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem
+			parent: TextAppearance.AppCompat.Menu
 		Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item
+			parent: ???(0x1030044)
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010037)
 		Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle
+			parent: TextAppearance.AppCompat.Widget.ActionBar.Subtitle
 		Base.TextAppearance.Widget.AppCompat.Toolbar.Title
+			parent: TextAppearance.AppCompat.Widget.ActionBar.Title
 		Base.Theme.AppCompat
+			parent: Base.V7.Theme.AppCompat
 		Base.Theme.AppCompat.CompactMenu
-				???(0x1010074)(16842868 or 0x1010074) = (reference) ???(0x7f0c0144)
-				???(0x10100ae)(16842926 or 0x10100ae) = (reference) ???(0x7f0c0003)
+				???(0x1010074)(16842868 or 0x1010074) = (reference) Widget.AppCompat.ListView.Menu
+				???(0x10100ae)(16842926 or 0x10100ae) = (reference) Animation.AppCompat.DropDownUp
 				???(0x101012c)(16843052 or 0x101012c) = (attribute) ???(0x1010041)
 		Base.Theme.AppCompat.Dialog
+			parent: Base.V7.Theme.AppCompat.Dialog
 		Base.Theme.AppCompat.Dialog.Alert
+			parent: Base.Theme.AppCompat.Dialog
 				???(0x1010356)(16843606 or 0x1010356) = (reference) abc_dialog_min_width_major
 				???(0x1010357)(16843607 or 0x1010357) = (reference) abc_dialog_min_width_minor
 		Base.Theme.AppCompat.Dialog.FixedSize
+			parent: Base.Theme.AppCompat.Dialog
 				windowFixedHeightMajor(2130837826 or 0x7f020142) = (reference) abc_dialog_fixed_height_major
 				windowFixedHeightMinor(2130837827 or 0x7f020143) = (reference) abc_dialog_fixed_height_minor
 				windowFixedWidthMajor(2130837828 or 0x7f020144) = (reference) abc_dialog_fixed_width_major
 				windowFixedWidthMinor(2130837829 or 0x7f020145) = (reference) abc_dialog_fixed_width_minor
 		Base.Theme.AppCompat.Dialog.MinWidth
+			parent: Base.Theme.AppCompat.Dialog
 				???(0x1010356)(16843606 or 0x1010356) = (reference) abc_dialog_min_width_major
 				???(0x1010357)(16843607 or 0x1010357) = (reference) abc_dialog_min_width_minor
 		Base.Theme.AppCompat.DialogWhenLarge
+			parent: Theme.AppCompat
 		Base.Theme.AppCompat.Light
+			parent: Base.V7.Theme.AppCompat.Light
 		Base.Theme.AppCompat.Light.DarkActionBar
-				actionBarPopupTheme(2130837506 or 0x7f020002) = (reference) ???(0x7f0c010f)
-				actionBarTheme(2130837513 or 0x7f020009) = (reference) ???(0x7f0c010c)
+			parent: Base.Theme.AppCompat.Light
+				actionBarPopupTheme(2130837506 or 0x7f020002) = (reference) ThemeOverlay.AppCompat.Light
+				actionBarTheme(2130837513 or 0x7f020009) = (reference) ThemeOverlay.AppCompat.Dark.ActionBar
 				actionBarWidgetTheme(2130837514 or 0x7f02000a) = (reference) ???(0x0)
 				colorPrimary(2130837589 or 0x7f020055) = (reference) primary_material_dark
 				colorPrimaryDark(2130837590 or 0x7f020056) = (reference) primary_dark_material_dark
 				listChoiceBackgroundIndicator(2130837712 or 0x7f0200d0) = (reference) abc_list_selector_holo_dark
 		Base.Theme.AppCompat.Light.Dialog
+			parent: Base.V7.Theme.AppCompat.Light.Dialog
 		Base.Theme.AppCompat.Light.Dialog.Alert
+			parent: Base.Theme.AppCompat.Light.Dialog
 				???(0x1010356)(16843606 or 0x1010356) = (reference) abc_dialog_min_width_major
 				???(0x1010357)(16843607 or 0x1010357) = (reference) abc_dialog_min_width_minor
 		Base.Theme.AppCompat.Light.Dialog.FixedSize
+			parent: Base.Theme.AppCompat.Light.Dialog
 				windowFixedHeightMajor(2130837826 or 0x7f020142) = (reference) abc_dialog_fixed_height_major
 				windowFixedHeightMinor(2130837827 or 0x7f020143) = (reference) abc_dialog_fixed_height_minor
 				windowFixedWidthMajor(2130837828 or 0x7f020144) = (reference) abc_dialog_fixed_width_major
 				windowFixedWidthMinor(2130837829 or 0x7f020145) = (reference) abc_dialog_fixed_width_minor
 		Base.Theme.AppCompat.Light.Dialog.MinWidth
+			parent: Base.Theme.AppCompat.Light.Dialog
 				???(0x1010356)(16843606 or 0x1010356) = (reference) abc_dialog_min_width_major
 				???(0x1010357)(16843607 or 0x1010357) = (reference) abc_dialog_min_width_minor
 		Base.Theme.AppCompat.Light.DialogWhenLarge
+			parent: Theme.AppCompat.Light
 		Base.ThemeOverlay.AppCompat
+			parent: Platform.ThemeOverlay.AppCompat
 		Base.ThemeOverlay.AppCompat.ActionBar
+			parent: Base.ThemeOverlay.AppCompat
 				colorControlNormal(2130837587 or 0x7f020053) = (attribute) ???(0x1010036)
-				searchViewStyle(2130837754 or 0x7f0200fa) = (reference) ???(0x7f0c014e)
+				searchViewStyle(2130837754 or 0x7f0200fa) = (reference) Widget.AppCompat.SearchView.ActionBar
 		Base.ThemeOverlay.AppCompat.Dark
+			parent: Platform.ThemeOverlay.AppCompat.Dark
 				???(0x1010030)(16842800 or 0x1010030) = (reference) foreground_material_dark
 				???(0x1010031)(16842801 or 0x1010031) = (reference) background_material_dark
 				???(0x1010036)(16842806 or 0x1010036) = (reference) abc_primary_text_material_dark
@@ -4373,13 +4447,17 @@ com.cvte.tv.myapplication
 				colorSwitchThumbNormal(2130837591 or 0x7f020057) = (reference) switch_thumb_material_dark
 				isLightTheme(2130837650 or 0x7f020092) = (boolean) false
 		Base.ThemeOverlay.AppCompat.Dark.ActionBar
+			parent: Base.ThemeOverlay.AppCompat.Dark
 				colorControlNormal(2130837587 or 0x7f020053) = (attribute) ???(0x1010036)
-				searchViewStyle(2130837754 or 0x7f0200fa) = (reference) ???(0x7f0c014e)
+				searchViewStyle(2130837754 or 0x7f0200fa) = (reference) Widget.AppCompat.SearchView.ActionBar
 		Base.ThemeOverlay.AppCompat.Dialog
+			parent: Base.V7.ThemeOverlay.AppCompat.Dialog
 		Base.ThemeOverlay.AppCompat.Dialog.Alert
+			parent: Base.ThemeOverlay.AppCompat.Dialog
 				???(0x1010356)(16843606 or 0x1010356) = (reference) abc_dialog_min_width_major
 				???(0x1010357)(16843607 or 0x1010357) = (reference) abc_dialog_min_width_minor
 		Base.ThemeOverlay.AppCompat.Light
+			parent: Platform.ThemeOverlay.AppCompat.Light
 				???(0x1010030)(16842800 or 0x1010030) = (reference) foreground_material_light
 				???(0x1010031)(16842801 or 0x1010031) = (reference) background_material_light
 				???(0x1010036)(16842806 or 0x1010036) = (reference) abc_primary_text_material_light
@@ -4403,28 +4481,29 @@ com.cvte.tv.myapplication
 				colorSwitchThumbNormal(2130837591 or 0x7f020057) = (reference) switch_thumb_material_light
 				isLightTheme(2130837650 or 0x7f020092) = (boolean) true
 		Base.V7.Theme.AppCompat
+			parent: Platform.AppCompat
 				???(0x101005e)(16842846 or 0x101005e) = (reference) ???(0x106000d)
-				???(0x101006d)(16842861 or 0x101006d) = (reference) ???(0x7f0c0143)
-				???(0x1010086)(16842886 or 0x1010086) = (reference) ???(0x7f0c0127)
-				???(0x1010089)(16842889 or 0x1010089) = (reference) ???(0x7f0c0155)
-				???(0x1010207)(16843271 or 0x1010207) = (reference) ???(0x7f0c00e2)
+				???(0x101006d)(16842861 or 0x101006d) = (reference) Widget.AppCompat.ListView.DropDown
+				???(0x1010086)(16842886 or 0x1010086) = (reference) Widget.AppCompat.DropDownItem.Spinner
+				???(0x1010089)(16842889 or 0x1010089) = (reference) Widget.AppCompat.TextView.SpinnerItem
+				???(0x1010207)(16843271 or 0x1010207) = (reference) TextAppearance.AppCompat.Widget.Button
 				actionBarDivider(2130837504 or 0x7f020000) = (attribute) dividerVertical
 				actionBarItemBackground(2130837505 or 0x7f020001) = (attribute) selectableItemBackgroundBorderless
 				actionBarPopupTheme(2130837506 or 0x7f020002) = (reference) ???(0x0)
 				actionBarSize(2130837507 or 0x7f020003) = (reference) abc_action_bar_default_height_material
 				actionBarSplitStyle(2130837508 or 0x7f020004) = (attribute) actionBarStyle
-				actionBarStyle(2130837509 or 0x7f020005) = (reference) ???(0x7f0c0111)
-				actionBarTabBarStyle(2130837510 or 0x7f020006) = (reference) ???(0x7f0c0112)
-				actionBarTabStyle(2130837511 or 0x7f020007) = (reference) ???(0x7f0c0114)
-				actionBarTabTextStyle(2130837512 or 0x7f020008) = (reference) ???(0x7f0c0113)
-				actionBarTheme(2130837513 or 0x7f020009) = (reference) ???(0x7f0c010a)
+				actionBarStyle(2130837509 or 0x7f020005) = (reference) Widget.AppCompat.ActionBar.Solid
+				actionBarTabBarStyle(2130837510 or 0x7f020006) = (reference) Widget.AppCompat.ActionBar.TabBar
+				actionBarTabStyle(2130837511 or 0x7f020007) = (reference) Widget.AppCompat.ActionBar.TabView
+				actionBarTabTextStyle(2130837512 or 0x7f020008) = (reference) Widget.AppCompat.ActionBar.TabText
+				actionBarTheme(2130837513 or 0x7f020009) = (reference) ThemeOverlay.AppCompat.ActionBar
 				actionBarWidgetTheme(2130837514 or 0x7f02000a) = (reference) ???(0x0)
-				actionButtonStyle(2130837515 or 0x7f02000b) = (reference) ???(0x7f0c0115)
-				actionDropDownStyle(2130837516 or 0x7f02000c) = (reference) ???(0x7f0c0153)
-				actionMenuTextAppearance(2130837518 or 0x7f02000e) = (reference) ???(0x7f0c00d9)
+				actionButtonStyle(2130837515 or 0x7f02000b) = (reference) Widget.AppCompat.ActionButton
+				actionDropDownStyle(2130837516 or 0x7f02000c) = (reference) Widget.AppCompat.Spinner.DropDown.ActionBar
+				actionMenuTextAppearance(2130837518 or 0x7f02000e) = (reference) TextAppearance.AppCompat.Widget.ActionBar.Menu
 				actionMenuTextColor(2130837519 or 0x7f02000f) = (attribute) ???(0x1010037)
 				actionModeBackground(2130837520 or 0x7f020010) = (reference) abc_cab_background_top_material
-				actionModeCloseButtonStyle(2130837521 or 0x7f020011) = (reference) ???(0x7f0c0116)
+				actionModeCloseButtonStyle(2130837521 or 0x7f020011) = (reference) Widget.AppCompat.ActionButton.CloseMode
 				actionModeCloseDrawable(2130837522 or 0x7f020012) = (reference) abc_ic_ab_back_material
 				actionModeCopyDrawable(2130837523 or 0x7f020013) = (reference) abc_ic_menu_copy_mtrl_am_alpha
 				actionModeCutDrawable(2130837524 or 0x7f020014) = (reference) abc_ic_menu_cut_mtrl_alpha
@@ -4432,23 +4511,23 @@ com.cvte.tv.myapplication
 				actionModeSelectAllDrawable(2130837528 or 0x7f020018) = (reference) abc_ic_menu_selectall_mtrl_alpha
 				actionModeShareDrawable(2130837529 or 0x7f020019) = (reference) abc_ic_menu_share_mtrl_alpha
 				actionModeSplitBackground(2130837530 or 0x7f02001a) = (attribute) colorPrimaryDark
-				actionModeStyle(2130837531 or 0x7f02001b) = (reference) ???(0x7f0c0118)
-				actionOverflowButtonStyle(2130837533 or 0x7f02001d) = (reference) ???(0x7f0c0117)
-				actionOverflowMenuStyle(2130837534 or 0x7f02001e) = (reference) ???(0x7f0c0146)
-				activityChooserViewStyle(2130837537 or 0x7f020021) = (reference) ???(0x7f0c0119)
+				actionModeStyle(2130837531 or 0x7f02001b) = (reference) Widget.AppCompat.ActionMode
+				actionOverflowButtonStyle(2130837533 or 0x7f02001d) = (reference) Widget.AppCompat.ActionButton.Overflow
+				actionOverflowMenuStyle(2130837534 or 0x7f02001e) = (reference) Widget.AppCompat.PopupMenu.Overflow
+				activityChooserViewStyle(2130837537 or 0x7f020021) = (reference) Widget.AppCompat.ActivityChooserView
 				alertDialogCenterButtons(2130837539 or 0x7f020023) = (boolean) false
-				alertDialogStyle(2130837540 or 0x7f020024) = (reference) ???(0x7f0c0000)
-				alertDialogTheme(2130837541 or 0x7f020025) = (reference) ???(0x7f0c010e)
-				autoCompleteTextViewStyle(2130837547 or 0x7f02002b) = (reference) ???(0x7f0c011a)
-				borderlessButtonStyle(2130837561 or 0x7f020039) = (reference) ???(0x7f0c011c)
-				buttonBarButtonStyle(2130837562 or 0x7f02003a) = (reference) ???(0x7f0c011e)
+				alertDialogStyle(2130837540 or 0x7f020024) = (reference) AlertDialog.AppCompat
+				alertDialogTheme(2130837541 or 0x7f020025) = (reference) ThemeOverlay.AppCompat.Dialog.Alert
+				autoCompleteTextViewStyle(2130837547 or 0x7f02002b) = (reference) Widget.AppCompat.AutoCompleteTextView
+				borderlessButtonStyle(2130837561 or 0x7f020039) = (reference) Widget.AppCompat.Button.Borderless
+				buttonBarButtonStyle(2130837562 or 0x7f02003a) = (reference) Widget.AppCompat.Button.ButtonBar.AlertDialog
 				buttonBarNegativeButtonStyle(2130837563 or 0x7f02003b) = (attribute) buttonBarButtonStyle
 				buttonBarNeutralButtonStyle(2130837564 or 0x7f02003c) = (attribute) buttonBarButtonStyle
 				buttonBarPositiveButtonStyle(2130837565 or 0x7f02003d) = (attribute) buttonBarButtonStyle
-				buttonBarStyle(2130837566 or 0x7f02003e) = (reference) ???(0x7f0c0121)
-				buttonStyle(2130837570 or 0x7f020042) = (reference) ???(0x7f0c011b)
-				buttonStyleSmall(2130837571 or 0x7f020043) = (reference) ???(0x7f0c0120)
-				checkboxStyle(2130837575 or 0x7f020047) = (reference) ???(0x7f0c0123)
+				buttonBarStyle(2130837566 or 0x7f02003e) = (reference) Widget.AppCompat.ButtonBar
+				buttonStyle(2130837570 or 0x7f020042) = (reference) Widget.AppCompat.Button
+				buttonStyleSmall(2130837571 or 0x7f020043) = (reference) Widget.AppCompat.Button.Small
+				checkboxStyle(2130837575 or 0x7f020047) = (reference) Widget.AppCompat.CompoundButton.CheckBox
 				colorAccent(2130837582 or 0x7f02004e) = (reference) accent_material_dark
 				colorBackgroundFloating(2130837583 or 0x7f02004f) = (reference) background_floating_material_dark
 				colorButtonNormal(2130837584 or 0x7f020050) = (reference) button_material_dark
@@ -4462,57 +4541,57 @@ com.cvte.tv.myapplication
 				controlBackground(2130837603 or 0x7f020063) = (attribute) selectableItemBackgroundBorderless
 				dialogCornerRadius(2130837607 or 0x7f020067) = (reference) abc_dialog_corner_radius_material
 				dialogPreferredPadding(2130837608 or 0x7f020068) = (reference) abc_dialog_padding_material
-				dialogTheme(2130837609 or 0x7f020069) = (reference) ???(0x7f0c010d)
+				dialogTheme(2130837609 or 0x7f020069) = (reference) ThemeOverlay.AppCompat.Dialog
 				dividerHorizontal(2130837612 or 0x7f02006c) = (reference) abc_list_divider_mtrl_alpha
 				dividerVertical(2130837614 or 0x7f02006e) = (reference) abc_list_divider_mtrl_alpha
-				drawerArrowStyle(2130837616 or 0x7f020070) = (reference) ???(0x7f0c0126)
+				drawerArrowStyle(2130837616 or 0x7f020070) = (reference) Widget.AppCompat.DrawerArrowToggle
 				dropDownListViewStyle(2130837617 or 0x7f020071) = (attribute) ???(0x101006d)
 				dropdownListPreferredItemHeight(2130837618 or 0x7f020072) = (attribute) listPreferredItemHeightSmall
 				editTextBackground(2130837619 or 0x7f020073) = (reference) abc_edit_text_material
 				editTextColor(2130837620 or 0x7f020074) = (attribute) ???(0x1010036)
-				editTextStyle(2130837621 or 0x7f020075) = (reference) ???(0x7f0c0128)
+				editTextStyle(2130837621 or 0x7f020075) = (reference) Widget.AppCompat.EditText
 				homeAsUpIndicator(2130837641 or 0x7f020089) = (reference) abc_ic_ab_back_material
-				imageButtonStyle(2130837647 or 0x7f02008f) = (reference) ???(0x7f0c0129)
+				imageButtonStyle(2130837647 or 0x7f02008f) = (reference) Widget.AppCompat.ImageButton
 				isLightTheme(2130837650 or 0x7f020092) = (boolean) false
 				listChoiceBackgroundIndicator(2130837712 or 0x7f0200d0) = (reference) abc_list_selector_holo_dark
 				listDividerAlertDialog(2130837713 or 0x7f0200d1) = (reference) ???(0x0)
-				listMenuViewStyle(2130837716 or 0x7f0200d4) = (reference) ???(0x7f0c0140)
-				listPopupWindowStyle(2130837717 or 0x7f0200d5) = (reference) ???(0x7f0c0141)
+				listMenuViewStyle(2130837716 or 0x7f0200d4) = (reference) Widget.AppCompat.ListMenuView
+				listPopupWindowStyle(2130837717 or 0x7f0200d5) = (reference) Widget.AppCompat.ListPopupWindow
 				listPreferredItemHeight(2130837718 or 0x7f0200d6) = (dimension) 64dp
 				listPreferredItemHeightLarge(2130837719 or 0x7f0200d7) = (dimension) 80dp
 				listPreferredItemHeightSmall(2130837720 or 0x7f0200d8) = (dimension) 48dp
 				listPreferredItemPaddingLeft(2130837721 or 0x7f0200d9) = (reference) abc_list_item_padding_horizontal_material
 				listPreferredItemPaddingRight(2130837722 or 0x7f0200da) = (reference) abc_list_item_padding_horizontal_material
 				panelBackground(2130837737 or 0x7f0200e9) = (reference) abc_menu_hardkey_panel_mtrl_mult
-				panelMenuListTheme(2130837738 or 0x7f0200ea) = (reference) ???(0x7f0c00f5)
+				panelMenuListTheme(2130837738 or 0x7f0200ea) = (reference) Theme.AppCompat.CompactMenu
 				panelMenuListWidth(2130837739 or 0x7f0200eb) = (reference) abc_panel_menu_list_width
-				popupMenuStyle(2130837740 or 0x7f0200ec) = (reference) ???(0x7f0c0145)
-				radioButtonStyle(2130837748 or 0x7f0200f4) = (reference) ???(0x7f0c0124)
-				ratingBarStyle(2130837749 or 0x7f0200f5) = (reference) ???(0x7f0c014a)
-				ratingBarStyleIndicator(2130837750 or 0x7f0200f6) = (reference) ???(0x7f0c014b)
-				ratingBarStyleSmall(2130837751 or 0x7f0200f7) = (reference) ???(0x7f0c014c)
-				searchViewStyle(2130837754 or 0x7f0200fa) = (reference) ???(0x7f0c014d)
-				seekBarStyle(2130837755 or 0x7f0200fb) = (reference) ???(0x7f0c014f)
+				popupMenuStyle(2130837740 or 0x7f0200ec) = (reference) Widget.AppCompat.PopupMenu
+				radioButtonStyle(2130837748 or 0x7f0200f4) = (reference) Widget.AppCompat.CompoundButton.RadioButton
+				ratingBarStyle(2130837749 or 0x7f0200f5) = (reference) Widget.AppCompat.RatingBar
+				ratingBarStyleIndicator(2130837750 or 0x7f0200f6) = (reference) Widget.AppCompat.RatingBar.Indicator
+				ratingBarStyleSmall(2130837751 or 0x7f0200f7) = (reference) Widget.AppCompat.RatingBar.Small
+				searchViewStyle(2130837754 or 0x7f0200fa) = (reference) Widget.AppCompat.SearchView
+				seekBarStyle(2130837755 or 0x7f0200fb) = (reference) Widget.AppCompat.SeekBar
 				selectableItemBackground(2130837756 or 0x7f0200fc) = (reference) abc_item_background_holo_dark
 				selectableItemBackgroundBorderless(2130837757 or 0x7f0200fd) = (attribute) selectableItemBackground
-				spinnerDropDownItemStyle(2130837764 or 0x7f020104) = (reference) ???(0x7f0c0127)
-				spinnerStyle(2130837765 or 0x7f020105) = (reference) ???(0x7f0c0151)
-				switchStyle(2130837779 or 0x7f020113) = (reference) ???(0x7f0c0125)
-				textAppearanceLargePopupMenu(2130837782 or 0x7f020116) = (reference) ???(0x7f0c00e8)
-				textAppearanceListItem(2130837783 or 0x7f020117) = (reference) ???(0x7f0c00d4)
-				textAppearanceListItemSecondary(2130837784 or 0x7f020118) = (reference) ???(0x7f0c00bd)
-				textAppearanceListItemSmall(2130837785 or 0x7f020119) = (reference) ???(0x7f0c00d4)
-				textAppearancePopupMenuHeader(2130837786 or 0x7f02011a) = (reference) ???(0x7f0c00e7)
-				textAppearanceSearchResultSubtitle(2130837787 or 0x7f02011b) = (reference) ???(0x7f0c00d0)
-				textAppearanceSearchResultTitle(2130837788 or 0x7f02011c) = (reference) ???(0x7f0c00d1)
-				textAppearanceSmallPopupMenu(2130837789 or 0x7f02011d) = (reference) ???(0x7f0c00e9)
+				spinnerDropDownItemStyle(2130837764 or 0x7f020104) = (reference) Widget.AppCompat.DropDownItem.Spinner
+				spinnerStyle(2130837765 or 0x7f020105) = (reference) Widget.AppCompat.Spinner
+				switchStyle(2130837779 or 0x7f020113) = (reference) Widget.AppCompat.CompoundButton.Switch
+				textAppearanceLargePopupMenu(2130837782 or 0x7f020116) = (reference) TextAppearance.AppCompat.Widget.PopupMenu.Large
+				textAppearanceListItem(2130837783 or 0x7f020117) = (reference) TextAppearance.AppCompat.Subhead
+				textAppearanceListItemSecondary(2130837784 or 0x7f020118) = (reference) TextAppearance.AppCompat.Body1
+				textAppearanceListItemSmall(2130837785 or 0x7f020119) = (reference) TextAppearance.AppCompat.Subhead
+				textAppearancePopupMenuHeader(2130837786 or 0x7f02011a) = (reference) TextAppearance.AppCompat.Widget.PopupMenu.Header
+				textAppearanceSearchResultSubtitle(2130837787 or 0x7f02011b) = (reference) TextAppearance.AppCompat.SearchResult.Subtitle
+				textAppearanceSearchResultTitle(2130837788 or 0x7f02011c) = (reference) TextAppearance.AppCompat.SearchResult.Title
+				textAppearanceSmallPopupMenu(2130837789 or 0x7f02011d) = (reference) TextAppearance.AppCompat.Widget.PopupMenu.Small
 				textColorAlertDialogListItem(2130837790 or 0x7f02011e) = (reference) abc_primary_text_material_dark
 				textColorSearchUrl(2130837791 or 0x7f02011f) = (reference) abc_search_url_text
-				toolbarNavigationButtonStyle(2130837812 or 0x7f020134) = (reference) ???(0x7f0c0157)
-				toolbarStyle(2130837813 or 0x7f020135) = (reference) ???(0x7f0c0156)
+				toolbarNavigationButtonStyle(2130837812 or 0x7f020134) = (reference) Widget.AppCompat.Toolbar.Button.Navigation
+				toolbarStyle(2130837813 or 0x7f020135) = (reference) Widget.AppCompat.Toolbar
 				tooltipForegroundColor(2130837814 or 0x7f020136) = (reference) foreground_material_light
 				tooltipFrameBackground(2130837815 or 0x7f020137) = (reference) tooltip_frame_light
-				viewInflaterClass(2130837821 or 0x7f02013d) = reference
+				viewInflaterClass(2130837821 or 0x7f02013d) = (string) android.support.v7.app.AppCompatViewInflater
 				windowActionBar(2130837823 or 0x7f02013f) = (boolean) true
 				windowActionBarOverlay(2130837824 or 0x7f020140) = (boolean) false
 				windowActionModeOverlay(2130837825 or 0x7f020141) = (boolean) false
@@ -4522,48 +4601,50 @@ com.cvte.tv.myapplication
 				windowFixedWidthMinor(2130837829 or 0x7f020145) = (reference) ???(0x0)
 				windowNoTitle(2130837832 or 0x7f020148) = (boolean) false
 		Base.V7.Theme.AppCompat.Dialog
+			parent: Base.Theme.AppCompat
 				???(0x1010031)(16842801 or 0x1010031) = (attribute) colorBackgroundFloating
 				???(0x1010054)(16842836 or 0x1010054) = (reference) abc_dialog_material_background
 				???(0x1010055)(16842837 or 0x1010055) = (reference) ???(0x0)
 				???(0x1010057)(16842839 or 0x1010057) = (boolean) true
 				???(0x1010059)(16842841 or 0x1010059) = (reference) ???(0x0)
-				???(0x101005b)(16842843 or 0x101005b) = (reference) ???(0x7f0c00ab)
-				???(0x101005c)(16842844 or 0x101005c) = (reference) ???(0x7f0c000c)
-				???(0x10100ae)(16842926 or 0x10100ae) = (reference) ???(0x7f0c0002)
+				???(0x101005b)(16842843 or 0x101005b) = (reference) RtlOverlay.DialogWindowTitle.AppCompat
+				???(0x101005c)(16842844 or 0x101005c) = (reference) Base.DialogWindowTitleBackground.AppCompat
+				???(0x10100ae)(16842926 or 0x10100ae) = (reference) Animation.AppCompat.Dialog
 				???(0x1010214)(16843284 or 0x1010214) = (reference) ???(0x0)
 				???(0x101021f)(16843295 or 0x101021f) = (boolean) true
-				???(0x101022b)(16843307 or 0x101022b) = float
+				???(0x101022b)(16843307 or 0x101022b) = (int) 32 or 0x00000020
 				???(0x10102ab)(16843435 or 0x10102ab) = (reference) ???(0x0)
-				???(0x101032b)(16843563 or 0x101032b) = (reference) ???(0x7f0c011c)
-				???(0x101032e)(16843566 or 0x101032e) = (reference) ???(0x7f0c0122)
+				???(0x101032b)(16843563 or 0x101032b) = (reference) Widget.AppCompat.Button.Borderless
+				???(0x101032e)(16843566 or 0x101032e) = (reference) Widget.AppCompat.ButtonBar.AlertDialog
 				???(0x101035b)(16843611 or 0x101035b) = (boolean) true
 				listPreferredItemPaddingLeft(2130837721 or 0x7f0200d9) = (dimension) 24dp
 				listPreferredItemPaddingRight(2130837722 or 0x7f0200da) = (dimension) 24dp
 				windowActionBar(2130837823 or 0x7f02013f) = (boolean) false
 				windowActionModeOverlay(2130837825 or 0x7f020141) = (boolean) true
 		Base.V7.Theme.AppCompat.Light
+			parent: Platform.AppCompat.Light
 				???(0x101005e)(16842846 or 0x101005e) = (reference) ???(0x106000d)
-				???(0x101006d)(16842861 or 0x101006d) = (reference) ???(0x7f0c0143)
-				???(0x1010086)(16842886 or 0x1010086) = (reference) ???(0x7f0c0127)
-				???(0x1010089)(16842889 or 0x1010089) = (reference) ???(0x7f0c0155)
-				???(0x1010207)(16843271 or 0x1010207) = (reference) ???(0x7f0c00e2)
+				???(0x101006d)(16842861 or 0x101006d) = (reference) Widget.AppCompat.ListView.DropDown
+				???(0x1010086)(16842886 or 0x1010086) = (reference) Widget.AppCompat.DropDownItem.Spinner
+				???(0x1010089)(16842889 or 0x1010089) = (reference) Widget.AppCompat.TextView.SpinnerItem
+				???(0x1010207)(16843271 or 0x1010207) = (reference) TextAppearance.AppCompat.Widget.Button
 				actionBarDivider(2130837504 or 0x7f020000) = (attribute) dividerVertical
 				actionBarItemBackground(2130837505 or 0x7f020001) = (attribute) selectableItemBackgroundBorderless
 				actionBarPopupTheme(2130837506 or 0x7f020002) = (reference) ???(0x0)
 				actionBarSize(2130837507 or 0x7f020003) = (reference) abc_action_bar_default_height_material
 				actionBarSplitStyle(2130837508 or 0x7f020004) = (attribute) actionBarStyle
-				actionBarStyle(2130837509 or 0x7f020005) = (reference) ???(0x7f0c012b)
-				actionBarTabBarStyle(2130837510 or 0x7f020006) = (reference) ???(0x7f0c012d)
-				actionBarTabStyle(2130837511 or 0x7f020007) = (reference) ???(0x7f0c0131)
-				actionBarTabTextStyle(2130837512 or 0x7f020008) = (reference) ???(0x7f0c012f)
-				actionBarTheme(2130837513 or 0x7f020009) = (reference) ???(0x7f0c010a)
+				actionBarStyle(2130837509 or 0x7f020005) = (reference) Widget.AppCompat.Light.ActionBar.Solid
+				actionBarTabBarStyle(2130837510 or 0x7f020006) = (reference) Widget.AppCompat.Light.ActionBar.TabBar
+				actionBarTabStyle(2130837511 or 0x7f020007) = (reference) Widget.AppCompat.Light.ActionBar.TabView
+				actionBarTabTextStyle(2130837512 or 0x7f020008) = (reference) Widget.AppCompat.Light.ActionBar.TabText
+				actionBarTheme(2130837513 or 0x7f020009) = (reference) ThemeOverlay.AppCompat.ActionBar
 				actionBarWidgetTheme(2130837514 or 0x7f02000a) = (reference) ???(0x0)
-				actionButtonStyle(2130837515 or 0x7f02000b) = (reference) ???(0x7f0c0133)
-				actionDropDownStyle(2130837516 or 0x7f02000c) = (reference) ???(0x7f0c013f)
-				actionMenuTextAppearance(2130837518 or 0x7f02000e) = (reference) ???(0x7f0c00d9)
+				actionButtonStyle(2130837515 or 0x7f02000b) = (reference) Widget.AppCompat.Light.ActionButton
+				actionDropDownStyle(2130837516 or 0x7f02000c) = (reference) Widget.AppCompat.Light.Spinner.DropDown.ActionBar
+				actionMenuTextAppearance(2130837518 or 0x7f02000e) = (reference) TextAppearance.AppCompat.Widget.ActionBar.Menu
 				actionMenuTextColor(2130837519 or 0x7f02000f) = (attribute) ???(0x1010037)
 				actionModeBackground(2130837520 or 0x7f020010) = (reference) abc_cab_background_top_material
-				actionModeCloseButtonStyle(2130837521 or 0x7f020011) = (reference) ???(0x7f0c0116)
+				actionModeCloseButtonStyle(2130837521 or 0x7f020011) = (reference) Widget.AppCompat.ActionButton.CloseMode
 				actionModeCloseDrawable(2130837522 or 0x7f020012) = (reference) abc_ic_ab_back_material
 				actionModeCopyDrawable(2130837523 or 0x7f020013) = (reference) abc_ic_menu_copy_mtrl_am_alpha
 				actionModeCutDrawable(2130837524 or 0x7f020014) = (reference) abc_ic_menu_cut_mtrl_alpha
@@ -4571,23 +4652,23 @@ com.cvte.tv.myapplication
 				actionModeSelectAllDrawable(2130837528 or 0x7f020018) = (reference) abc_ic_menu_selectall_mtrl_alpha
 				actionModeShareDrawable(2130837529 or 0x7f020019) = (reference) abc_ic_menu_share_mtrl_alpha
 				actionModeSplitBackground(2130837530 or 0x7f02001a) = (attribute) colorPrimaryDark
-				actionModeStyle(2130837531 or 0x7f02001b) = (reference) ???(0x7f0c0118)
-				actionOverflowButtonStyle(2130837533 or 0x7f02001d) = (reference) ???(0x7f0c0135)
-				actionOverflowMenuStyle(2130837534 or 0x7f02001e) = (reference) ???(0x7f0c013d)
-				activityChooserViewStyle(2130837537 or 0x7f020021) = (reference) ???(0x7f0c0119)
+				actionModeStyle(2130837531 or 0x7f02001b) = (reference) Widget.AppCompat.ActionMode
+				actionOverflowButtonStyle(2130837533 or 0x7f02001d) = (reference) Widget.AppCompat.Light.ActionButton.Overflow
+				actionOverflowMenuStyle(2130837534 or 0x7f02001e) = (reference) Widget.AppCompat.Light.PopupMenu.Overflow
+				activityChooserViewStyle(2130837537 or 0x7f020021) = (reference) Widget.AppCompat.ActivityChooserView
 				alertDialogCenterButtons(2130837539 or 0x7f020023) = (boolean) false
-				alertDialogStyle(2130837540 or 0x7f020024) = (reference) ???(0x7f0c0001)
-				alertDialogTheme(2130837541 or 0x7f020025) = (reference) ???(0x7f0c010e)
-				autoCompleteTextViewStyle(2130837547 or 0x7f02002b) = (reference) ???(0x7f0c011a)
-				borderlessButtonStyle(2130837561 or 0x7f020039) = (reference) ???(0x7f0c011c)
-				buttonBarButtonStyle(2130837562 or 0x7f02003a) = (reference) ???(0x7f0c011e)
+				alertDialogStyle(2130837540 or 0x7f020024) = (reference) AlertDialog.AppCompat.Light
+				alertDialogTheme(2130837541 or 0x7f020025) = (reference) ThemeOverlay.AppCompat.Dialog.Alert
+				autoCompleteTextViewStyle(2130837547 or 0x7f02002b) = (reference) Widget.AppCompat.AutoCompleteTextView
+				borderlessButtonStyle(2130837561 or 0x7f020039) = (reference) Widget.AppCompat.Button.Borderless
+				buttonBarButtonStyle(2130837562 or 0x7f02003a) = (reference) Widget.AppCompat.Button.ButtonBar.AlertDialog
 				buttonBarNegativeButtonStyle(2130837563 or 0x7f02003b) = (attribute) buttonBarButtonStyle
 				buttonBarNeutralButtonStyle(2130837564 or 0x7f02003c) = (attribute) buttonBarButtonStyle
 				buttonBarPositiveButtonStyle(2130837565 or 0x7f02003d) = (attribute) buttonBarButtonStyle
-				buttonBarStyle(2130837566 or 0x7f02003e) = (reference) ???(0x7f0c0121)
-				buttonStyle(2130837570 or 0x7f020042) = (reference) ???(0x7f0c011b)
-				buttonStyleSmall(2130837571 or 0x7f020043) = (reference) ???(0x7f0c0120)
-				checkboxStyle(2130837575 or 0x7f020047) = (reference) ???(0x7f0c0123)
+				buttonBarStyle(2130837566 or 0x7f02003e) = (reference) Widget.AppCompat.ButtonBar
+				buttonStyle(2130837570 or 0x7f020042) = (reference) Widget.AppCompat.Button
+				buttonStyleSmall(2130837571 or 0x7f020043) = (reference) Widget.AppCompat.Button.Small
+				checkboxStyle(2130837575 or 0x7f020047) = (reference) Widget.AppCompat.CompoundButton.CheckBox
 				colorAccent(2130837582 or 0x7f02004e) = (reference) accent_material_light
 				colorBackgroundFloating(2130837583 or 0x7f02004f) = (reference) background_floating_material_light
 				colorButtonNormal(2130837584 or 0x7f020050) = (reference) button_material_light
@@ -4601,57 +4682,57 @@ com.cvte.tv.myapplication
 				controlBackground(2130837603 or 0x7f020063) = (attribute) selectableItemBackgroundBorderless
 				dialogCornerRadius(2130837607 or 0x7f020067) = (reference) abc_dialog_corner_radius_material
 				dialogPreferredPadding(2130837608 or 0x7f020068) = (reference) abc_dialog_padding_material
-				dialogTheme(2130837609 or 0x7f020069) = (reference) ???(0x7f0c010d)
+				dialogTheme(2130837609 or 0x7f020069) = (reference) ThemeOverlay.AppCompat.Dialog
 				dividerHorizontal(2130837612 or 0x7f02006c) = (reference) abc_list_divider_mtrl_alpha
 				dividerVertical(2130837614 or 0x7f02006e) = (reference) abc_list_divider_mtrl_alpha
-				drawerArrowStyle(2130837616 or 0x7f020070) = (reference) ???(0x7f0c0126)
+				drawerArrowStyle(2130837616 or 0x7f020070) = (reference) Widget.AppCompat.DrawerArrowToggle
 				dropDownListViewStyle(2130837617 or 0x7f020071) = (attribute) ???(0x101006d)
 				dropdownListPreferredItemHeight(2130837618 or 0x7f020072) = (attribute) listPreferredItemHeightSmall
 				editTextBackground(2130837619 or 0x7f020073) = (reference) abc_edit_text_material
 				editTextColor(2130837620 or 0x7f020074) = (attribute) ???(0x1010036)
-				editTextStyle(2130837621 or 0x7f020075) = (reference) ???(0x7f0c0128)
+				editTextStyle(2130837621 or 0x7f020075) = (reference) Widget.AppCompat.EditText
 				homeAsUpIndicator(2130837641 or 0x7f020089) = (reference) abc_ic_ab_back_material
-				imageButtonStyle(2130837647 or 0x7f02008f) = (reference) ???(0x7f0c0129)
+				imageButtonStyle(2130837647 or 0x7f02008f) = (reference) Widget.AppCompat.ImageButton
 				isLightTheme(2130837650 or 0x7f020092) = (boolean) true
 				listChoiceBackgroundIndicator(2130837712 or 0x7f0200d0) = (reference) abc_list_selector_holo_light
 				listDividerAlertDialog(2130837713 or 0x7f0200d1) = (reference) ???(0x0)
-				listMenuViewStyle(2130837716 or 0x7f0200d4) = (reference) ???(0x7f0c0140)
-				listPopupWindowStyle(2130837717 or 0x7f0200d5) = (reference) ???(0x7f0c0141)
+				listMenuViewStyle(2130837716 or 0x7f0200d4) = (reference) Widget.AppCompat.ListMenuView
+				listPopupWindowStyle(2130837717 or 0x7f0200d5) = (reference) Widget.AppCompat.ListPopupWindow
 				listPreferredItemHeight(2130837718 or 0x7f0200d6) = (dimension) 64dp
 				listPreferredItemHeightLarge(2130837719 or 0x7f0200d7) = (dimension) 80dp
 				listPreferredItemHeightSmall(2130837720 or 0x7f0200d8) = (dimension) 48dp
 				listPreferredItemPaddingLeft(2130837721 or 0x7f0200d9) = (reference) abc_list_item_padding_horizontal_material
 				listPreferredItemPaddingRight(2130837722 or 0x7f0200da) = (reference) abc_list_item_padding_horizontal_material
 				panelBackground(2130837737 or 0x7f0200e9) = (reference) abc_menu_hardkey_panel_mtrl_mult
-				panelMenuListTheme(2130837738 or 0x7f0200ea) = (reference) ???(0x7f0c00f5)
+				panelMenuListTheme(2130837738 or 0x7f0200ea) = (reference) Theme.AppCompat.CompactMenu
 				panelMenuListWidth(2130837739 or 0x7f0200eb) = (reference) abc_panel_menu_list_width
-				popupMenuStyle(2130837740 or 0x7f0200ec) = (reference) ???(0x7f0c013c)
-				radioButtonStyle(2130837748 or 0x7f0200f4) = (reference) ???(0x7f0c0124)
-				ratingBarStyle(2130837749 or 0x7f0200f5) = (reference) ???(0x7f0c014a)
-				ratingBarStyleIndicator(2130837750 or 0x7f0200f6) = (reference) ???(0x7f0c014b)
-				ratingBarStyleSmall(2130837751 or 0x7f0200f7) = (reference) ???(0x7f0c014c)
-				searchViewStyle(2130837754 or 0x7f0200fa) = (reference) ???(0x7f0c013e)
-				seekBarStyle(2130837755 or 0x7f0200fb) = (reference) ???(0x7f0c014f)
+				popupMenuStyle(2130837740 or 0x7f0200ec) = (reference) Widget.AppCompat.Light.PopupMenu
+				radioButtonStyle(2130837748 or 0x7f0200f4) = (reference) Widget.AppCompat.CompoundButton.RadioButton
+				ratingBarStyle(2130837749 or 0x7f0200f5) = (reference) Widget.AppCompat.RatingBar
+				ratingBarStyleIndicator(2130837750 or 0x7f0200f6) = (reference) Widget.AppCompat.RatingBar.Indicator
+				ratingBarStyleSmall(2130837751 or 0x7f0200f7) = (reference) Widget.AppCompat.RatingBar.Small
+				searchViewStyle(2130837754 or 0x7f0200fa) = (reference) Widget.AppCompat.Light.SearchView
+				seekBarStyle(2130837755 or 0x7f0200fb) = (reference) Widget.AppCompat.SeekBar
 				selectableItemBackground(2130837756 or 0x7f0200fc) = (reference) abc_item_background_holo_light
 				selectableItemBackgroundBorderless(2130837757 or 0x7f0200fd) = (attribute) selectableItemBackground
-				spinnerDropDownItemStyle(2130837764 or 0x7f020104) = (reference) ???(0x7f0c0127)
-				spinnerStyle(2130837765 or 0x7f020105) = (reference) ???(0x7f0c0151)
-				switchStyle(2130837779 or 0x7f020113) = (reference) ???(0x7f0c0125)
-				textAppearanceLargePopupMenu(2130837782 or 0x7f020116) = (reference) ???(0x7f0c00cb)
-				textAppearanceListItem(2130837783 or 0x7f020117) = (reference) ???(0x7f0c00d4)
-				textAppearanceListItemSecondary(2130837784 or 0x7f020118) = (reference) ???(0x7f0c00bd)
-				textAppearanceListItemSmall(2130837785 or 0x7f020119) = (reference) ???(0x7f0c00d4)
-				textAppearancePopupMenuHeader(2130837786 or 0x7f02011a) = (reference) ???(0x7f0c00e7)
-				textAppearanceSearchResultSubtitle(2130837787 or 0x7f02011b) = (reference) ???(0x7f0c00d0)
-				textAppearanceSearchResultTitle(2130837788 or 0x7f02011c) = (reference) ???(0x7f0c00d1)
-				textAppearanceSmallPopupMenu(2130837789 or 0x7f02011d) = (reference) ???(0x7f0c00cc)
+				spinnerDropDownItemStyle(2130837764 or 0x7f020104) = (reference) Widget.AppCompat.DropDownItem.Spinner
+				spinnerStyle(2130837765 or 0x7f020105) = (reference) Widget.AppCompat.Spinner
+				switchStyle(2130837779 or 0x7f020113) = (reference) Widget.AppCompat.CompoundButton.Switch
+				textAppearanceLargePopupMenu(2130837782 or 0x7f020116) = (reference) TextAppearance.AppCompat.Light.Widget.PopupMenu.Large
+				textAppearanceListItem(2130837783 or 0x7f020117) = (reference) TextAppearance.AppCompat.Subhead
+				textAppearanceListItemSecondary(2130837784 or 0x7f020118) = (reference) TextAppearance.AppCompat.Body1
+				textAppearanceListItemSmall(2130837785 or 0x7f020119) = (reference) TextAppearance.AppCompat.Subhead
+				textAppearancePopupMenuHeader(2130837786 or 0x7f02011a) = (reference) TextAppearance.AppCompat.Widget.PopupMenu.Header
+				textAppearanceSearchResultSubtitle(2130837787 or 0x7f02011b) = (reference) TextAppearance.AppCompat.SearchResult.Subtitle
+				textAppearanceSearchResultTitle(2130837788 or 0x7f02011c) = (reference) TextAppearance.AppCompat.SearchResult.Title
+				textAppearanceSmallPopupMenu(2130837789 or 0x7f02011d) = (reference) TextAppearance.AppCompat.Light.Widget.PopupMenu.Small
 				textColorAlertDialogListItem(2130837790 or 0x7f02011e) = (reference) abc_primary_text_material_light
 				textColorSearchUrl(2130837791 or 0x7f02011f) = (reference) abc_search_url_text
-				toolbarNavigationButtonStyle(2130837812 or 0x7f020134) = (reference) ???(0x7f0c0157)
-				toolbarStyle(2130837813 or 0x7f020135) = (reference) ???(0x7f0c0156)
+				toolbarNavigationButtonStyle(2130837812 or 0x7f020134) = (reference) Widget.AppCompat.Toolbar.Button.Navigation
+				toolbarStyle(2130837813 or 0x7f020135) = (reference) Widget.AppCompat.Toolbar
 				tooltipForegroundColor(2130837814 or 0x7f020136) = (reference) foreground_material_dark
 				tooltipFrameBackground(2130837815 or 0x7f020137) = (reference) tooltip_frame_dark
-				viewInflaterClass(2130837821 or 0x7f02013d) = reference
+				viewInflaterClass(2130837821 or 0x7f02013d) = (string) android.support.v7.app.AppCompatViewInflater
 				windowActionBar(2130837823 or 0x7f02013f) = (boolean) true
 				windowActionBarOverlay(2130837824 or 0x7f020140) = (boolean) false
 				windowActionModeOverlay(2130837825 or 0x7f020141) = (boolean) false
@@ -4661,40 +4742,42 @@ com.cvte.tv.myapplication
 				windowFixedWidthMinor(2130837829 or 0x7f020145) = (reference) ???(0x0)
 				windowNoTitle(2130837832 or 0x7f020148) = (boolean) false
 		Base.V7.Theme.AppCompat.Light.Dialog
+			parent: Base.Theme.AppCompat.Light
 				???(0x1010031)(16842801 or 0x1010031) = (attribute) colorBackgroundFloating
 				???(0x1010054)(16842836 or 0x1010054) = (reference) abc_dialog_material_background
 				???(0x1010055)(16842837 or 0x1010055) = (reference) ???(0x0)
 				???(0x1010057)(16842839 or 0x1010057) = (boolean) true
 				???(0x1010059)(16842841 or 0x1010059) = (reference) ???(0x0)
-				???(0x101005b)(16842843 or 0x101005b) = (reference) ???(0x7f0c00ab)
-				???(0x101005c)(16842844 or 0x101005c) = (reference) ???(0x7f0c000c)
-				???(0x10100ae)(16842926 or 0x10100ae) = (reference) ???(0x7f0c0002)
+				???(0x101005b)(16842843 or 0x101005b) = (reference) RtlOverlay.DialogWindowTitle.AppCompat
+				???(0x101005c)(16842844 or 0x101005c) = (reference) Base.DialogWindowTitleBackground.AppCompat
+				???(0x10100ae)(16842926 or 0x10100ae) = (reference) Animation.AppCompat.Dialog
 				???(0x1010214)(16843284 or 0x1010214) = (reference) ???(0x0)
 				???(0x101021f)(16843295 or 0x101021f) = (boolean) true
-				???(0x101022b)(16843307 or 0x101022b) = float
+				???(0x101022b)(16843307 or 0x101022b) = (int) 32 or 0x00000020
 				???(0x10102ab)(16843435 or 0x10102ab) = (reference) ???(0x0)
-				???(0x101032b)(16843563 or 0x101032b) = (reference) ???(0x7f0c011c)
-				???(0x101032e)(16843566 or 0x101032e) = (reference) ???(0x7f0c0122)
+				???(0x101032b)(16843563 or 0x101032b) = (reference) Widget.AppCompat.Button.Borderless
+				???(0x101032e)(16843566 or 0x101032e) = (reference) Widget.AppCompat.ButtonBar.AlertDialog
 				???(0x101035b)(16843611 or 0x101035b) = (boolean) true
 				listPreferredItemPaddingLeft(2130837721 or 0x7f0200d9) = (dimension) 24dp
 				listPreferredItemPaddingRight(2130837722 or 0x7f0200da) = (dimension) 24dp
 				windowActionBar(2130837823 or 0x7f02013f) = (boolean) false
 				windowActionModeOverlay(2130837825 or 0x7f020141) = (boolean) true
 		Base.V7.ThemeOverlay.AppCompat.Dialog
+			parent: Base.ThemeOverlay.AppCompat
 				???(0x1010031)(16842801 or 0x1010031) = (attribute) colorBackgroundFloating
 				???(0x1010054)(16842836 or 0x1010054) = (reference) abc_dialog_material_background
 				???(0x1010055)(16842837 or 0x1010055) = (reference) ???(0x0)
 				???(0x1010057)(16842839 or 0x1010057) = (boolean) true
 				???(0x1010059)(16842841 or 0x1010059) = (reference) ???(0x0)
-				???(0x101005b)(16842843 or 0x101005b) = (reference) ???(0x7f0c00ab)
-				???(0x101005c)(16842844 or 0x101005c) = (reference) ???(0x7f0c000c)
-				???(0x10100ae)(16842926 or 0x10100ae) = (reference) ???(0x7f0c0002)
+				???(0x101005b)(16842843 or 0x101005b) = (reference) RtlOverlay.DialogWindowTitle.AppCompat
+				???(0x101005c)(16842844 or 0x101005c) = (reference) Base.DialogWindowTitleBackground.AppCompat
+				???(0x10100ae)(16842926 or 0x10100ae) = (reference) Animation.AppCompat.Dialog
 				???(0x1010214)(16843284 or 0x1010214) = (reference) ???(0x0)
 				???(0x101021f)(16843295 or 0x101021f) = (boolean) true
-				???(0x101022b)(16843307 or 0x101022b) = float
+				???(0x101022b)(16843307 or 0x101022b) = (int) 32 or 0x00000020
 				???(0x10102ab)(16843435 or 0x10102ab) = (reference) ???(0x0)
-				???(0x101032b)(16843563 or 0x101032b) = (reference) ???(0x7f0c011c)
-				???(0x101032e)(16843566 or 0x101032e) = (reference) ???(0x7f0c0122)
+				???(0x101032b)(16843563 or 0x101032b) = (reference) Widget.AppCompat.Button.Borderless
+				???(0x101032e)(16843566 or 0x101032e) = (reference) Widget.AppCompat.ButtonBar.AlertDialog
 				???(0x101035b)(16843611 or 0x101035b) = (boolean) true
 				listPreferredItemPaddingLeft(2130837721 or 0x7f0200d9) = (dimension) 24dp
 				listPreferredItemPaddingRight(2130837722 or 0x7f0200da) = (dimension) 24dp
@@ -4705,6 +4788,7 @@ com.cvte.tv.myapplication
 				windowFixedWidthMajor(2130837828 or 0x7f020144) = (reference) ???(0x0)
 				windowFixedWidthMinor(2130837829 or 0x7f020145) = (reference) ???(0x0)
 		Base.V7.Widget.AppCompat.AutoCompleteTextView
+			parent: ???(0x1030027)
 				???(0x1010034)(16842804 or 0x1010034) = (attribute) ???(0x1010044)
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) editTextColor
 				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) editTextBackground
@@ -4712,11 +4796,13 @@ com.cvte.tv.myapplication
 				???(0x1010176)(16843126 or 0x1010176) = (reference) abc_popup_background_mtrl_mult
 				???(0x1010362)(16843618 or 0x1010362) = (reference) abc_text_cursor_material
 		Base.V7.Widget.AppCompat.EditText
+			parent: ???(0x1030023)
 				???(0x1010034)(16842804 or 0x1010034) = (attribute) ???(0x1010044)
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) editTextColor
 				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) editTextBackground
 				???(0x1010362)(16843618 or 0x1010362) = (reference) abc_text_cursor_material
 		Base.V7.Widget.AppCompat.Toolbar
+			parent: ???(0x1030012)
 				???(0x10100d6)(16842966 or 0x10100d6) = (reference) abc_action_bar_default_padding_start_material
 				???(0x10100d8)(16842968 or 0x10100d8) = (reference) abc_action_bar_default_padding_end_material
 				???(0x1010140)(16843072 or 0x1010140) = (attribute) actionBarSize
@@ -4726,63 +4812,67 @@ com.cvte.tv.myapplication
 				contentInsetStart(2130837601 or 0x7f020061) = (dimension) 16dp
 				contentInsetStartWithNavigation(2130837602 or 0x7f020062) = (reference) abc_action_bar_content_inset_with_nav
 				maxButtonHeight(2130837725 or 0x7f0200dd) = (reference) abc_action_bar_default_height_material
-				subtitleTextAppearance(2130837773 or 0x7f02010d) = (reference) ???(0x7f0c00f2)
+				subtitleTextAppearance(2130837773 or 0x7f02010d) = (reference) TextAppearance.Widget.AppCompat.Toolbar.Subtitle
 				titleMargin(2130837803 or 0x7f02012b) = (dimension) 4dp
-				titleTextAppearance(2130837809 or 0x7f020131) = (reference) ???(0x7f0c00f3)
+				titleTextAppearance(2130837809 or 0x7f020131) = (reference) TextAppearance.Widget.AppCompat.Toolbar.Title
 		Base.Widget.AppCompat.ActionBar
-				???(0x10100af)(16842927 or 0x10100af) = color
-				actionButtonStyle(2130837515 or 0x7f02000b) = (reference) ???(0x7f0c0115)
-				actionOverflowButtonStyle(2130837533 or 0x7f02001d) = (reference) ???(0x7f0c0117)
+				???(0x10100af)(16842927 or 0x10100af) = (int) 16 or 0x00000010
+				actionButtonStyle(2130837515 or 0x7f02000b) = (reference) Widget.AppCompat.ActionButton
+				actionOverflowButtonStyle(2130837533 or 0x7f02001d) = (reference) Widget.AppCompat.ActionButton.Overflow
 				background(2130837553 or 0x7f020031) = (reference) ???(0x0)
 				backgroundSplit(2130837554 or 0x7f020032) = (reference) ???(0x0)
 				backgroundStacked(2130837555 or 0x7f020033) = (reference) ???(0x0)
 				contentInsetEnd(2130837597 or 0x7f02005d) = (reference) abc_action_bar_content_inset_material
 				contentInsetStart(2130837601 or 0x7f020061) = (reference) abc_action_bar_content_inset_material
 				contentInsetStartWithNavigation(2130837602 or 0x7f020062) = (reference) abc_action_bar_content_inset_with_nav
-				displayOptions(2130837610 or 0x7f02006a) = boolean
+				displayOptions(2130837610 or 0x7f02006a) = (int) 8 or 0x00000008
 				divider(2130837611 or 0x7f02006b) = (attribute) dividerVertical
 				elevation(2130837622 or 0x7f020076) = (reference) abc_action_bar_elevation_material
 				height(2130837639 or 0x7f020087) = (attribute) actionBarSize
 				popupTheme(2130837741 or 0x7f0200ed) = (attribute) actionBarPopupTheme
-				subtitleTextStyle(2130837775 or 0x7f02010f) = (reference) ???(0x7f0c00da)
-				titleTextStyle(2130837811 or 0x7f020133) = (reference) ???(0x7f0c00dc)
+				subtitleTextStyle(2130837775 or 0x7f02010f) = (reference) TextAppearance.AppCompat.Widget.ActionBar.Subtitle
+				titleTextStyle(2130837811 or 0x7f020133) = (reference) TextAppearance.AppCompat.Widget.ActionBar.Title
 		Base.Widget.AppCompat.ActionBar.Solid
+			parent: Base.Widget.AppCompat.ActionBar
 				background(2130837553 or 0x7f020031) = (attribute) colorPrimary
 				backgroundSplit(2130837554 or 0x7f020032) = (attribute) colorPrimary
 				backgroundStacked(2130837555 or 0x7f020033) = (attribute) colorPrimary
 		Base.Widget.AppCompat.ActionBar.TabBar
 				divider(2130837611 or 0x7f02006b) = (attribute) actionBarDivider
 				dividerPadding(2130837613 or 0x7f02006d) = (dimension) 8dp
-				showDividers(2130837759 or 0x7f0200ff) = string
+				showDividers(2130837759 or 0x7f0200ff) = (int) 2 or 0x00000002
 		Base.Widget.AppCompat.ActionBar.TabText
-				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00cd)
+				???(0x1010034)(16842804 or 0x1010034) = (reference) TextAppearance.AppCompat.Medium
 				???(0x1010095)(16842901 or 0x1010095) = (dimension) 12sp
-				???(0x1010097)(16842903 or 0x1010097) = reference
+				???(0x1010097)(16842903 or 0x1010097) = (int) 1 or 0x00000001
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010036)
-				???(0x10100ab)(16842923 or 0x10100ab) = integer
+				???(0x10100ab)(16842923 or 0x10100ab) = (int) 4 or 0x00000004
 				???(0x101011f)(16843039 or 0x101011f) = (dimension) 180dp
-				???(0x1010153)(16843091 or 0x1010153) = string
+				???(0x1010153)(16843091 or 0x1010153) = (int) 2 or 0x00000002
 				textAllCaps(2130837781 or 0x7f020115) = (boolean) true
 		Base.Widget.AppCompat.ActionBar.TabView
-				???(0x10100af)(16842927 or 0x10100af) = reference
+				???(0x10100af)(16842927 or 0x10100af) = (int) 1 or 0x00000001
 				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_tab_indicator_material
 				???(0x10100d6)(16842966 or 0x10100d6) = (dimension) 16dp
 				???(0x10100d8)(16842968 or 0x10100d8) = (dimension) 16dp
-				???(0x10100f4)(16842996 or 0x10100f4) = reference
+				???(0x10100f4)(16842996 or 0x10100f4) = (dimension) 0dp
 				???(0x101013f)(16843071 or 0x101013f) = (dimension) 80dp
 				???(0x1010181)(16843137 or 0x1010181) = (float) 1
 		Base.Widget.AppCompat.ActionButton
+			parent: RtlUnderlay.Widget.AppCompat.ActionButton
 				???(0x10100af)(16842927 or 0x10100af) = (int) 17 or 0x00000011
 				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) actionBarItemBackground
 				???(0x101011d)(16843037 or 0x101011d) = (int) 5 or 0x00000005
 				???(0x101013f)(16843071 or 0x101013f) = (reference) abc_action_button_min_width_material
 				???(0x1010140)(16843072 or 0x1010140) = (reference) abc_action_button_min_height_material
-				???(0x1010153)(16843091 or 0x1010153) = string
+				???(0x1010153)(16843091 or 0x1010153) = (int) 2 or 0x00000002
 				textAllCaps(2130837781 or 0x7f020115) = (reference) abc_config_actionMenuItemAllCaps
 		Base.Widget.AppCompat.ActionButton.CloseMode
+			parent: Base.Widget.AppCompat.ActionButton
 				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) controlBackground
 				???(0x101013f)(16843071 or 0x101013f) = (dimension) 56dp
 		Base.Widget.AppCompat.ActionButton.Overflow
+			parent: RtlUnderlay.Widget.AppCompat.ActionButton.Overflow
 				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) actionBarItemBackground
 				???(0x101013f)(16843071 or 0x101013f) = (reference) abc_action_button_min_width_overflow_material
 				???(0x1010140)(16843072 or 0x1010140) = (reference) abc_action_button_min_height_material
@@ -4793,16 +4883,18 @@ com.cvte.tv.myapplication
 				backgroundSplit(2130837554 or 0x7f020032) = (attribute) actionModeSplitBackground
 				closeItemLayout(2130837578 or 0x7f02004a) = (reference) abc_action_mode_close_item_material
 				height(2130837639 or 0x7f020087) = (attribute) actionBarSize
-				subtitleTextStyle(2130837775 or 0x7f02010f) = (reference) ???(0x7f0c00de)
-				titleTextStyle(2130837811 or 0x7f020133) = (reference) ???(0x7f0c00e0)
+				subtitleTextStyle(2130837775 or 0x7f02010f) = (reference) TextAppearance.AppCompat.Widget.ActionMode.Subtitle
+				titleTextStyle(2130837811 or 0x7f020133) = (reference) TextAppearance.AppCompat.Widget.ActionMode.Title
 		Base.Widget.AppCompat.ActivityChooserView
 				???(0x10100af)(16842927 or 0x10100af) = (int) 17 or 0x00000011
 				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_ab_share_pack_mtrl_alpha
 				divider(2130837611 or 0x7f02006b) = (attribute) dividerVertical
 				dividerPadding(2130837613 or 0x7f02006d) = (dimension) 6dp
-				showDividers(2130837759 or 0x7f0200ff) = string
+				showDividers(2130837759 or 0x7f0200ff) = (int) 2 or 0x00000002
 		Base.Widget.AppCompat.AutoCompleteTextView
+			parent: Base.V7.Widget.AppCompat.AutoCompleteTextView
 		Base.Widget.AppCompat.Button
+			parent: ???(0x1030012)
 				???(0x1010034)(16842804 or 0x1010034) = (attribute) ???(0x1010207)
 				???(0x10100af)(16842927 or 0x10100af) = (int) 17 or 0x00000011
 				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_btn_default_mtrl_shape
@@ -4811,37 +4903,48 @@ com.cvte.tv.myapplication
 				???(0x101013f)(16843071 or 0x101013f) = (dimension) 88dp
 				???(0x1010140)(16843072 or 0x1010140) = (dimension) 48dp
 		Base.Widget.AppCompat.Button.Borderless
+			parent: Base.Widget.AppCompat.Button
 				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_btn_borderless_material
 		Base.Widget.AppCompat.Button.Borderless.Colored
-				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00e3)
+			parent: Base.Widget.AppCompat.Button.Borderless
+				???(0x1010034)(16842804 or 0x1010034) = (reference) TextAppearance.AppCompat.Widget.Button.Borderless.Colored
 		Base.Widget.AppCompat.Button.ButtonBar.AlertDialog
+			parent: Widget.AppCompat.Button.Borderless.Colored
 				???(0x101013f)(16843071 or 0x101013f) = (dimension) 64dp
 				???(0x1010140)(16843072 or 0x1010140) = (reference) abc_alert_dialog_button_bar_height
 		Base.Widget.AppCompat.Button.Colored
-				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00e4)
+			parent: Base.Widget.AppCompat.Button
+				???(0x1010034)(16842804 or 0x1010034) = (reference) TextAppearance.AppCompat.Widget.Button.Colored
 				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_btn_colored_material
 		Base.Widget.AppCompat.Button.Small
+			parent: Base.Widget.AppCompat.Button
 				???(0x101013f)(16843071 or 0x101013f) = (dimension) 48dp
 				???(0x1010140)(16843072 or 0x1010140) = (dimension) 48dp
 		Base.Widget.AppCompat.ButtonBar
+			parent: ???(0x1030012)
 				???(0x10100d4)(16842964 or 0x10100d4) = (reference) ???(0x0)
 		Base.Widget.AppCompat.ButtonBar.AlertDialog
+			parent: Base.Widget.AppCompat.ButtonBar
 		Base.Widget.AppCompat.CompoundButton.CheckBox
+			parent: ???(0x1030019)
 				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) controlBackground
 				???(0x1010107)(16843015 or 0x1010107) = (attribute) ???(0x101021a)
 		Base.Widget.AppCompat.CompoundButton.RadioButton
+			parent: ???(0x103001a)
 				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) controlBackground
 				???(0x1010107)(16843015 or 0x1010107) = (attribute) ???(0x1010219)
 		Base.Widget.AppCompat.CompoundButton.Switch
+			parent: ???(0x1030018)
 				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) controlBackground
 				???(0x1010124)(16843044 or 0x1010124) = (reference) abc_capital_on
 				???(0x1010125)(16843045 or 0x1010125) = (reference) abc_capital_off
 				???(0x1010142)(16843074 or 0x1010142) = (reference) abc_switch_thumb_material
 				showText(2130837760 or 0x7f020100) = (boolean) false
 				switchPadding(2130837778 or 0x7f020112) = (reference) abc_switch_padding
-				switchTextAppearance(2130837780 or 0x7f020114) = (reference) ???(0x7f0c00ea)
+				switchTextAppearance(2130837780 or 0x7f020114) = (reference) TextAppearance.AppCompat.Widget.Switch
 				track(2130837817 or 0x7f020139) = (reference) abc_switch_track_mtrl_alpha
 		Base.Widget.AppCompat.DrawerArrowToggle
+			parent: Base.Widget.AppCompat.DrawerArrowToggle.Common
 				barLength(2130837558 or 0x7f020036) = (dimension) 18dp
 				drawableSize(2130837615 or 0x7f02006f) = (dimension) 24dp
 				gapBetweenBars(2130837637 or 0x7f020085) = (dimension) 3dp
@@ -4852,56 +4955,77 @@ com.cvte.tv.myapplication
 				spinBars(2130837763 or 0x7f020103) = (boolean) true
 				thickness(2130837793 or 0x7f020121) = (dimension) 2dp
 		Base.Widget.AppCompat.DropDownItem.Spinner
-				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00e6)
-				???(0x10100af)(16842927 or 0x10100af) = color
+				???(0x1010034)(16842804 or 0x1010034) = (reference) TextAppearance.AppCompat.Widget.DropDownItem
+				???(0x10100af)(16842927 or 0x10100af) = (int) 16 or 0x00000010
 				???(0x10100d6)(16842966 or 0x10100d6) = (dimension) 8dp
 				???(0x10100d8)(16842968 or 0x10100d8) = (dimension) 8dp
 		Base.Widget.AppCompat.EditText
+			parent: Base.V7.Widget.AppCompat.EditText
 		Base.Widget.AppCompat.ImageButton
+			parent: ???(0x1030026)
 				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_btn_default_mtrl_shape
 		Base.Widget.AppCompat.Light.ActionBar
-				actionButtonStyle(2130837515 or 0x7f02000b) = (reference) ???(0x7f0c0133)
-				actionOverflowButtonStyle(2130837533 or 0x7f02001d) = (reference) ???(0x7f0c0135)
+			parent: Base.Widget.AppCompat.ActionBar
+				actionButtonStyle(2130837515 or 0x7f02000b) = (reference) Widget.AppCompat.Light.ActionButton
+				actionOverflowButtonStyle(2130837533 or 0x7f02001d) = (reference) Widget.AppCompat.Light.ActionButton.Overflow
 		Base.Widget.AppCompat.Light.ActionBar.Solid
+			parent: Base.Widget.AppCompat.Light.ActionBar
 				background(2130837553 or 0x7f020031) = (attribute) colorPrimary
 				backgroundSplit(2130837554 or 0x7f020032) = (attribute) colorPrimary
 				backgroundStacked(2130837555 or 0x7f020033) = (attribute) colorPrimary
 		Base.Widget.AppCompat.Light.ActionBar.TabBar
+			parent: Base.Widget.AppCompat.ActionBar.TabBar
 		Base.Widget.AppCompat.Light.ActionBar.TabText
+			parent: Base.Widget.AppCompat.ActionBar.TabText
 		Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse
-				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00ce)
+			parent: Base.Widget.AppCompat.Light.ActionBar.TabText
+				???(0x1010034)(16842804 or 0x1010034) = (reference) TextAppearance.AppCompat.Medium.Inverse
 		Base.Widget.AppCompat.Light.ActionBar.TabView
+			parent: Base.Widget.AppCompat.ActionBar.TabView
 				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_tab_indicator_material
 		Base.Widget.AppCompat.Light.PopupMenu
+			parent: Widget.AppCompat.ListPopupWindow
 		Base.Widget.AppCompat.Light.PopupMenu.Overflow
+			parent: Base.Widget.AppCompat.Light.PopupMenu
 				???(0x10102ac)(16843436 or 0x10102ac) = (dimension) 1.67772e+07dp
 				overlapAnchor(2130837732 or 0x7f0200e4) = (boolean) true
 		Base.Widget.AppCompat.ListMenuView
+			parent: ???(0x1030012)
 				subMenuArrow(2130837770 or 0x7f02010a) = (reference) abc_ic_arrow_drop_right_black_24dp
 		Base.Widget.AppCompat.ListPopupWindow
 				???(0x1010175)(16843125 or 0x1010175) = (attribute) listChoiceBackgroundIndicator
 				???(0x1010176)(16843126 or 0x1010176) = (reference) abc_popup_background_mtrl_mult
 				???(0x1010262)(16843362 or 0x1010262) = (int) 4294967294 or 0xfffffffe
-				???(0x10102ac)(16843436 or 0x10102ac) = reference
-				???(0x10102ad)(16843437 or 0x10102ad) = reference
+				???(0x10102ac)(16843436 or 0x10102ac) = (dimension) 0dp
+				???(0x10102ad)(16843437 or 0x10102ad) = (dimension) 0dp
 		Base.Widget.AppCompat.ListView
+			parent: ???(0x103002e)
 				???(0x10100fb)(16843003 or 0x10100fb) = (attribute) listChoiceBackgroundIndicator
 		Base.Widget.AppCompat.ListView.DropDown
+			parent: Base.Widget.AppCompat.ListView
 				???(0x1010129)(16843049 or 0x1010129) = (reference) ???(0x0)
 		Base.Widget.AppCompat.ListView.Menu
+			parent: ???(0x1030031)
 				???(0x10100fb)(16843003 or 0x10100fb) = (attribute) listChoiceBackgroundIndicator
 				???(0x1010129)(16843049 or 0x1010129) = (attribute) dividerHorizontal
 		Base.Widget.AppCompat.PopupMenu
+			parent: Widget.AppCompat.ListPopupWindow
 		Base.Widget.AppCompat.PopupMenu.Overflow
+			parent: Base.Widget.AppCompat.PopupMenu
 				???(0x10102ac)(16843436 or 0x10102ac) = (dimension) 1.67772e+07dp
 				overlapAnchor(2130837732 or 0x7f0200e4) = (boolean) true
 		Base.Widget.AppCompat.PopupWindow
+			parent: ???(0x1030036)
 		Base.Widget.AppCompat.ProgressBar
+			parent: ???(0x1030099)
 		Base.Widget.AppCompat.ProgressBar.Horizontal
+			parent: ???(0x103009a)
 		Base.Widget.AppCompat.RatingBar
+			parent: ???(0x1030021)
 				???(0x101013b)(16843067 or 0x101013b) = (reference) abc_ratingbar_material
 				???(0x101013c)(16843068 or 0x101013c) = (reference) abc_ratingbar_material
 		Base.Widget.AppCompat.RatingBar.Indicator
+			parent: ???(0x1030021)
 				???(0x1010120)(16843040 or 0x1010120) = (dimension) 36dp
 				???(0x101013b)(16843067 or 0x101013b) = (reference) abc_ratingbar_indicator_material
 				???(0x101013c)(16843068 or 0x101013c) = (reference) abc_ratingbar_indicator_material
@@ -4909,6 +5033,7 @@ com.cvte.tv.myapplication
 				???(0x1010142)(16843074 or 0x1010142) = (reference) ???(0x0)
 				???(0x1010147)(16843079 or 0x1010147) = (boolean) true
 		Base.Widget.AppCompat.RatingBar.Small
+			parent: ???(0x1030021)
 				???(0x1010120)(16843040 or 0x1010120) = (dimension) 16dp
 				???(0x101013b)(16843067 or 0x101013b) = (reference) abc_ratingbar_small_material
 				???(0x101013c)(16843068 or 0x101013c) = (reference) abc_ratingbar_small_material
@@ -4916,6 +5041,7 @@ com.cvte.tv.myapplication
 				???(0x1010142)(16843074 or 0x1010142) = (reference) ???(0x0)
 				???(0x1010147)(16843079 or 0x1010147) = (boolean) true
 		Base.Widget.AppCompat.SearchView
+			parent: ???(0x1030012)
 				closeIcon(2130837577 or 0x7f020049) = (reference) abc_ic_clear_material
 				commitIcon(2130837592 or 0x7f020058) = (reference) abc_ic_commit_search_api_mtrl_alpha
 				goIcon(2130837638 or 0x7f020086) = (reference) abc_ic_go_search_api_material
@@ -4927,11 +5053,13 @@ com.cvte.tv.myapplication
 				suggestionRowLayout(2130837776 or 0x7f020110) = (reference) abc_search_dropdown_item_icons_2line
 				voiceIcon(2130837822 or 0x7f02013e) = (reference) abc_ic_voice_search_api_material
 		Base.Widget.AppCompat.SearchView.ActionBar
+			parent: Base.Widget.AppCompat.SearchView
 				defaultQueryHint(2130837606 or 0x7f020066) = (reference) abc_search_hint
 				queryBackground(2130837746 or 0x7f0200f2) = (reference) ???(0x0)
 				searchHintIcon(2130837752 or 0x7f0200f8) = (reference) ???(0x0)
 				submitBackground(2130837771 or 0x7f02010b) = (reference) ???(0x0)
 		Base.Widget.AppCompat.SeekBar
+			parent: ???(0x1030012)
 				???(0x10100d6)(16842966 or 0x10100d6) = (dimension) 16dp
 				???(0x10100d8)(16842968 or 0x10100d8) = (dimension) 16dp
 				???(0x10100da)(16842970 or 0x10100da) = (boolean) true
@@ -4940,47 +5068,54 @@ com.cvte.tv.myapplication
 				???(0x101013c)(16843068 or 0x101013c) = (reference) abc_seekbar_track_material
 				???(0x1010142)(16843074 or 0x1010142) = (reference) abc_seekbar_thumb_material
 		Base.Widget.AppCompat.SeekBar.Discrete
+			parent: Base.Widget.AppCompat.SeekBar
 				tickMark(2130837797 or 0x7f020125) = (reference) abc_seekbar_tick_mark_material
 		Base.Widget.AppCompat.Spinner
+			parent: Platform.Widget.AppCompat.Spinner
 				???(0x10100af)(16842927 or 0x10100af) = (int) 8388627 or 0x00800013
 				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_spinner_mtrl_am_alpha
 				???(0x10100e5)(16842981 or 0x10100e5) = (boolean) true
 				???(0x1010175)(16843125 or 0x1010175) = (attribute) listChoiceBackgroundIndicator
 				???(0x1010176)(16843126 or 0x1010176) = (reference) abc_popup_background_mtrl_mult
 				???(0x1010262)(16843362 or 0x1010262) = (int) 4294967294 or 0xfffffffe
-				???(0x10102ac)(16843436 or 0x10102ac) = reference
-				???(0x10102ad)(16843437 or 0x10102ad) = reference
+				???(0x10102ac)(16843436 or 0x10102ac) = (dimension) 0dp
+				???(0x10102ad)(16843437 or 0x10102ad) = (dimension) 0dp
 				overlapAnchor(2130837732 or 0x7f0200e4) = (boolean) true
 		Base.Widget.AppCompat.Spinner.Underlined
+			parent: Base.Widget.AppCompat.Spinner
 				???(0x10100d4)(16842964 or 0x10100d4) = (reference) abc_spinner_textfield_background_material
 		Base.Widget.AppCompat.TextView.SpinnerItem
-				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00eb)
+			parent: ???(0x103002a)
+				???(0x1010034)(16842804 or 0x1010034) = (reference) TextAppearance.AppCompat.Widget.TextView.SpinnerItem
 				???(0x10100d6)(16842966 or 0x10100d6) = (dimension) 8dp
 				???(0x10100d8)(16842968 or 0x10100d8) = (dimension) 8dp
 		Base.Widget.AppCompat.Toolbar
+			parent: Base.V7.Widget.AppCompat.Toolbar
 		Base.Widget.AppCompat.Toolbar.Button.Navigation
+			parent: ???(0x1030012)
 				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) controlBackground
 				???(0x101011d)(16843037 or 0x101011d) = (int) 5 or 0x00000005
 				???(0x101013f)(16843071 or 0x101013f) = (dimension) 56dp
 		Platform.AppCompat
+			parent: ???(0x103006b)
 				???(0x1010030)(16842800 or 0x1010030) = (reference) foreground_material_dark
 				???(0x1010031)(16842801 or 0x1010031) = (reference) background_material_dark
 				???(0x1010032)(16842802 or 0x1010032) = (float) 0.6
 				???(0x1010033)(16842803 or 0x1010033) = (reference) abc_disabled_alpha_material_dark
-				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00bc)
-				???(0x1010035)(16842805 or 0x1010035) = (reference) ???(0x7f0c00c6)
+				???(0x1010034)(16842804 or 0x1010034) = (reference) TextAppearance.AppCompat
+				???(0x1010035)(16842805 or 0x1010035) = (reference) TextAppearance.AppCompat.Inverse
 				???(0x1010036)(16842806 or 0x1010036) = (reference) abc_primary_text_material_dark
 				???(0x1010037)(16842807 or 0x1010037) = (reference) abc_primary_text_disable_only_material_dark
 				???(0x1010038)(16842808 or 0x1010038) = (reference) abc_secondary_text_material_dark
 				???(0x1010039)(16842809 or 0x1010039) = (reference) abc_primary_text_material_light
 				???(0x101003a)(16842810 or 0x101003a) = (reference) abc_secondary_text_material_light
 				???(0x101003f)(16842815 or 0x101003f) = (reference) abc_hint_foreground_material_light
-				???(0x1010040)(16842816 or 0x1010040) = (reference) ???(0x7f0c00c7)
-				???(0x1010041)(16842817 or 0x1010041) = (reference) ???(0x7f0c00cd)
-				???(0x1010042)(16842818 or 0x1010042) = (reference) ???(0x7f0c00d2)
-				???(0x1010043)(16842819 or 0x1010043) = (reference) ???(0x7f0c00c8)
-				???(0x1010044)(16842820 or 0x1010044) = (reference) ???(0x7f0c00ce)
-				???(0x1010045)(16842821 or 0x1010045) = (reference) ???(0x7f0c00d3)
+				???(0x1010040)(16842816 or 0x1010040) = (reference) TextAppearance.AppCompat.Large
+				???(0x1010041)(16842817 or 0x1010041) = (reference) TextAppearance.AppCompat.Medium
+				???(0x1010042)(16842818 or 0x1010042) = (reference) TextAppearance.AppCompat.Small
+				???(0x1010043)(16842819 or 0x1010043) = (reference) TextAppearance.AppCompat.Large.Inverse
+				???(0x1010044)(16842820 or 0x1010044) = (reference) TextAppearance.AppCompat.Medium.Inverse
+				???(0x1010045)(16842821 or 0x1010045) = (reference) TextAppearance.AppCompat.Small.Inverse
 				???(0x1010054)(16842836 or 0x1010054) = (reference) background_material_dark
 				???(0x1010056)(16842838 or 0x1010056) = (boolean) true
 				???(0x1010099)(16842905 or 0x1010099) = (reference) highlighted_text_material_dark
@@ -5009,24 +5144,25 @@ com.cvte.tv.myapplication
 				???(0x10103a3)(16843683 or 0x10103a3) = (reference) abc_list_item_padding_horizontal_material
 				???(0x10103a4)(16843684 or 0x10103a4) = (reference) abc_list_item_padding_horizontal_material
 		Platform.AppCompat.Light
+			parent: ???(0x103006e)
 				???(0x1010030)(16842800 or 0x1010030) = (reference) foreground_material_light
 				???(0x1010031)(16842801 or 0x1010031) = (reference) background_material_light
 				???(0x1010032)(16842802 or 0x1010032) = (float) 0.6
 				???(0x1010033)(16842803 or 0x1010033) = (reference) abc_disabled_alpha_material_light
-				???(0x1010034)(16842804 or 0x1010034) = (reference) ???(0x7f0c00bc)
-				???(0x1010035)(16842805 or 0x1010035) = (reference) ???(0x7f0c00c6)
+				???(0x1010034)(16842804 or 0x1010034) = (reference) TextAppearance.AppCompat
+				???(0x1010035)(16842805 or 0x1010035) = (reference) TextAppearance.AppCompat.Inverse
 				???(0x1010036)(16842806 or 0x1010036) = (reference) abc_primary_text_material_light
 				???(0x1010037)(16842807 or 0x1010037) = (reference) abc_primary_text_disable_only_material_light
 				???(0x1010038)(16842808 or 0x1010038) = (reference) abc_secondary_text_material_light
 				???(0x1010039)(16842809 or 0x1010039) = (reference) abc_primary_text_material_dark
 				???(0x101003a)(16842810 or 0x101003a) = (reference) abc_secondary_text_material_dark
 				???(0x101003f)(16842815 or 0x101003f) = (reference) abc_hint_foreground_material_dark
-				???(0x1010040)(16842816 or 0x1010040) = (reference) ???(0x7f0c00c7)
-				???(0x1010041)(16842817 or 0x1010041) = (reference) ???(0x7f0c00cd)
-				???(0x1010042)(16842818 or 0x1010042) = (reference) ???(0x7f0c00d2)
-				???(0x1010043)(16842819 or 0x1010043) = (reference) ???(0x7f0c00c8)
-				???(0x1010044)(16842820 or 0x1010044) = (reference) ???(0x7f0c00ce)
-				???(0x1010045)(16842821 or 0x1010045) = (reference) ???(0x7f0c00d3)
+				???(0x1010040)(16842816 or 0x1010040) = (reference) TextAppearance.AppCompat.Large
+				???(0x1010041)(16842817 or 0x1010041) = (reference) TextAppearance.AppCompat.Medium
+				???(0x1010042)(16842818 or 0x1010042) = (reference) TextAppearance.AppCompat.Small
+				???(0x1010043)(16842819 or 0x1010043) = (reference) TextAppearance.AppCompat.Large.Inverse
+				???(0x1010044)(16842820 or 0x1010044) = (reference) TextAppearance.AppCompat.Medium.Inverse
+				???(0x1010045)(16842821 or 0x1010045) = (reference) TextAppearance.AppCompat.Small.Inverse
 				???(0x1010054)(16842836 or 0x1010054) = (reference) background_material_light
 				???(0x1010056)(16842838 or 0x1010056) = (boolean) true
 				???(0x1010099)(16842905 or 0x1010099) = (reference) highlighted_text_material_light
@@ -5057,301 +5193,534 @@ com.cvte.tv.myapplication
 				???(0x10103a4)(16843684 or 0x10103a4) = (reference) abc_list_item_padding_horizontal_material
 		Platform.ThemeOverlay.AppCompat
 		Platform.ThemeOverlay.AppCompat.Dark
-				???(0x101006b)(16842859 or 0x101006b) = (reference) ???(0x7f0c011a)
-				???(0x1010086)(16842886 or 0x1010086) = (reference) ???(0x7f0c0127)
+			parent: Platform.ThemeOverlay.AppCompat
+				???(0x101006b)(16842859 or 0x101006b) = (reference) Widget.AppCompat.AutoCompleteTextView
+				???(0x1010086)(16842886 or 0x1010086) = (reference) Widget.AppCompat.DropDownItem.Spinner
 				actionBarItemBackground(2130837505 or 0x7f020001) = (reference) abc_item_background_holo_dark
-				actionDropDownStyle(2130837516 or 0x7f02000c) = (reference) ???(0x7f0c0153)
+				actionDropDownStyle(2130837516 or 0x7f02000c) = (reference) Widget.AppCompat.Spinner.DropDown.ActionBar
 				selectableItemBackground(2130837756 or 0x7f0200fc) = (reference) abc_item_background_holo_dark
 		Platform.ThemeOverlay.AppCompat.Light
-				???(0x101006b)(16842859 or 0x101006b) = (reference) ???(0x7f0c0138)
-				???(0x1010086)(16842886 or 0x1010086) = (reference) ???(0x7f0c0127)
+			parent: Platform.ThemeOverlay.AppCompat
+				???(0x101006b)(16842859 or 0x101006b) = (reference) Widget.AppCompat.Light.AutoCompleteTextView
+				???(0x1010086)(16842886 or 0x1010086) = (reference) Widget.AppCompat.DropDownItem.Spinner
 				actionBarItemBackground(2130837505 or 0x7f020001) = (reference) abc_item_background_holo_light
-				actionDropDownStyle(2130837516 or 0x7f02000c) = (reference) ???(0x7f0c013f)
+				actionDropDownStyle(2130837516 or 0x7f02000c) = (reference) Widget.AppCompat.Light.Spinner.DropDown.ActionBar
 				selectableItemBackground(2130837756 or 0x7f0200fc) = (reference) abc_item_background_holo_light
 		Platform.Widget.AppCompat.Spinner
+			parent: ???(0x10300a5)
 		RtlOverlay.DialogWindowTitle.AppCompat
+			parent: Base.DialogWindowTitle.AppCompat
 				???(0x10103b1)(16843697 or 0x10103b1) = (int) 5 or 0x00000005
 		RtlOverlay.Widget.AppCompat.ActionBar.TitleItem
+			parent: ???(0x1030012)
 				???(0x10100b3)(16842931 or 0x10100b3) = (int) 8388627 or 0x00800013
 				???(0x10103b4)(16843700 or 0x10103b4) = (dimension) 8dp
 		RtlOverlay.Widget.AppCompat.DialogTitle.Icon
+			parent: ???(0x1030012)
 				???(0x10103b6)(16843702 or 0x10103b6) = (dimension) 8dp
 		RtlOverlay.Widget.AppCompat.PopupMenuItem
+			parent: ???(0x1030012)
 				???(0x10103b4)(16843700 or 0x10103b4) = (dimension) 16dp
 		RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup
+			parent: ???(0x1030012)
 				???(0x10103b5)(16843701 or 0x10103b5) = (dimension) 16dp
 		RtlOverlay.Widget.AppCompat.PopupMenuItem.Shortcut
+			parent: ???(0x1030012)
 				???(0x10103b1)(16843697 or 0x10103b1) = (int) 6 or 0x00000006
 				???(0x10103b5)(16843701 or 0x10103b5) = (dimension) 16dp
 		RtlOverlay.Widget.AppCompat.PopupMenuItem.SubmenuArrow
+			parent: ???(0x1030012)
 				???(0x10103b5)(16843701 or 0x10103b5) = (dimension) 8dp
 		RtlOverlay.Widget.AppCompat.PopupMenuItem.Text
+			parent: ???(0x1030012)
 				???(0x10103b1)(16843697 or 0x10103b1) = (int) 5 or 0x00000005
 				???(0x10103bb)(16843707 or 0x10103bb) = (boolean) true
 		RtlOverlay.Widget.AppCompat.PopupMenuItem.Title
+			parent: ???(0x1030012)
 				???(0x10103b1)(16843697 or 0x10103b1) = (int) 5 or 0x00000005
 				???(0x10103b5)(16843701 or 0x10103b5) = (dimension) 16dp
 		RtlOverlay.Widget.AppCompat.Search.DropDown
+			parent: ???(0x1030012)
 				???(0x10103b3)(16843699 or 0x10103b3) = (reference) abc_dropdownitem_text_padding_left
 				???(0x10103b4)(16843700 or 0x10103b4) = (dimension) 4dp
 		RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1
+			parent: ???(0x1030012)
 				???(0x10103bb)(16843707 or 0x10103bb) = (boolean) true
 		RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2
+			parent: ???(0x1030012)
 				???(0x10103b7)(16843703 or 0x10103b7) = (reference) edit_query
 		RtlOverlay.Widget.AppCompat.Search.DropDown.Query
+			parent: ???(0x1030012)
 				???(0x10103bc)(16843708 or 0x10103bc) = (boolean) true
 		RtlOverlay.Widget.AppCompat.Search.DropDown.Text
+			parent: Base.Widget.AppCompat.DropDownItem.Spinner
 				???(0x10103b7)(16843703 or 0x10103b7) = (reference) ???(0x1020008)
 				???(0x10103b8)(16843704 or 0x10103b8) = (reference) ???(0x1020007)
 		RtlOverlay.Widget.AppCompat.SearchView.MagIcon
+			parent: ???(0x1030012)
 				???(0x10103b5)(16843701 or 0x10103b5) = (reference) abc_dropdownitem_text_padding_left
 		RtlUnderlay.Widget.AppCompat.ActionButton
+			parent: ???(0x1030012)
 				???(0x10103b3)(16843699 or 0x10103b3) = (dimension) 12dp
 				???(0x10103b4)(16843700 or 0x10103b4) = (dimension) 12dp
 		RtlUnderlay.Widget.AppCompat.ActionButton.Overflow
+			parent: Base.Widget.AppCompat.ActionButton
 				???(0x10103b3)(16843699 or 0x10103b3) = (reference) abc_action_bar_overflow_padding_start_material
 				???(0x10103b4)(16843700 or 0x10103b4) = (reference) abc_action_bar_overflow_padding_end_material
 		TextAppearance.AppCompat
+			parent: Base.TextAppearance.AppCompat
 		TextAppearance.AppCompat.Body1
+			parent: Base.TextAppearance.AppCompat.Body1
 		TextAppearance.AppCompat.Body2
+			parent: Base.TextAppearance.AppCompat.Body2
 		TextAppearance.AppCompat.Button
+			parent: Base.TextAppearance.AppCompat.Button
 		TextAppearance.AppCompat.Caption
+			parent: Base.TextAppearance.AppCompat.Caption
 		TextAppearance.AppCompat.Display1
+			parent: Base.TextAppearance.AppCompat.Display1
 		TextAppearance.AppCompat.Display2
+			parent: Base.TextAppearance.AppCompat.Display2
 		TextAppearance.AppCompat.Display3
+			parent: Base.TextAppearance.AppCompat.Display3
 		TextAppearance.AppCompat.Display4
+			parent: Base.TextAppearance.AppCompat.Display4
 		TextAppearance.AppCompat.Headline
+			parent: Base.TextAppearance.AppCompat.Headline
 		TextAppearance.AppCompat.Inverse
+			parent: Base.TextAppearance.AppCompat.Inverse
 		TextAppearance.AppCompat.Large
+			parent: Base.TextAppearance.AppCompat.Large
 		TextAppearance.AppCompat.Large.Inverse
+			parent: Base.TextAppearance.AppCompat.Large.Inverse
 		TextAppearance.AppCompat.Light.SearchResult.Subtitle
+			parent: TextAppearance.AppCompat.SearchResult.Subtitle
 		TextAppearance.AppCompat.Light.SearchResult.Title
+			parent: TextAppearance.AppCompat.SearchResult.Title
 		TextAppearance.AppCompat.Light.Widget.PopupMenu.Large
+			parent: TextAppearance.AppCompat.Widget.PopupMenu.Large
 		TextAppearance.AppCompat.Light.Widget.PopupMenu.Small
+			parent: TextAppearance.AppCompat.Widget.PopupMenu.Small
 		TextAppearance.AppCompat.Medium
+			parent: Base.TextAppearance.AppCompat.Medium
 		TextAppearance.AppCompat.Medium.Inverse
+			parent: Base.TextAppearance.AppCompat.Medium.Inverse
 		TextAppearance.AppCompat.Menu
+			parent: Base.TextAppearance.AppCompat.Menu
 		TextAppearance.AppCompat.SearchResult.Subtitle
+			parent: Base.TextAppearance.AppCompat.SearchResult.Subtitle
 		TextAppearance.AppCompat.SearchResult.Title
+			parent: Base.TextAppearance.AppCompat.SearchResult.Title
 		TextAppearance.AppCompat.Small
+			parent: Base.TextAppearance.AppCompat.Small
 		TextAppearance.AppCompat.Small.Inverse
+			parent: Base.TextAppearance.AppCompat.Small.Inverse
 		TextAppearance.AppCompat.Subhead
+			parent: Base.TextAppearance.AppCompat.Subhead
 		TextAppearance.AppCompat.Subhead.Inverse
+			parent: Base.TextAppearance.AppCompat.Subhead.Inverse
 		TextAppearance.AppCompat.Title
+			parent: Base.TextAppearance.AppCompat.Title
 		TextAppearance.AppCompat.Title.Inverse
+			parent: Base.TextAppearance.AppCompat.Title.Inverse
 		TextAppearance.AppCompat.Tooltip
+			parent: TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (dimension) 14sp
 				???(0x10103ac)(16843692 or 0x10103ac) = (string) sans-serif
 		TextAppearance.AppCompat.Widget.ActionBar.Menu
+			parent: Base.TextAppearance.AppCompat.Widget.ActionBar.Menu
 		TextAppearance.AppCompat.Widget.ActionBar.Subtitle
+			parent: Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle
 		TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse
+			parent: Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse
 		TextAppearance.AppCompat.Widget.ActionBar.Title
+			parent: Base.TextAppearance.AppCompat.Widget.ActionBar.Title
 		TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse
+			parent: Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse
 		TextAppearance.AppCompat.Widget.ActionMode.Subtitle
+			parent: Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle
 		TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse
+			parent: TextAppearance.AppCompat.Widget.ActionMode.Subtitle
 		TextAppearance.AppCompat.Widget.ActionMode.Title
+			parent: Base.TextAppearance.AppCompat.Widget.ActionMode.Title
 		TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse
+			parent: TextAppearance.AppCompat.Widget.ActionMode.Title
 		TextAppearance.AppCompat.Widget.Button
+			parent: Base.TextAppearance.AppCompat.Widget.Button
 		TextAppearance.AppCompat.Widget.Button.Borderless.Colored
+			parent: Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored
 		TextAppearance.AppCompat.Widget.Button.Colored
+			parent: Base.TextAppearance.AppCompat.Widget.Button.Colored
 		TextAppearance.AppCompat.Widget.Button.Inverse
+			parent: Base.TextAppearance.AppCompat.Widget.Button.Inverse
 		TextAppearance.AppCompat.Widget.DropDownItem
+			parent: Base.TextAppearance.AppCompat.Widget.DropDownItem
 		TextAppearance.AppCompat.Widget.PopupMenu.Header
+			parent: Base.TextAppearance.AppCompat.Widget.PopupMenu.Header
 		TextAppearance.AppCompat.Widget.PopupMenu.Large
+			parent: Base.TextAppearance.AppCompat.Widget.PopupMenu.Large
 		TextAppearance.AppCompat.Widget.PopupMenu.Small
+			parent: Base.TextAppearance.AppCompat.Widget.PopupMenu.Small
 		TextAppearance.AppCompat.Widget.Switch
+			parent: Base.TextAppearance.AppCompat.Widget.Switch
 		TextAppearance.AppCompat.Widget.TextView.SpinnerItem
+			parent: Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem
 		TextAppearance.Compat.Notification
+			parent: ???(0x1030067)
 		TextAppearance.Compat.Notification.Info
+			parent: TextAppearance.Compat.Notification
 				???(0x1010095)(16842901 or 0x1010095) = (dimension) 12sp
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		TextAppearance.Compat.Notification.Line2
+			parent: TextAppearance.Compat.Notification.Info
 		TextAppearance.Compat.Notification.Time
+			parent: TextAppearance.Compat.Notification
 				???(0x1010095)(16842901 or 0x1010095) = (dimension) 12sp
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 		TextAppearance.Compat.Notification.Title
+			parent: ???(0x1030068)
 		TextAppearance.Widget.AppCompat.ExpandedMenu.Item
+			parent: Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item
 		TextAppearance.Widget.AppCompat.Toolbar.Subtitle
+			parent: Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle
 		TextAppearance.Widget.AppCompat.Toolbar.Title
+			parent: Base.TextAppearance.Widget.AppCompat.Toolbar.Title
 		Theme.AppCompat
+			parent: Base.Theme.AppCompat
 		Theme.AppCompat.CompactMenu
+			parent: Base.Theme.AppCompat.CompactMenu
 		Theme.AppCompat.DayNight
+			parent: Theme.AppCompat.Light
 		Theme.AppCompat.DayNight.DarkActionBar
+			parent: Theme.AppCompat.Light.DarkActionBar
 		Theme.AppCompat.DayNight.Dialog
+			parent: Theme.AppCompat.Light.Dialog
 		Theme.AppCompat.DayNight.Dialog.Alert
+			parent: Theme.AppCompat.Light.Dialog.Alert
 		Theme.AppCompat.DayNight.Dialog.MinWidth
+			parent: Theme.AppCompat.Light.Dialog.MinWidth
 		Theme.AppCompat.DayNight.DialogWhenLarge
+			parent: Theme.AppCompat.Light.DialogWhenLarge
 		Theme.AppCompat.DayNight.NoActionBar
+			parent: Theme.AppCompat.Light.NoActionBar
 		Theme.AppCompat.Dialog
+			parent: Base.Theme.AppCompat.Dialog
 		Theme.AppCompat.Dialog.Alert
+			parent: Base.Theme.AppCompat.Dialog.Alert
 		Theme.AppCompat.Dialog.MinWidth
+			parent: Base.Theme.AppCompat.Dialog.MinWidth
 		Theme.AppCompat.DialogWhenLarge
+			parent: Base.Theme.AppCompat.DialogWhenLarge
 		Theme.AppCompat.Light
+			parent: Base.Theme.AppCompat.Light
 		Theme.AppCompat.Light.DarkActionBar
+			parent: Base.Theme.AppCompat.Light.DarkActionBar
 		Theme.AppCompat.Light.Dialog
+			parent: Base.Theme.AppCompat.Light.Dialog
 		Theme.AppCompat.Light.Dialog.Alert
+			parent: Base.Theme.AppCompat.Light.Dialog.Alert
 		Theme.AppCompat.Light.Dialog.MinWidth
+			parent: Base.Theme.AppCompat.Light.Dialog.MinWidth
 		Theme.AppCompat.Light.DialogWhenLarge
+			parent: Base.Theme.AppCompat.Light.DialogWhenLarge
 		Theme.AppCompat.Light.NoActionBar
+			parent: Theme.AppCompat.Light
 				windowActionBar(2130837823 or 0x7f02013f) = (boolean) false
 				windowNoTitle(2130837832 or 0x7f020148) = (boolean) true
 		Theme.AppCompat.NoActionBar
+			parent: Theme.AppCompat
 				windowActionBar(2130837823 or 0x7f02013f) = (boolean) false
 				windowNoTitle(2130837832 or 0x7f020148) = (boolean) true
 		ThemeOverlay.AppCompat
+			parent: Base.ThemeOverlay.AppCompat
 		ThemeOverlay.AppCompat.ActionBar
+			parent: Base.ThemeOverlay.AppCompat.ActionBar
 		ThemeOverlay.AppCompat.Dark
+			parent: Base.ThemeOverlay.AppCompat.Dark
 		ThemeOverlay.AppCompat.Dark.ActionBar
+			parent: Base.ThemeOverlay.AppCompat.Dark.ActionBar
 		ThemeOverlay.AppCompat.Dialog
+			parent: Base.ThemeOverlay.AppCompat.Dialog
 		ThemeOverlay.AppCompat.Dialog.Alert
+			parent: Base.ThemeOverlay.AppCompat.Dialog.Alert
 		ThemeOverlay.AppCompat.Light
+			parent: Base.ThemeOverlay.AppCompat.Light
 		Widget.AppCompat.ActionBar
+			parent: Base.Widget.AppCompat.ActionBar
 		Widget.AppCompat.ActionBar.Solid
+			parent: Base.Widget.AppCompat.ActionBar.Solid
 		Widget.AppCompat.ActionBar.TabBar
+			parent: Base.Widget.AppCompat.ActionBar.TabBar
 		Widget.AppCompat.ActionBar.TabText
+			parent: Base.Widget.AppCompat.ActionBar.TabText
 		Widget.AppCompat.ActionBar.TabView
+			parent: Base.Widget.AppCompat.ActionBar.TabView
 		Widget.AppCompat.ActionButton
+			parent: Base.Widget.AppCompat.ActionButton
 		Widget.AppCompat.ActionButton.CloseMode
+			parent: Base.Widget.AppCompat.ActionButton.CloseMode
 		Widget.AppCompat.ActionButton.Overflow
+			parent: Base.Widget.AppCompat.ActionButton.Overflow
 		Widget.AppCompat.ActionMode
+			parent: Base.Widget.AppCompat.ActionMode
 		Widget.AppCompat.ActivityChooserView
+			parent: Base.Widget.AppCompat.ActivityChooserView
 		Widget.AppCompat.AutoCompleteTextView
+			parent: Base.Widget.AppCompat.AutoCompleteTextView
 		Widget.AppCompat.Button
+			parent: Base.Widget.AppCompat.Button
 		Widget.AppCompat.Button.Borderless
+			parent: Base.Widget.AppCompat.Button.Borderless
 		Widget.AppCompat.Button.Borderless.Colored
+			parent: Base.Widget.AppCompat.Button.Borderless.Colored
 		Widget.AppCompat.Button.ButtonBar.AlertDialog
+			parent: Base.Widget.AppCompat.Button.ButtonBar.AlertDialog
 		Widget.AppCompat.Button.Colored
+			parent: Base.Widget.AppCompat.Button.Colored
 		Widget.AppCompat.Button.Small
+			parent: Base.Widget.AppCompat.Button.Small
 		Widget.AppCompat.ButtonBar
+			parent: Base.Widget.AppCompat.ButtonBar
 		Widget.AppCompat.ButtonBar.AlertDialog
+			parent: Base.Widget.AppCompat.ButtonBar.AlertDialog
 		Widget.AppCompat.CompoundButton.CheckBox
+			parent: Base.Widget.AppCompat.CompoundButton.CheckBox
 		Widget.AppCompat.CompoundButton.RadioButton
+			parent: Base.Widget.AppCompat.CompoundButton.RadioButton
 		Widget.AppCompat.CompoundButton.Switch
+			parent: Base.Widget.AppCompat.CompoundButton.Switch
 		Widget.AppCompat.DrawerArrowToggle
+			parent: Base.Widget.AppCompat.DrawerArrowToggle
 				color(2130837581 or 0x7f02004d) = (attribute) colorControlNormal
 		Widget.AppCompat.DropDownItem.Spinner
+			parent: RtlOverlay.Widget.AppCompat.Search.DropDown.Text
 		Widget.AppCompat.EditText
+			parent: Base.Widget.AppCompat.EditText
 		Widget.AppCompat.ImageButton
+			parent: Base.Widget.AppCompat.ImageButton
 		Widget.AppCompat.Light.ActionBar
+			parent: Base.Widget.AppCompat.Light.ActionBar
 		Widget.AppCompat.Light.ActionBar.Solid
+			parent: Base.Widget.AppCompat.Light.ActionBar.Solid
 		Widget.AppCompat.Light.ActionBar.Solid.Inverse
+			parent: Widget.AppCompat.Light.ActionBar.Solid
 		Widget.AppCompat.Light.ActionBar.TabBar
+			parent: Base.Widget.AppCompat.Light.ActionBar.TabBar
 		Widget.AppCompat.Light.ActionBar.TabBar.Inverse
+			parent: Widget.AppCompat.Light.ActionBar.TabBar
 		Widget.AppCompat.Light.ActionBar.TabText
+			parent: Base.Widget.AppCompat.Light.ActionBar.TabText
 		Widget.AppCompat.Light.ActionBar.TabText.Inverse
+			parent: Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse
 		Widget.AppCompat.Light.ActionBar.TabView
+			parent: Base.Widget.AppCompat.Light.ActionBar.TabView
 		Widget.AppCompat.Light.ActionBar.TabView.Inverse
+			parent: Widget.AppCompat.Light.ActionBar.TabView
 		Widget.AppCompat.Light.ActionButton
+			parent: Widget.AppCompat.ActionButton
 		Widget.AppCompat.Light.ActionButton.CloseMode
+			parent: Widget.AppCompat.ActionButton.CloseMode
 		Widget.AppCompat.Light.ActionButton.Overflow
+			parent: Widget.AppCompat.ActionButton.Overflow
 		Widget.AppCompat.Light.ActionMode.Inverse
+			parent: Widget.AppCompat.ActionMode
 		Widget.AppCompat.Light.ActivityChooserView
+			parent: Widget.AppCompat.ActivityChooserView
 		Widget.AppCompat.Light.AutoCompleteTextView
+			parent: Widget.AppCompat.AutoCompleteTextView
 		Widget.AppCompat.Light.DropDownItem.Spinner
+			parent: Widget.AppCompat.DropDownItem.Spinner
 		Widget.AppCompat.Light.ListPopupWindow
+			parent: Widget.AppCompat.ListPopupWindow
 		Widget.AppCompat.Light.ListView.DropDown
+			parent: Widget.AppCompat.ListView.DropDown
 		Widget.AppCompat.Light.PopupMenu
+			parent: Base.Widget.AppCompat.Light.PopupMenu
 		Widget.AppCompat.Light.PopupMenu.Overflow
+			parent: Base.Widget.AppCompat.Light.PopupMenu.Overflow
 		Widget.AppCompat.Light.SearchView
+			parent: Widget.AppCompat.SearchView
 		Widget.AppCompat.Light.Spinner.DropDown.ActionBar
+			parent: Widget.AppCompat.Spinner.DropDown.ActionBar
 		Widget.AppCompat.ListMenuView
+			parent: Base.Widget.AppCompat.ListMenuView
 		Widget.AppCompat.ListPopupWindow
+			parent: Base.Widget.AppCompat.ListPopupWindow
 		Widget.AppCompat.ListView
+			parent: Base.Widget.AppCompat.ListView
 		Widget.AppCompat.ListView.DropDown
+			parent: Base.Widget.AppCompat.ListView.DropDown
 		Widget.AppCompat.ListView.Menu
+			parent: Base.Widget.AppCompat.ListView.Menu
 		Widget.AppCompat.PopupMenu
+			parent: Base.Widget.AppCompat.PopupMenu
 		Widget.AppCompat.PopupMenu.Overflow
+			parent: Base.Widget.AppCompat.PopupMenu.Overflow
 		Widget.AppCompat.PopupWindow
+			parent: Base.Widget.AppCompat.PopupWindow
 		Widget.AppCompat.ProgressBar
+			parent: Base.Widget.AppCompat.ProgressBar
 		Widget.AppCompat.ProgressBar.Horizontal
+			parent: Base.Widget.AppCompat.ProgressBar.Horizontal
 		Widget.AppCompat.RatingBar
+			parent: Base.Widget.AppCompat.RatingBar
 		Widget.AppCompat.RatingBar.Indicator
+			parent: Base.Widget.AppCompat.RatingBar.Indicator
 		Widget.AppCompat.RatingBar.Small
+			parent: Base.Widget.AppCompat.RatingBar.Small
 		Widget.AppCompat.SearchView
+			parent: Base.Widget.AppCompat.SearchView
 		Widget.AppCompat.SearchView.ActionBar
+			parent: Base.Widget.AppCompat.SearchView.ActionBar
 		Widget.AppCompat.SeekBar
+			parent: Base.Widget.AppCompat.SeekBar
 		Widget.AppCompat.SeekBar.Discrete
+			parent: Base.Widget.AppCompat.SeekBar.Discrete
 		Widget.AppCompat.Spinner
+			parent: Base.Widget.AppCompat.Spinner
 		Widget.AppCompat.Spinner.DropDown
+			parent: Widget.AppCompat.Spinner
 		Widget.AppCompat.Spinner.DropDown.ActionBar
+			parent: Widget.AppCompat.Spinner.DropDown
 		Widget.AppCompat.Spinner.Underlined
+			parent: Base.Widget.AppCompat.Spinner.Underlined
 		Widget.AppCompat.TextView.SpinnerItem
+			parent: Base.Widget.AppCompat.TextView.SpinnerItem
 		Widget.AppCompat.Toolbar
+			parent: Base.Widget.AppCompat.Toolbar
 		Widget.AppCompat.Toolbar.Button.Navigation
+			parent: Base.Widget.AppCompat.Toolbar.Button.Navigation
 		Widget.Compat.NotificationActionContainer
 		Widget.Compat.NotificationActionText
 		Widget.Support.CoordinatorLayout
+			parent: ???(0x1030012)
 				statusBarBackground(2130837769 or 0x7f020109) = (color) #ff000000
 
 	style-night
 		Theme.AppCompat.DayNight
+			parent: Theme.AppCompat
 		Theme.AppCompat.DayNight.DarkActionBar
+			parent: Theme.AppCompat
 		Theme.AppCompat.DayNight.Dialog
+			parent: Theme.AppCompat.Dialog
 		Theme.AppCompat.DayNight.Dialog.Alert
+			parent: Theme.AppCompat.Dialog.Alert
 		Theme.AppCompat.DayNight.Dialog.MinWidth
+			parent: Theme.AppCompat.Dialog.MinWidth
 		Theme.AppCompat.DayNight.DialogWhenLarge
+			parent: Theme.AppCompat.DialogWhenLarge
 		Theme.AppCompat.DayNight.NoActionBar
+			parent: Theme.AppCompat.NoActionBar
 
 	style-large
 		Base.Theme.AppCompat.DialogWhenLarge
+			parent: Base.Theme.AppCompat.Dialog.FixedSize
 		Base.Theme.AppCompat.Light.DialogWhenLarge
+			parent: Base.Theme.AppCompat.Light.Dialog.FixedSize
 
 	style-uiModeType=0-v20
 		Base.Theme.AppCompat.Dialog
+			parent: Base.V7.Theme.AppCompat.Dialog
 				???(0x1010057)(16842839 or 0x1010057) = (boolean) false
 		Base.Theme.AppCompat.Light.Dialog
+			parent: Base.V7.Theme.AppCompat.Light.Dialog
 				???(0x1010057)(16842839 or 0x1010057) = (boolean) false
 		Base.ThemeOverlay.AppCompat.Dialog
+			parent: Base.V7.ThemeOverlay.AppCompat.Dialog
 				???(0x1010057)(16842839 or 0x1010057) = (boolean) false
 
 	style-v21
 		Base.TextAppearance.AppCompat
+			parent: ???(0x10301ed)
 		Base.TextAppearance.AppCompat.Body1
+			parent: ???(0x10301f0)
 		Base.TextAppearance.AppCompat.Body2
+			parent: ???(0x10301ef)
 		Base.TextAppearance.AppCompat.Button
+			parent: ???(0x10301ee)
 		Base.TextAppearance.AppCompat.Caption
+			parent: ???(0x10301f1)
 		Base.TextAppearance.AppCompat.Display1
+			parent: ???(0x10301f6)
 		Base.TextAppearance.AppCompat.Display2
+			parent: ???(0x10301f5)
 		Base.TextAppearance.AppCompat.Display3
+			parent: ???(0x10301f4)
 		Base.TextAppearance.AppCompat.Display4
+			parent: ???(0x10301f3)
 		Base.TextAppearance.AppCompat.Headline
+			parent: ???(0x10301f7)
 		Base.TextAppearance.AppCompat.Inverse
+			parent: ???(0x10301f8)
 		Base.TextAppearance.AppCompat.Large
+			parent: ???(0x10301f9)
 		Base.TextAppearance.AppCompat.Large.Inverse
+			parent: ???(0x10301fa)
 		Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large
+			parent: ???(0x103021b)
 		Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small
+			parent: ???(0x103021c)
 		Base.TextAppearance.AppCompat.Medium
+			parent: ???(0x10301fb)
 		Base.TextAppearance.AppCompat.Medium.Inverse
+			parent: ???(0x10301fc)
 		Base.TextAppearance.AppCompat.Menu
+			parent: ???(0x10301fd)
 		Base.TextAppearance.AppCompat.SearchResult.Subtitle
+			parent: ???(0x1030204)
 		Base.TextAppearance.AppCompat.SearchResult.Title
+			parent: ???(0x1030205)
 		Base.TextAppearance.AppCompat.Small
+			parent: ???(0x1030206)
 		Base.TextAppearance.AppCompat.Small.Inverse
+			parent: ???(0x1030207)
 		Base.TextAppearance.AppCompat.Subhead
+			parent: ???(0x1030208)
 		Base.TextAppearance.AppCompat.Title
+			parent: ???(0x1030209)
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle
+			parent: ???(0x103020d)
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse
+			parent: ???(0x103020e)
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Title
+			parent: ???(0x103020f)
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse
+			parent: ???(0x1030210)
 		Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle
+			parent: ???(0x1030211)
 		Base.TextAppearance.AppCompat.Widget.ActionMode.Title
+			parent: ???(0x1030213)
 		Base.TextAppearance.AppCompat.Widget.Button
+			parent: ???(0x1030215)
 		Base.TextAppearance.AppCompat.Widget.PopupMenu.Header
+			parent: TextAppearance.AppCompat
 				???(0x1010095)(16842901 or 0x1010095) = (reference) abc_text_size_menu_header_material
 				???(0x1010098)(16842904 or 0x1010098) = (attribute) ???(0x1010038)
 				???(0x10103ac)(16843692 or 0x10103ac) = (reference) abc_font_family_title_material
 		Base.TextAppearance.AppCompat.Widget.PopupMenu.Large
+			parent: ???(0x103021b)
 		Base.TextAppearance.AppCompat.Widget.PopupMenu.Small
+			parent: ???(0x103021c)
 		Base.TextAppearance.AppCompat.Widget.Switch
+			parent: ???(0x10301ee)
 		Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem
+			parent: ???(0x1030220)
 		Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle
+			parent: ???(0x103020d)
 		Base.TextAppearance.Widget.AppCompat.Toolbar.Title
+			parent: ???(0x103020f)
 		Base.Theme.AppCompat
+			parent: Base.V21.Theme.AppCompat
 		Base.Theme.AppCompat.Dialog
+			parent: Base.V21.Theme.AppCompat.Dialog
 		Base.Theme.AppCompat.Light
+			parent: Base.V21.Theme.AppCompat.Light
 		Base.Theme.AppCompat.Light.Dialog
+			parent: Base.V21.Theme.AppCompat.Light.Dialog
 		Base.ThemeOverlay.AppCompat.Dialog
+			parent: Base.V21.ThemeOverlay.AppCompat.Dialog
 		Base.V21.Theme.AppCompat
+			parent: Base.V7.Theme.AppCompat
 				???(0x1010429)(16843817 or 0x1010429) = (attribute) colorControlNormal
 				???(0x101042a)(16843818 or 0x101042a) = (attribute) colorControlActivated
 				???(0x101042b)(16843819 or 0x101042b) = (attribute) colorButtonNormal
@@ -5386,8 +5755,10 @@ com.cvte.tv.myapplication
 				textAppearanceLargePopupMenu(2130837782 or 0x7f020116) = (attribute) ???(0x1010301)
 				textAppearanceSmallPopupMenu(2130837789 or 0x7f02011d) = (attribute) ???(0x1010302)
 		Base.V21.Theme.AppCompat.Dialog
+			parent: Base.V7.Theme.AppCompat.Dialog
 				???(0x1010490)(16843920 or 0x1010490) = (reference) abc_floating_window_z
 		Base.V21.Theme.AppCompat.Light
+			parent: Base.V7.Theme.AppCompat.Light
 				???(0x1010429)(16843817 or 0x1010429) = (attribute) colorControlNormal
 				???(0x101042a)(16843818 or 0x101042a) = (attribute) colorControlActivated
 				???(0x101042b)(16843819 or 0x101042b) = (attribute) colorButtonNormal
@@ -5422,53 +5793,91 @@ com.cvte.tv.myapplication
 				textAppearanceLargePopupMenu(2130837782 or 0x7f020116) = (attribute) ???(0x1010301)
 				textAppearanceSmallPopupMenu(2130837789 or 0x7f02011d) = (attribute) ???(0x1010302)
 		Base.V21.Theme.AppCompat.Light.Dialog
+			parent: Base.V7.Theme.AppCompat.Light.Dialog
 				???(0x1010490)(16843920 or 0x1010490) = (reference) abc_floating_window_z
 		Base.V21.ThemeOverlay.AppCompat.Dialog
+			parent: Base.V7.ThemeOverlay.AppCompat.Dialog
 				???(0x1010490)(16843920 or 0x1010490) = (reference) abc_floating_window_z
 		Base.Widget.AppCompat.ActionBar.TabText
+			parent: ???(0x1030251)
 		Base.Widget.AppCompat.ActionBar.TabView
+			parent: ???(0x1030252)
 		Base.Widget.AppCompat.ActionButton
+			parent: ???(0x1030253)
 		Base.Widget.AppCompat.ActionButton.CloseMode
+			parent: ???(0x1030254)
 				???(0x101013f)(16843071 or 0x101013f) = (dimension) 56dp
 		Base.Widget.AppCompat.ActionButton.Overflow
+			parent: ???(0x1030255)
 		Base.Widget.AppCompat.AutoCompleteTextView
+			parent: ???(0x1030257)
 				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) editTextBackground
 		Base.Widget.AppCompat.Button
+			parent: ???(0x1030258)
 		Base.Widget.AppCompat.Button.Borderless
+			parent: ???(0x1030259)
 		Base.Widget.AppCompat.Button.Borderless.Colored
+			parent: ???(0x103025a)
 				???(0x1010098)(16842904 or 0x1010098) = (reference) abc_btn_colored_borderless_text_material
 		Base.Widget.AppCompat.Button.Small
+			parent: ???(0x103025d)
 		Base.Widget.AppCompat.ButtonBar
+			parent: ???(0x103025f)
 		Base.Widget.AppCompat.CompoundButton.CheckBox
+			parent: ???(0x1030263)
 		Base.Widget.AppCompat.CompoundButton.RadioButton
+			parent: ???(0x1030264)
 		Base.Widget.AppCompat.DropDownItem.Spinner
+			parent: ???(0x1030268)
 		Base.Widget.AppCompat.EditText
+			parent: ???(0x1030269)
 				???(0x10100d4)(16842964 or 0x10100d4) = (attribute) editTextBackground
 		Base.Widget.AppCompat.ImageButton
+			parent: ???(0x103026e)
 		Base.Widget.AppCompat.Light.ActionBar.TabText
+			parent: ???(0x1030292)
 		Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse
+			parent: ???(0x1030292)
 		Base.Widget.AppCompat.Light.ActionBar.TabView
+			parent: ???(0x1030293)
 		Base.Widget.AppCompat.Light.PopupMenu
+			parent: ???(0x10302b4)
 		Base.Widget.AppCompat.Light.PopupMenu.Overflow
+			parent: Base.Widget.AppCompat.Light.PopupMenu
 				???(0x10102ac)(16843436 or 0x10102ac) = (dimension) 1.67772e+07dp
 				???(0x1010462)(16843874 or 0x1010462) = (boolean) true
 		Base.Widget.AppCompat.ListPopupWindow
+			parent: ???(0x103026f)
 		Base.Widget.AppCompat.ListView
+			parent: ???(0x1030270)
 		Base.Widget.AppCompat.ListView.DropDown
+			parent: ???(0x1030271)
 		Base.Widget.AppCompat.ListView.Menu
+			parent: Base.Widget.AppCompat.ListView
 		Base.Widget.AppCompat.PopupMenu
+			parent: ???(0x1030273)
 		Base.Widget.AppCompat.PopupMenu.Overflow
+			parent: Base.Widget.AppCompat.PopupMenu
 				???(0x10102ac)(16843436 or 0x10102ac) = (dimension) 1.67772e+07dp
 				???(0x1010462)(16843874 or 0x1010462) = (boolean) true
 		Base.Widget.AppCompat.ProgressBar
+			parent: ???(0x1030276)
 		Base.Widget.AppCompat.ProgressBar.Horizontal
+			parent: ???(0x1030277)
 		Base.Widget.AppCompat.RatingBar
+			parent: ???(0x103027b)
 		Base.Widget.AppCompat.SeekBar
+			parent: ???(0x1030280)
 		Base.Widget.AppCompat.Spinner
+			parent: ???(0x1030283)
 		Base.Widget.AppCompat.TextView.SpinnerItem
+			parent: ???(0x1030288)
 		Base.Widget.AppCompat.Toolbar.Button.Navigation
+			parent: ???(0x103028b)
 		Platform.AppCompat
+			parent: Platform.V21.AppCompat
 		Platform.AppCompat.Light
+			parent: Platform.V21.AppCompat.Light
 		Platform.ThemeOverlay.AppCompat
 				???(0x1010429)(16843817 or 0x1010429) = (attribute) colorControlNormal
 				???(0x101042a)(16843818 or 0x101042a) = (attribute) colorControlActivated
@@ -5478,8 +5887,11 @@ com.cvte.tv.myapplication
 				???(0x1010434)(16843828 or 0x1010434) = (attribute) colorPrimaryDark
 				???(0x1010435)(16843829 or 0x1010435) = (attribute) colorAccent
 		Platform.ThemeOverlay.AppCompat.Dark
+			parent: Platform.ThemeOverlay.AppCompat
 		Platform.ThemeOverlay.AppCompat.Light
+			parent: Platform.ThemeOverlay.AppCompat
 		Platform.V21.AppCompat
+			parent: ???(0x103022e)
 				???(0x101003f)(16842815 or 0x101003f) = (reference) abc_hint_foreground_material_light
 				???(0x101009a)(16842906 or 0x101009a) = (reference) abc_hint_foreground_material_dark
 				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010435)
@@ -5487,6 +5899,7 @@ com.cvte.tv.myapplication
 				???(0x101032f)(16843567 or 0x101032f) = (attribute) buttonBarButtonStyle
 				???(0x1010350)(16843600 or 0x1010350) = (attribute) ???(0x1010435)
 		Platform.V21.AppCompat.Light
+			parent: ???(0x1030241)
 				???(0x101003f)(16842815 or 0x101003f) = (reference) abc_hint_foreground_material_dark
 				???(0x101009a)(16842906 or 0x101009a) = (reference) abc_hint_foreground_material_light
 				???(0x101009b)(16842907 or 0x101009b) = (attribute) ???(0x1010435)
@@ -5494,9 +5907,13 @@ com.cvte.tv.myapplication
 				???(0x101032f)(16843567 or 0x101032f) = (attribute) buttonBarButtonStyle
 				???(0x1010350)(16843600 or 0x1010350) = (attribute) ???(0x1010435)
 		TextAppearance.Compat.Notification
+			parent: ???(0x10301fe)
 		TextAppearance.Compat.Notification.Info
+			parent: ???(0x1030200)
 		TextAppearance.Compat.Notification.Time
+			parent: ???(0x1030202)
 		TextAppearance.Compat.Notification.Title
+			parent: ???(0x1030203)
 		Widget.Compat.NotificationActionContainer
 				???(0x10100d4)(16842964 or 0x10100d4) = (reference) notification_action_background
 		Widget.Compat.NotificationActionText
@@ -5506,34 +5923,47 @@ com.cvte.tv.myapplication
 
 	style-uiModeType=0-v21
 		Base.Theme.AppCompat.Dialog
+			parent: Base.V21.Theme.AppCompat.Dialog
 				???(0x1010057)(16842839 or 0x1010057) = (boolean) false
-				???(0x1010490)(16843920 or 0x1010490) = reference
+				???(0x1010490)(16843920 or 0x1010490) = (dimension) 0dp
 		Base.Theme.AppCompat.Light.Dialog
+			parent: Base.V21.Theme.AppCompat.Light.Dialog
 				???(0x1010057)(16842839 or 0x1010057) = (boolean) false
-				???(0x1010490)(16843920 or 0x1010490) = reference
+				???(0x1010490)(16843920 or 0x1010490) = (dimension) 0dp
 		Base.ThemeOverlay.AppCompat.Dialog
+			parent: Base.V21.ThemeOverlay.AppCompat.Dialog
 				???(0x1010057)(16842839 or 0x1010057) = (boolean) false
-				???(0x1010490)(16843920 or 0x1010490) = reference
+				???(0x1010490)(16843920 or 0x1010490) = (dimension) 0dp
 
 	style-ldltr-v21
 		Base.Widget.AppCompat.Spinner.Underlined
+			parent: ???(0x1030284)
 
 	style-v22
 		Base.Theme.AppCompat
+			parent: Base.V22.Theme.AppCompat
 		Base.Theme.AppCompat.Light
+			parent: Base.V22.Theme.AppCompat.Light
 		Base.V22.Theme.AppCompat
+			parent: Base.V21.Theme.AppCompat
 				actionModeShareDrawable(2130837529 or 0x7f020019) = (attribute) ???(0x1010479)
 				editTextBackground(2130837619 or 0x7f020073) = (attribute) ???(0x1010352)
 		Base.V22.Theme.AppCompat.Light
+			parent: Base.V21.Theme.AppCompat.Light
 				actionModeShareDrawable(2130837529 or 0x7f020019) = (attribute) ???(0x1010479)
 				editTextBackground(2130837619 or 0x7f020073) = (attribute) ???(0x1010352)
 
 	style-v23
 		Base.TextAppearance.AppCompat.Widget.ActionBar.Menu
+			parent: ???(0x103020c)
 		Base.TextAppearance.AppCompat.Widget.Button.Inverse
+			parent: ???(0x10302d4)
 		Base.Theme.AppCompat
+			parent: Base.V23.Theme.AppCompat
 		Base.Theme.AppCompat.Light
+			parent: Base.V23.Theme.AppCompat.Light
 		Base.V23.Theme.AppCompat
+			parent: Base.V22.Theme.AppCompat
 				actionBarItemBackground(2130837505 or 0x7f020001) = (attribute) ???(0x101039c)
 				actionMenuTextAppearance(2130837518 or 0x7f02000e) = (attribute) ???(0x1010360)
 				actionMenuTextColor(2130837519 or 0x7f02000f) = (attribute) ???(0x1010361)
@@ -5541,6 +5971,7 @@ com.cvte.tv.myapplication
 				ratingBarStyleIndicator(2130837750 or 0x7f0200f6) = (attribute) ???(0x1010210)
 				ratingBarStyleSmall(2130837751 or 0x7f0200f7) = (attribute) ???(0x101007d)
 		Base.V23.Theme.AppCompat.Light
+			parent: Base.V22.Theme.AppCompat.Light
 				actionBarItemBackground(2130837505 or 0x7f020001) = (attribute) ???(0x101039c)
 				actionMenuTextAppearance(2130837518 or 0x7f02000e) = (attribute) ???(0x1010360)
 				actionMenuTextColor(2130837519 or 0x7f02000f) = (attribute) ???(0x1010361)
@@ -5548,43 +5979,65 @@ com.cvte.tv.myapplication
 				ratingBarStyleIndicator(2130837750 or 0x7f0200f6) = (attribute) ???(0x1010210)
 				ratingBarStyleSmall(2130837751 or 0x7f0200f7) = (attribute) ???(0x101007d)
 		Base.Widget.AppCompat.Button.Borderless.Colored
+			parent: ???(0x103025a)
 		Base.Widget.AppCompat.Button.Colored
+			parent: ???(0x10302d3)
 		Base.Widget.AppCompat.RatingBar.Indicator
+			parent: ???(0x103027c)
 		Base.Widget.AppCompat.RatingBar.Small
+			parent: ???(0x103027d)
 		Base.Widget.AppCompat.Spinner.Underlined
+			parent: ???(0x1030284)
 
 	style-v24
 		Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored
+			parent: ???(0x10302df)
 		Base.TextAppearance.AppCompat.Widget.Button.Colored
+			parent: ???(0x10302de)
 
 	style-v25
 		Platform.AppCompat
+			parent: Platform.V25.AppCompat
 		Platform.AppCompat.Light
+			parent: Platform.V25.AppCompat.Light
 		Platform.V25.AppCompat
+			parent: ???(0x103022e)
 		Platform.V25.AppCompat.Light
+			parent: ???(0x1030241)
 
 	style-v26
 		Base.Theme.AppCompat
+			parent: Base.V26.Theme.AppCompat
 		Base.Theme.AppCompat.Light
+			parent: Base.V26.Theme.AppCompat.Light
 		Base.V26.Theme.AppCompat
+			parent: Base.V23.Theme.AppCompat
 				colorError(2130837588 or 0x7f020054) = (attribute) ???(0x1010543)
 		Base.V26.Theme.AppCompat.Light
+			parent: Base.V23.Theme.AppCompat.Light
 				colorError(2130837588 or 0x7f020054) = (attribute) ???(0x1010543)
 		Base.V26.Widget.AppCompat.Toolbar
+			parent: Base.V7.Widget.AppCompat.Toolbar
 				???(0x101048f)(16843919 or 0x101048f) = (boolean) true
 				???(0x1010540)(16844096 or 0x1010540) = (boolean) true
 		Base.Widget.AppCompat.Toolbar
+			parent: Base.V26.Widget.AppCompat.Toolbar
 
 	style-v28
 		Base.Theme.AppCompat
+			parent: Base.V28.Theme.AppCompat
 		Base.Theme.AppCompat.Light
+			parent: Base.V28.Theme.AppCompat.Light
 		Base.V28.Theme.AppCompat
+			parent: Base.V26.Theme.AppCompat
 				dialogCornerRadius(2130837607 or 0x7f020067) = (attribute) ???(0x1010571)
 		Base.V28.Theme.AppCompat.Light
+			parent: Base.V26.Theme.AppCompat.Light
 				dialogCornerRadius(2130837607 or 0x7f020067) = (attribute) ???(0x1010571)
 
 	style-hdpi
 		Base.Widget.AppCompat.DrawerArrowToggle
+			parent: Base.Widget.AppCompat.DrawerArrowToggle.Common
 				barLength(2130837558 or 0x7f020036) = (dimension) 18.66dp
 				drawableSize(2130837615 or 0x7f02006f) = (dimension) 24dp
 				gapBetweenBars(2130837637 or 0x7f020085) = (dimension) 3.32999dp

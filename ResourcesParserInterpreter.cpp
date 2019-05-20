@@ -77,6 +77,9 @@ void ResourcesParserInterpreter::parserEntry(
 		cout <<tab<<key<<endl;
 		ResTable_map_entry* pMapEntry = (ResTable_map_entry*)pEntry;
 		ResTable_map* pMap = (ResTable_map*)pValue;
+		if(pMapEntry->parent.ident!= 0) {
+			cout <<tab+"\t" <<"parent: " <<mParser->getNameForId(pMapEntry->parent.ident) <<endl;
+		}
 
 		for(int i = 0 ; i < pMapEntry->count ; i++) {
 			string name = mParser->getNameForResTableMap((pMap+i)->name);

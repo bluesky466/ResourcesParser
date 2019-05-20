@@ -284,12 +284,7 @@ vector<ResourcesParser::ResTableTypePtr> ResourcesParser::getResTableTypesForId(
 	if(pPackage == nullptr) {
 		return vector<ResTableTypePtr>();
 	}
-	uint32_t typeId = TYPE_ID(id);
-	if(pPackage->resTablePtrs.size()<=typeId){
-		return vector<ResTableTypePtr>();
-	}
-
-	return pPackage->resTablePtrs[typeId];
+	return pPackage->resTablePtrs[TYPE_ID(id)];
 }
 
 string ResourcesParser::getNameForId(uint32_t id) const {
@@ -298,7 +293,7 @@ string ResourcesParser::getNameForId(uint32_t id) const {
 		RETURN_UNKNOWN_ID(id);
 	}
 	uint32_t typeId = TYPE_ID(id);
-	if(pPackage->resTablePtrs.size()<=typeId){
+	if(pPackage->resTablePtrs.find(typeId)==pPackage->resTablePtrs.end()) {
 		RETURN_UNKNOWN_ID(id);
 	}
 
