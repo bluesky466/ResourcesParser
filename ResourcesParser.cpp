@@ -8,7 +8,7 @@
 #include <iostream>
 
 #define RETURN_UNKNOWN_ID(ID) stringstream ss; \
-	ss <<"???\(0x" <<hex <<ID <<")"; \
+	ss <<"???\(0x" <<hex <<setw(8) <<setfill('0') <<ID <<")"; \
 	return ss.str()
 
 using namespace std;
